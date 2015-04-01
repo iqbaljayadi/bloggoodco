@@ -1,0 +1,148 @@
+.zalki-admin-section,
+.zalki-admin-content,
+.zalki-options-label,
+.zl_create_messages{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+
+/* LOGO */
+.notify-reload-logo{
+	width: 200px;
+	height: 100px;
+	background: #6DBCDB;
+	margin: 20px 0;
+	color: white;
+	text-align: center;
+	line-height: 100px;
+}
+/*EM*/
+.little_t{
+	font-size: 10px;
+	font-style: normal;
+	text-transform: uppercase;
+	color: gray;
+	padding: 0 5px 0 5px;
+}
+.little_box{
+	font-size: 10px;
+	font-style: normal;
+	text-transform: uppercase;
+	color: #fff;
+}
+.zl_big_letters{
+	font-size: 13px;
+}
+/* CLEAR FIX */
+.zl_clear_fix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
+/* WRAPPER */
+.zalki-admin-dash-wrap{
+	display: block;
+	margin: 0 0 10px 0;
+	padding: 0;
+	list-style-type: none;
+}
+.zalki-admin-dash-wrap > li{
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	width: 600px;
+	border: 1px solid silver;
+}
+/* SECTION */
+.zalki-admin-section{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	background: #6DBCDB;
+	color: white;
+
+}
+/* CONTENT */
+.zalki-admin-content{
+	padding: 10px;
+}
+/* CELL */
+.zalki-options-cell{
+	margin-top: 30px;
+}
+/* LABEL */
+.zalki-options-label{
+	margin: 5px 0;
+	font-size: 11px;
+	color: #323231;
+}
+/* LABEL H */
+.zalki-options-h{
+	margin: 10px 0;
+	font-size: 11px;
+	font-weight: bold;
+}
+.zalki_color{
+	color: #5BCCAE;
+}
+.zalki-dash-children, .zalki-dash-children > li{
+	width: 400px;
+}
+/*MEDIA UPLOAD*/
+.zl_reload_upload_button{
+	background: #5BCCAE;
+	color: #fff;
+	border: 1px solid silver;
+	cursor: pointer;
+	height: 23px;
+	padding: 0 10px 0 10px;
+}
+.zl_reload_span{
+	border: 1px solid #79C6DF;
+	background: #BFE4F0;
+	padding: 10px;
+	width: 100px;
+	color: #fff;
+	margin-top: 20px;
+	display: block;
+	text-align: center;
+}
+.little_box{
+	font-size: 10px;
+	font-style: normal;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+/* MESSAGES */
+.zl_create_messages,
+.zl_remove_messages,
+.zl_update_messages{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	opacity: 0.8;
+	color: #ffffff;
+	background-color: #6DBCDB;
+	padding: 10px;
+	font-weight: bold;
+	z-index: 9999;
+}
+.zl_remove_messages{
+	background-color: #323231;
+}
+.zl_create_messages{
+	background-color: #6DBCDB;
+}
+.zl_update_messages{
+	background-color: #5BCCAE;
+}

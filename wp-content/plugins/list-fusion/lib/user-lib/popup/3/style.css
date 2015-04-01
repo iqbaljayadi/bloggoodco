@@ -1,0 +1,223 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Rosarivo);
+.listfusion-lightbox-start,.listfusion-lightbox-start div,.listfusion-lightbox-start span,.listfusion-lightbox-start applet,.listfusion-lightbox-start object,.listfusion-lightbox-start iframe,.listfusion-lightbox-start h1,.listfusion-lightbox-start h2,.listfusion-lightbox-start h3,.listfusion-lightbox-start h4,.listfusion-lightbox-start h5,.listfusion-lightbox-start h6,.listfusion-lightbox-start p,.listfusion-lightbox-start blockquote,.listfusion-lightbox-start pre,.listfusion-lightbox-start a,.listfusion-lightbox-start abbr,.listfusion-lightbox-start acronym,.listfusion-lightbox-start address,.listfusion-lightbox-start big,.listfusion-lightbox-start cite,.listfusion-lightbox-start code,.listfusion-lightbox-start del,.listfusion-lightbox-start dfn,.listfusion-lightbox-start em,.listfusion-lightbox-start img,.listfusion-lightbox-start ins,.listfusion-lightbox-start kbd,.listfusion-lightbox-start q,.listfusion-lightbox-start s,.listfusion-lightbox-start samp,.listfusion-lightbox-start small,.listfusion-lightbox-start strike,.listfusion-lightbox-start strong,.listfusion-lightbox-start sub,.listfusion-lightbox-start sup,.listfusion-lightbox-start tt,.listfusion-lightbox-start var,.listfusion-lightbox-start b,.listfusion-lightbox-start u,.listfusion-lightbox-start i,.listfusion-lightbox-start center,.listfusion-lightbox-start dl,.listfusion-lightbox-start dt,.listfusion-lightbox-start dd,.listfusion-lightbox-start ol,.listfusion-lightbox-start ul,.listfusion-lightbox-start li,.listfusion-lightbox-start fieldset,.listfusion-lightbox-start form,.listfusion-lightbox-start label,.listfusion-lightbox-start legend,.listfusion-lightbox-start table,.listfusion-lightbox-start caption,.listfusion-lightbox-start tbody,.listfusion-lightbox-start tfoot,.listfusion-lightbox-start thead,.listfusion-lightbox-start tr,.listfusion-lightbox-start th,.listfusion-lightbox-start td,.listfusion-lightbox-start article,.listfusion-lightbox-start aside,.listfusion-lightbox-start canvas,.listfusion-lightbox-start details,.listfusion-lightbox-start embed,.listfusion-lightbox-start figure,.listfusion-lightbox-start figcaption,.listfusion-lightbox-start footer,.listfusion-lightbox-start header,.listfusion-lightbox-start hgroup,.listfusion-lightbox-start menu,.listfusion-lightbox-start nav,.listfusion-lightbox-start output,.listfusion-lightbox-start ruby,.listfusion-lightbox-start section,.listfusion-lightbox-start summary,.listfusion-lightbox-start time,.listfusion-lightbox-start mark,.listfusion-lightbox-start audio,.listfusion-lightbox-start video,.listfusion-lightbox-start input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-weight: normal;
+}
+.listfusion-lightbox-start b,.listfusion-lightbox-start strong {
+    font-weight: bold;
+}
+.listfusion-lightbox-start article,.listfusion-lightbox-start aside,.listfusion-lightbox-start details,.listfusion-lightbox-start figcaption,.listfusion-lightbox-start figure,.listfusion-lightbox-start footer,.listfusion-lightbox-start header,.listfusion-lightbox-start hgroup,.listfusion-lightbox-start menu,.listfusion-lightbox-start nav,.listfusion-lightbox-start section {
+    display: block;
+}
+.listfusion-lightbox-start {
+    line-height: 1;
+}
+.listfusion-lightbox-start ol,.listfusion-lightbox-start ul {
+    list-style: none;
+}
+.listfusion-lightbox-start blockquote,.listfusion-lightbox-start q {
+    quotes: none;
+}
+.listfusion-lightbox-start blockquote:before,.listfusion-lightbox-start blockquote:after,.listfusion-lightbox-start q:before,.listfusion-lightbox-start q:after {
+    content: '';
+    content: none;
+}
+.listfusion-lightbox-start table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.listfusion-lightbox-start {
+    height: 100%;
+    min-height: 350px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.listfusion-lightbox-start .lightbox-overlay {
+    background-image: url('%plugin-url%user-lib/popup/%popup-style%/images/main-bg-trans.png');
+    height: 100%;
+    min-height: 350px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div {
+    z-index: 1000;
+}
+.listfusion-lightbox-start .powered {
+    clear: both;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 0px;
+    display: block;
+}
+.listfusion-lightbox-start .listfusion-newsletter {
+    background: url('%plugin-url%user-lib/popup/%popup-style%/images/bg.png') no-repeat;
+}
+.listfusion-newsletter {
+    background-position: 0 0;
+}
+.listfusion-span i {
+    background-position: 0 -344px;
+}
+.listfusion-span .pwd a {
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-weight: normal;
+    font-size: 11px;
+    text-align: center;
+    text-decoration: none;
+	color:#0066FF;
+}
+.listfusion-span .pwd a:hover {
+    text-decoration: underline;
+}
+.listfusion-close-popup {
+    float: right;
+    position: relative;
+    right: 12px;
+    top: 15px;
+    background-image: url('%plugin-url%user-lib/popup/%popup-style%/images/lightbox-close.png');
+}
+.listfusion-close-popup:hover {
+    background-position: left bottom;
+}
+.listfusion-lightbox-start input[type="submit"] {
+    background-repeat: no-repeat;
+	min-width:214px;
+    height: 47px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border: none;
+    font-size: 19px;
+    color: #fff;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 45px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+	text-shadow: 0px 0px 1px #5F5F5F;
+}
+
+.listfusion-lightbox-start input[type="submit"].listfusion-submit-btn {
+    background: #%btm-from-color%;
+    background: -moz-linear-gradient(top, #%btm-from-color% 0%, #%btm-to-color% 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #%btm-from-color%), color-stop(100%, #%btm-to-color%));
+    background: -webkit-linear-gradient(top, #%btm-from-color% 0%, #%btm-to-color% 100%);
+    background: -o-linear-gradient(top, #%btm-from-color% 0%, #%btm-to-color% 100%);
+    background: -ms-linear-gradient(top, #%btm-from-color% 0%, #%btm-to-color% 100%);
+    background: linear-gradient(to bottom, #%btm-from-color% 0%, #%btm-to-color% 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#%btm-from-color%', endColorstr='#%btm-to-color%', GradientType=0 );
+    padding: 0px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: %btm-size%px;
+    color: #%btm-text-color%;
+    font-family: "Open Sans", Georgia, Times, serif;
+    min-height: 34px;
+    margin-left: 20px;
+}
+.listfusion-lightbox-start input[type="submit"].listfusion-submit-btn:hover {
+    background: #%btm-from-hover-color%;
+    background: -moz-linear-gradient(top, #%btm-from-hover-color% 0%, #%btm-to-hover-color% 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #%btm-from-hover-color%), color-stop(100%, #%btm-to-hover-color%));
+    background: -webkit-linear-gradient(top, #%btm-from-hover-color% 0%, #%btm-to-hover-color% 100%);
+    background: -o-linear-gradient(top, #%btm-from-hover-color% 0%, #%btm-to-hover-color% 100%);
+    background: -ms-linear-gradient(top, #%btm-from-hover-color% 0%, #%btm-to-hover-color% 100%);
+    background: linear-gradient(to bottom, #%btm-from-hover-color% 0%, #%btm-to-hover-color% 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#%btm-from-hover-color%', endColorstr='#%btm-to-hover-color%', GradientType=0 );
+}
+.listfusion-lightbox-start .listfusion-newsletter {
+    width: 540px;
+    height: 190px;
+    padding: 40px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.listfusion-lightbox-start .listfusion-clearfx {
+    clear: both;
+}
+.listfusion-lightbox-start .listfusion-newsletter .listfusion-title {
+    font-family: "Rosarivo",Arial,Sans-Serif;
+    color: #333333;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 15px;
+	line-height: 25px;
+	font-weight:600;
+}
+.listfusion-lightbox-start .listfusion-newsletter .listfusion-body_msg {
+    font-family: "Open Sans",Arial,Sans-Serif;
+    color: #666666;
+    font-size: 15px;
+    line-height: 22px;
+    display: block;
+    margin-bottom: 27px;
+}
+.listfusion-lightbox-start .listfusion-newsletter form input[type="text"] {
+    float: left;
+    width: 275px;
+    padding: 7px 10px;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	height: 30px;
+}
+.listfusion-lightbox-start .listfusion-newsletter form input.name {
+    display: none;
+}
+.listfusion-lightbox-start .listfusion-span {
+    display: block;
+    position: relative;
+    color: #333333;
+    font-size: 12px;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    padding-top: 4px;
+}
+.listfusion-lightbox-start .listfusion-span i {
+    display: block;
+    width: 13px;
+    height: 16px;
+    position: absolute;
+    left: 0px;
+    top: -3px;
+}
+.listfusion-lightbox-start .listfusion-close-popup {
+    display: block;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    right: -16px;
+    top: -15px;
+}
+.listfusion-lightbox-start .aplbpop_social{ padding:4px; float:left; }
+@media screen and (max-width: 480px) {
+.listfusion-lightbox-start .listfusion-newsletter {
+	width: 62%;
+	height: auto;
+}
+.listfusion-lightbox-start .listfusion-newsletter {
+	background:#FFFFFF;
+}
+.listfusion-lightbox-start .listfusion-newsletter form input[type="text"] {
+	width: 97%;
+	margin-bottom: 10px;
+}
+.listfusion-lightbox-start input.listfusion-submit-btn[type="submit"] {
+	margin-left: 0px;
+}
+}

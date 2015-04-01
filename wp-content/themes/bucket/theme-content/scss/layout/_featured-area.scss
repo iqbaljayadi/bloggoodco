@@ -1,0 +1,22 @@
+.featured-area {
+    @extend .grid;
+}
+
+.featured-area__article {
+    @extend .grid__item;
+    @extend .palm-one-whole;
+    @extend .seven-twelfths;
+    position: relative;
+    @include rem(margin-bottom, $_u + $_u2);
+}
+
+.article--big .article__title {
+    margin-bottom: 0;
+}
+
+.featured-area__aside {
+    @extend .grid__item;
+    @extend .palm-one-whole;
+    @extend .five-twelfths;
+    @include rem(margin-bottom, $_u);
+}

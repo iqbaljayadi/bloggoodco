@@ -1,0 +1,89 @@
+/**
+ *     Popup
+ *     Copyright (C) 2011 - 2014 www.gopiplus.com
+ *     http://www.gopiplus.com/work/2011/01/14/wordpress-popup/
+ * 
+ *     This program is free software: you can redistribute it and/or modify
+ *     it under the terms of the GNU General Public License as published by
+ *     the Free Software Foundation, either version 3 of the License, or
+ *     (at your option) any later version.
+ * 
+ *     This program is distributed in the hope that it will be useful,
+ *     but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *     GNU General Public License for more details.
+ * 
+ *     You should have received a copy of the GNU General Public License
+ *     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+#PopupDiv {
+	background: transparent;
+	text-align: center;
+	font-family:  Verdana, Arial, Helvetica, sans-serif;
+	position: fixed;
+	margin: 0 auto;
+	bottom: 0px;
+	display: none;
+	opacity: 0;
+	KHTMLOpacity: 0;
+	filter: alpha(opacity=0); 
+	-moz-opacity: 0;
+	z-index: 1000;	
+	border-top: 6px solid  #5dcbe2; 
+	vertical-align: middle;
+	background-color: #fff;
+	max-width: 360px;
+	height: 180px;
+}
+
+#PopupDiv a {
+	text-decoration: none;
+	border: none;
+}
+
+#PopupDiv .PopupDivAds {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 1.2em;
+	margin: 0 20px 10px;
+	color: #4c4c4c;
+	text-align: left;
+	font-family: "brandon-grotesque","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#PopupDiv img {
+	border: none;
+}
+
+#PopupDiv .PopupDivBar {
+	height: 20px;
+	line-height: 20px;
+}
+
+#PopupDiv .PopupDivBar a {
+	margin-left: 10px;
+	font-weight: bold;
+	float: left;
+	color: #FFF;
+	font-size: 10px;
+}
+
+#PopupDiv .PopupDivBar .close {
+	margin-right: 15px;
+	display: block;
+	width: 35px;
+	height: 60px;
+	float: right;
+	background: url('img/cross_black.png') no-repeat center;
+	opacity: 0.5;
+}
+
+#PopupDiv .PopupDivBar .close:hover {
+	opacity: 1;
+}
+
+#PopupDiv.show {
+	display: block;
+}

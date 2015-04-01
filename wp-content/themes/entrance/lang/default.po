@@ -1,0 +1,1254 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Entrance\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-11 18:51+0700\n"
+"PO-Revision-Date: 2014-02-11 18:52+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../archive.php:10
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../archive.php:12
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../archive.php:14
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../archive.php:16
+msgid "Blog Archives"
+msgstr ""
+
+#: ../author.php:18
+msgid "Author Archives"
+msgstr ""
+
+#: ../block-header.php:20
+msgid "View all posts in"
+msgstr ""
+
+#: ../block-header.php:23
+msgid "Subscribe to"
+msgstr ""
+
+#: ../category.php:6
+msgid "Subscribe to this category"
+msgstr ""
+
+#: ../comments.php:6
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:19
+#: ../comments.php:31
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:20
+#: ../comments.php:32
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:21
+#: ../comments.php:33
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:39
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-grid.php:76
+#: ../content-large.php:61
+msgid "Read more"
+msgstr ""
+
+#: ../content-none.php:3
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:7
+msgid "Sorry, no posts matched your criteria. Perhaps searching will help."
+msgstr ""
+
+#: ../content-page.php:15
+#: ../content-single.php:45
+#: ../functions.php:582
+#: ../page-contact.php:40
+msgid "Edit"
+msgstr ""
+
+#: ../content-single.php:63
+msgid "OVERALL"
+msgstr ""
+
+#: ../content-single.php:90
+msgid "Previous Post"
+msgstr ""
+
+#: ../content-single.php:94
+msgid "Next Post"
+msgstr ""
+
+#: ../content-single.php:104
+msgid "Author"
+msgstr ""
+
+#: ../content-single.php:111
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../content-single.php:124
+msgid "Related Posts"
+msgstr ""
+
+#: ../functions.php:79
+msgid "Main Menu"
+msgstr ""
+
+#: ../functions.php:120
+msgid "Navigate to..."
+msgstr ""
+
+#: ../functions.php:507
+msgid "No related posts found"
+msgstr ""
+
+#: ../functions.php:544
+msgid "First"
+msgstr ""
+
+#: ../functions.php:547
+msgid "Previous"
+msgstr ""
+
+#: ../functions.php:559
+msgid "Next"
+msgstr ""
+
+#: ../functions.php:562
+msgid "Last"
+msgstr ""
+
+#: ../functions.php:582
+msgid "Pingback:"
+msgstr ""
+
+#: ../functions.php:595
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:598
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions.php:602
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:604
+msgid "Reply"
+msgstr ""
+
+#: ../functions.php:637
+msgid "Home"
+msgstr ""
+
+#: ../functions.php:659
+msgid "Category Archives"
+msgstr ""
+
+#: ../functions.php:702
+msgid "Search Results for:"
+msgstr ""
+
+#: ../functions.php:704
+msgid "Post Tagged with:"
+msgstr ""
+
+#: ../functions.php:712
+msgid "Page Not Found"
+msgstr ""
+
+#: ../functions.php:1003
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../functions.php:1004
+msgid "Install Plugins"
+msgstr ""
+
+#: ../functions.php:1005
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../functions.php:1006
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../functions.php:1017
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../functions.php:1018
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../functions.php:1019
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../page-contact.php:52
+#: ../page-contact.php:66
+msgid "Error"
+msgstr ""
+
+#: ../page-contact.php:59
+msgid "Success"
+msgstr ""
+
+#: ../page-contact.php:76
+msgid "Name"
+msgstr ""
+
+#: ../page-contact.php:80
+msgid "Email"
+msgstr ""
+
+#: ../page-contact.php:84
+msgid "Message"
+msgstr ""
+
+#: ../page-contact.php:88
+msgid "Please leave this field blank"
+msgstr ""
+
+#: ../page-contact.php:92
+msgid "Send"
+msgstr ""
+
+#: ../search.php:9
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:1
+msgid "Search..."
+msgstr ""
+
+#: ../includes/ajax_action.php:12
+msgid "Please enter your name."
+msgstr ""
+
+#: ../includes/ajax_action.php:15
+msgid "Please enter your email."
+msgstr ""
+
+#: ../includes/ajax_action.php:17
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: ../includes/ajax_action.php:20
+msgid "Please enter your message."
+msgstr ""
+
+#: ../includes/ajax_action.php:24
+msgid "Sorry, there was a problem sending your message."
+msgstr ""
+
+#: ../includes/ajax_action.php:51
+msgid "Sorry, a server error occurred. Your message has not been sent."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:517
+#: ../includes/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1955
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1956
+#: ../includes/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1956
+#: ../includes/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1962
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../includes/widgets.php:103
+#: ../includes/metabox/class.metabox.php:121
+#: ../includes/metabox/class.metabox.php:363
+msgid "All Categories"
+msgstr ""
+
+#: ../includes/widgets.php:155
+msgid "Title"
+msgstr ""
+
+#: ../includes/widgets.php:161
+msgid "Post order"
+msgstr ""
+
+#: ../includes/widgets.php:165
+msgid "Recent"
+msgstr ""
+
+#: ../includes/widgets.php:166
+msgid "Popular"
+msgstr ""
+
+#: ../includes/widgets.php:167
+msgid "Random"
+msgstr ""
+
+#: ../includes/widgets.php:174
+msgid "Filter by Category"
+msgstr ""
+
+#: ../includes/widgets.php:181
+msgid "Number of posts to show"
+msgstr ""
+
+#: ../includes/widgets.php:190
+msgid "Show thumbnail"
+msgstr ""
+
+#: ../includes/widgets.php:197
+msgid "Thumbnail size"
+msgstr ""
+
+#: ../includes/widgets.php:201
+msgid "Small"
+msgstr ""
+
+#: ../includes/widgets.php:202
+msgid "Large"
+msgstr ""
+
+#: ../includes/widgets.php:203
+msgid "Mixed"
+msgstr ""
+
+#: ../includes/widgets.php:210
+#: ../includes/customizer/data.customizer.php:148
+#: ../includes/customizer/data.customizer.php:198
+#: ../includes/metabox/data.metabox.php:104
+msgid "Show category"
+msgstr ""
+
+#: ../includes/widgets.php:217
+#: ../includes/customizer/data.customizer.php:153
+#: ../includes/metabox/data.metabox.php:109
+msgid "Show rating (if available)"
+msgstr ""
+
+#: ../includes/widgets.php:224
+#: ../includes/customizer/data.customizer.php:158
+#: ../includes/customizer/data.customizer.php:203
+#: ../includes/metabox/data.metabox.php:114
+msgid "Show date"
+msgstr ""
+
+#: ../includes/widgets.php:231
+#: ../includes/customizer/data.customizer.php:163
+#: ../includes/metabox/data.metabox.php:119
+msgid "Show comments number"
+msgstr ""
+
+#: ../includes/widgets.php:238
+#: ../includes/customizer/data.customizer.php:168
+#: ../includes/metabox/data.metabox.php:124
+msgid "Show author"
+msgstr ""
+
+#: ../includes/widgets.php:245
+msgid "Show excerpt"
+msgstr ""
+
+#: ../includes/widgets.php:249
+#: ../includes/customizer/data.customizer.php:181
+msgid "No"
+msgstr ""
+
+#: ../includes/widgets.php:250
+msgid "Show on first item"
+msgstr ""
+
+#: ../includes/widgets.php:251
+msgid "Show on all items"
+msgstr ""
+
+#: ../includes/widgets.php:412
+msgid "Default Sidebar"
+msgstr ""
+
+#: ../includes/widgets.php:414
+msgid "This is the main sidebar, located beside the main content."
+msgstr ""
+
+#: ../includes/widgets.php:430
+msgid "This is a custom sidebar, located beside the main content."
+msgstr ""
+
+#: ../includes/widgets.php:440
+msgid "Footer 1"
+msgstr ""
+
+#: ../includes/widgets.php:442
+msgid "This widget area is located at the left side of footer area."
+msgstr ""
+
+#: ../includes/widgets.php:449
+msgid "Footer 2"
+msgstr ""
+
+#: ../includes/widgets.php:451
+msgid "This widget area is located at the center of footer area."
+msgstr ""
+
+#: ../includes/widgets.php:458
+msgid "Footer 3"
+msgstr ""
+
+#: ../includes/widgets.php:460
+msgid "This widget area is located at the right side of footer area."
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:17
+msgid "General"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:21
+msgid "Enable boxed layout"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:26
+msgid "Default sidebar alignment"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:29
+#: ../includes/metabox/data.metabox.php:21
+msgid "Right sidebar"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:30
+#: ../includes/metabox/data.metabox.php:22
+msgid "Left sidebar"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:31
+#: ../includes/metabox/data.metabox.php:23
+msgid "Full width (no sidebar)"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:36
+msgid "Enable retina display support"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:41
+msgid "Main logo"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:45
+msgid "Main logo height (in pixels)"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:50
+msgid "Login logo"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:54
+msgid "Favicon"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:58
+msgid "Enable breadcrumb navigation"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:63
+msgid "Breadcrumb prefix"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:69
+msgid "Featured Posts"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:71
+#, php-format
+msgid "Use a tag to feature your posts. If no posts match the tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:78
+msgid "Enable featured posts"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:83
+msgid "Tag(s)"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:88
+msgid "Layout"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:91
+#: ../includes/metabox/data.metabox.php:68
+msgid "Grid"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:92
+#: ../includes/customizer/data.customizer.php:98
+msgid "Slider"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:99
+msgid "Slider settings, if you choose Slider layout in Featured Posts"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:103
+msgid "Number of slides"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:109
+msgid "Animation"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:118
+msgid "Slideshow Speed"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:121
+msgid "speed of the slideshow cycling, in milliseconds"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:125
+msgid "Animation Speed"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:128
+msgid "speed of animations, in milliseconds"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:132
+msgid "Pause on Hover"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:138
+msgid "Blog"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:139
+msgid "Settings for default blog, category, tag, search result, author and archive pages. <br>For page templates, please use the settings on page edit screen)"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:143
+#: ../includes/customizer/data.customizer.php:213
+#: ../includes/metabox/data.metabox.php:99
+msgid "Show featured image"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:173
+#: ../includes/metabox/data.metabox.php:129
+msgid "Show read more link"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:178
+#: ../includes/metabox/data.metabox.php:134
+msgid "Show post content"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:182
+msgid "Excerpt"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:183
+msgid "Full Content"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:188
+#: ../includes/metabox/data.metabox.php:144
+msgid "Excerpt length"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:194
+msgid "Single Post"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:208
+msgid "Show author name"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:218
+msgid "Show tags"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:223
+msgid "Show author info"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:228
+msgid "Show related posts"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:234
+msgid "Footer"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:238
+msgid "Show footer widget area"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:243
+msgid "Footer text 1"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:248
+msgid "Footer text 2"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:254
+msgid "Main Color"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:258
+msgid "Main color"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:272
+msgid "Category Colors"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:273
+msgid "Custom color for categories. If disabled, main color will be used for all categories"
+msgstr ""
+
+#: ../includes/customizer/data.customizer.php:277
+msgid "Enable category colors"
+msgstr ""
+
+#: ../includes/metabox/class.metabox.php:297
+msgid "Block Title"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:11
+msgid "Layout Options"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:18
+msgid "Page layout"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:20
+msgid "Default"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:28
+msgid "Sidebar"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:35
+msgid "Page Options"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:43
+msgid "Show page title"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:48
+msgid "Show page content"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:55
+msgid "Blog Options"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:63
+msgid "Blog style"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:66
+msgid "Small Thumbnails"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:67
+msgid "Large Thumbnails"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:69
+msgid "Masonry"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:74
+msgid "Number of columns"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:76
+msgid "For grid/masonry style only"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:85
+msgid "Filter by category"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:89
+msgid "Number of posts per page"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:91
+msgid "Leave this blank if you want to use default setting"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:95
+msgid "Post Options:"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:147
+msgid "The number of words for excerpt"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:162
+msgid ""
+"<p>Click on the <b>Add Block</b> button to add a new block to your page.</p>\n"
+"<p>You can move blocks by dragging up/down on each block.</p>\n"
+"<p>Click the down arrow in the upper right corner of each block to expand the block's interface and customize the settings.</p>\n"
+"<p>To delete the block, click <b>Delete</b>.</p>"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:179
+msgid "Enable review on this post"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:191
+msgid "Summary"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:200
+msgid "Sitemap Options"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:208
+msgid "Show Pages"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:213
+msgid "Pages Title"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:218
+msgid "Show Categories"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:223
+msgid "Categories Title"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:228
+msgid "Show Monthly Archives"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:233
+msgid "Monthly Archives Title"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:238
+msgid "Show Latest Posts"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:243
+msgid "Latest Posts Title"
+msgstr ""
+
+#: ../includes/metabox/data.metabox.php:248
+msgid "Number of Latest Posts"
+msgstr ""
+
+#: ../includes/options/class.options.php:67
+#: ../includes/options/class.options.php:68
+#: ../includes/options/class.options.php:349
+msgid "Theme Options"
+msgstr ""
+
+#: ../includes/options/class.options.php:120
+msgid "Default options restored."
+msgstr ""
+
+#: ../includes/options/class.options.php:154
+msgid "Options saved."
+msgstr ""
+
+#: ../includes/options/class.options.php:294
+#: ../includes/options/class.options.php:306
+msgid "Delete"
+msgstr ""
+
+#: ../includes/options/class.options.php:317
+msgid "Add More"
+msgstr ""
+
+#: ../includes/options/class.options.php:381
+msgid "Save All Settings"
+msgstr ""
+
+#: ../includes/options/data.options.php:8
+msgid "Theme Update Notifier"
+msgstr ""
+
+#: ../includes/options/data.options.php:9
+#: ../includes/options/data.options.php:15
+msgid "Enable"
+msgstr ""
+
+#: ../includes/options/data.options.php:11
+msgid "If enabled, you will get notified when a new theme update is available"
+msgstr ""
+
+#: ../includes/options/data.options.php:16
+msgid "Enable Review"
+msgstr ""
+
+#: ../includes/options/data.options.php:18
+msgid "Check this to enable Review Settings in post meta box"
+msgstr ""
+
+#: ../includes/options/data.options.php:23
+msgid "Social"
+msgstr ""
+
+#: ../includes/options/data.options.php:24
+msgid "Setting for social widget"
+msgstr ""
+
+#: ../includes/options/data.options.php:28
+msgid "Maximum number of items"
+msgstr ""
+
+#: ../includes/options/data.options.php:35
+msgid "Sidebar Manager"
+msgstr ""
+
+#: ../includes/options/data.options.php:36
+msgid "This theme has 1 default sidebar. You can add more sidebars from here."
+msgstr ""
+
+#: ../includes/options/data.options.php:40
+msgid "Custom Sidebars"
+msgstr ""
+
+#: ../includes/options/data.options.php:45
+msgid "Contact Form"
+msgstr ""
+
+#: ../includes/options/data.options.php:46
+msgid "These settings will affect contact form page template and contact form widget"
+msgstr ""
+
+#: ../includes/options/data.options.php:50
+msgid "Email address"
+msgstr ""
+
+#: ../includes/options/data.options.php:51
+msgid "if empty, admin email address will be used"
+msgstr ""
+
+#: ../includes/options/data.options.php:55
+msgid "Subject"
+msgstr ""
+
+#: ../includes/options/data.options.php:60
+msgid "Success message"
+msgstr ""
+
+#: ../includes/options/data.options.php:67
+msgid "Scripts"
+msgstr ""
+
+#: ../includes/options/data.options.php:71
+msgid "Custom scripts"
+msgstr ""
+
+#: ../includes/options/data.options.php:73
+msgid "Enter your custom scripts (such as Google Analytics or other tracking code) here. It will be inserted before the closing body tag"
+msgstr ""
+
+#: ../includes/widgets/ads-125.php:9
+msgid "Banners (125 pixels width)"
+msgstr ""
+
+#: ../includes/widgets/ads-125.php:24
+msgid "Banner 1 image url"
+msgstr ""
+
+#: ../includes/widgets/ads-125.php:29
+msgid "Banner 1 link"
+msgstr ""
+
+#: ../includes/widgets/ads-125.php:34
+msgid "Banner 2 image url"
+msgstr ""
+
+#: ../includes/widgets/ads-125.php:39
+msgid "Banner 2 link"
+msgstr ""
+
+#: ../includes/widgets/ads-125.php:44
+msgid "Banner 3 image url"
+msgstr ""
+
+#: ../includes/widgets/ads-125.php:49
+msgid "Banner 3 link"
+msgstr ""
+
+#: ../includes/widgets/ads-125.php:54
+msgid "Banner 4 image url"
+msgstr ""
+
+#: ../includes/widgets/ads-125.php:59
+msgid "Banner 4 link"
+msgstr ""
+
+#: ../includes/widgets/ads-300.php:9
+msgid "Banner (300 pixels width)"
+msgstr ""
+
+#: ../includes/widgets/ads-300.php:24
+msgid "Banner image url"
+msgstr ""
+
+#: ../includes/widgets/ads-300.php:29
+msgid "Banner link"
+msgstr ""
+
+#: ../includes/widgets/comments.php:9
+msgid "A list of latest comments"
+msgstr ""
+
+#: ../includes/widgets/comments.php:20
+msgid "Recent Comments"
+msgstr ""
+
+#: ../includes/widgets/comments.php:24
+msgid "Number of comments to show"
+msgstr ""
+
+#: ../includes/widgets/comments.php:31
+msgid "Show avatar"
+msgstr ""
+
+#: ../includes/widgets/contact.php:9
+msgid "Contact form with ajax validation"
+msgstr ""
+
+#: ../includes/widgets/contact.php:20
+msgid "Get In Touch"
+msgstr ""
+
+#: ../includes/widgets/facebook.php:9
+msgid "Facebook like box"
+msgstr ""
+
+#: ../includes/widgets/facebook.php:24
+msgid "Facebook Page URL"
+msgstr ""
+
+#: ../includes/widgets/facebook.php:29
+msgid "Height"
+msgstr ""
+
+#: ../includes/widgets/facebook.php:34
+msgid "Color Scheme"
+msgstr ""
+
+#: ../includes/widgets/facebook.php:43
+msgid "Show Faces"
+msgstr ""
+
+#: ../includes/widgets/facebook.php:52
+msgid "Show stream"
+msgstr ""
+
+#: ../includes/widgets/facebook.php:61
+msgid "Show header"
+msgstr ""
+
+#: ../includes/widgets/flickr.php:9
+msgid "Photos from a Flickr account"
+msgstr ""
+
+#: ../includes/widgets/flickr.php:20
+msgid "Photos on Flickr"
+msgstr ""
+
+#: ../includes/widgets/flickr.php:29
+msgid "Number of photos to show"
+msgstr ""
+
+#: ../includes/widgets/flickr.php:35
+msgid "Display"
+msgstr ""
+
+#: ../includes/widgets/posts.php:10
+msgid "A list of posts with several options"
+msgstr ""
+
+#: ../includes/widgets/reviews.php:14
+msgid "A list of latest reviews"
+msgstr ""
+
+#: ../includes/widgets/social.php:30
+msgid "Social media icons"
+msgstr ""
+
+#: ../includes/widgets/social.php:45
+msgid "Icon size"
+msgstr ""
+
+#: ../includes/widgets/social.php:55
+msgid "Icon frame"
+msgstr ""
+
+#: ../includes/widgets/social.php:59
+msgid "Square"
+msgstr ""
+
+#: ../includes/widgets/social.php:60
+msgid "Rounded Square"
+msgstr ""
+
+#: ../includes/widgets/social.php:61
+msgid "Circle"
+msgstr ""
+
+#: ../includes/widgets/social.php:66
+msgid "Style"
+msgstr ""
+
+#: ../includes/widgets/social.php:70
+msgid "Horizontal"
+msgstr ""
+
+#: ../includes/widgets/social.php:71
+msgid "Vertical"
+msgstr ""
+
+#: ../includes/widgets/social.php:76
+msgid "Color on hover"
+msgstr ""
+
+#: ../includes/widgets/subpages.php:9
+msgid "A list of sub pages"
+msgstr ""
+
+#: ../includes/widgets/subpages.php:21
+msgid "If empty, parent page title will be used"
+msgstr ""
+
+#: ../includes/widgets/subpages.php:25
+msgid "Parent Page"
+msgstr ""
+
+#: ../includes/widgets/subpages.php:27
+msgid "Enter a Page ID, or leave empty for current page"
+msgstr ""
+
+#: ../includes/widgets/subpages.php:31
+msgid "Sort by"
+msgstr ""
+
+#: ../includes/widgets/subpages.php:34
+msgid "Page title"
+msgstr ""
+
+#: ../includes/widgets/subpages.php:35
+msgid "Page order"
+msgstr ""
+
+#: ../includes/widgets/subpages.php:36
+msgid "Page ID"
+msgstr ""
+
+#: ../includes/widgets/subpages.php:43
+msgid "Page IDs, separated by commas."
+msgstr ""
+
+#: ../includes/widgets/video.php:9
+msgid "Featured video"
+msgstr ""
+
+#: ../includes/widgets/video.php:24
+msgid "Video Embed Code"
+msgstr ""
+
+#: ../includes/widgets/video.php:29
+msgid "Description"
+msgstr ""
+

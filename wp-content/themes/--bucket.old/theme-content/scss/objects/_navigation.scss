@@ -1,0 +1,648 @@
+/*------------------------------------*\
+               NAVIGATION
+\*------------------------------------*/
+
+.navigation--top{
+    @include font-size(12px);
+    background-color: #050505;
+}
+
+.navigation--main{
+    @include font-size(13px);
+    background-color: #262525;
+}
+
+
+
+/**
+ * Top Bar Navigation - including Top Menu Left and Top Menu Right
+ */
+.navigation--top {
+    .nav {
+        margin-bottom:0;
+    }
+}
+
+// Stuff
+.nav--top {
+    li {
+        background-color: #262525;
+    }
+
+    > li {
+        background: none;
+        position: relative;
+
+        a { 
+            color: #807d7c;
+        }
+
+        > a {
+            text-transform: uppercase;
+        }
+
+        + li {
+
+            > a {
+                position: relative;
+
+                &:before {
+                    content: "";
+                    display: block; 
+                    position: absolute;
+                    @include rem(top, $_u4);
+                    left: 0;
+                    @include rem(height, $_u);
+                    border-left: 1px dotted $gray;
+                }
+            }
+        }
+
+        /*li*/&.current-menu-ancestor > a {
+
+        }
+        
+        /*li*/&.current-menu-parent > a {
+            
+        }
+
+        /*li*/&.current-menu-item > a {
+
+        }
+
+        .sub-menu {
+            @include rem(width, $_8u);
+            @include font-size(14px);
+            // @include rem(margin-left, -4px);
+        }
+    }
+
+    li {
+
+        &:hover {
+            > a {
+                color: white;
+            }
+            
+            > .sub-menu {
+                display: block;
+            }
+        }
+    }
+}
+
+.nav--top-left {
+    @include rem(margin-left, -$_u2);
+}
+
+.nav--top-right {
+    text-align: right;
+
+    .sub-menu {
+        text-align: left;
+    }
+}
+
+
+
+/**
+ * Main Bar Navigation
+ */
+.nav--main {
+    @extend .cf;
+    position: relative;
+
+    > li {
+        border: 0 solid transparent;
+        background-color: transparent;
+        float: left;
+    
+        a {
+            color: #a6a1a1;
+        }
+
+        > a {
+            @include rem(padding, $_u4 $_u);
+            text-transform: uppercase;
+        }
+
+        &.current-menu-item {
+            background-color:rgba(255,255,255,0.05);
+        }
+    }
+}
+
+.nav__item--relative {
+    position: relative;
+}
+
+/*----------------------------------------*\
+    $SUBMENUS
+\*----------------------------------------*/
+
+/*ul*/.sub-menu {
+    @extend .nav;
+    @extend .nav--stacked;
+
+    padding-top: 0;
+    border-bottom: 0;
+    margin-bottom: 0;
+
+    white-space: normal;
+
+    top: 100%;
+    left: 0;
+    z-index: 300;
+
+    @include rem(padding, 5px);
+
+    @include media-query(palm) {
+        @include rem(padding-left, $_u);
+    }
+
+    @include media-query(lap-and-up) {
+        @include rem(width, $_8u + $_u2 + $_u4);
+        background: black;
+        background-clip: padding-box;        
+        position: absolute;
+        display: none;
+    }
+
+    > li {
+        position: relative;
+
+        > a {
+            @include rem(padding, $_u4 #{$_u - 5px});
+        }
+
+        @include media-query(lap-and-up) {
+            + li > a {
+                border-top: 1px solid #333131;
+                margin-top: -1px;
+            }
+        }
+
+        &.menu-item-has-children:hover {
+            > .sub-menu {
+                display:block;
+                opacity:1;
+            }
+        }
+    }
+
+    .sub-menu {
+        top: 0; 
+        left: 100%;
+        @include rem(margin-top, -5px);
+    }
+}
+
+.menu-item--parent > .nav--sub-menu{
+    margin-top: 5px;
+}
+
+/*
+* $MegaMenus
+*/
+
+$mega_height: 280px;
+
+/*div*/.sub-menu--mega {
+    @extend .sub-menu;
+    border: 0;
+    @include rem(border-bottom, 3/2*$_u solid rgba(black, .3));
+    width: 100%;
+
+    .nav--sub-menu {
+        width: 100%;
+        min-height:100%;
+        left: 0;
+        display: block;
+        padding-left: 0;
+        border-bottom: 5px solid #001a17;
+    }
+
+    .rsOverflow {
+        @include transition(none !important);
+    }
+}
+
+    // .flexbox{
+    //     .sub-menu__grid {
+    //         display: flex;
+    //         flex-direction: row;
+    //         flex-wrap: nowrap;
+    //         // justify-content: space-between;
+    //         align-content: stretch;
+    //         align-items: stretch;
+    //         min-height: 300px;
+    //     }
+
+    //     .sub-menu__grid__item{
+    //         flex: 0 1 auto;
+    //         align-self: auto;            
+    //     }
+    // }
+
+.sub-menu__grid {
+    @extend .cf;
+    height:250px;
+}
+
+
+.sub-menu__grid__item {
+    @include rem(margin-bottom, -$_u);
+    @include rem(min-height, $_2u);
+    background-color: #262525;
+    float: left;
+    height:$mega_height;
+
+    position: relative;
+    background-clip: content-box;
+
+    // change padding to border for the gutter
+    // this way we can make the slider to cover the right amount of space
+    padding-left: 0 !important;
+    @include rem(border-left, $_u4 solid transparent);
+
+    .nav--sub-menu {
+        background-color: #262525;
+        @include rem(border-bottom, 5px solid black);
+        padding-right: 0;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .pixslider {
+        position: relative;
+        display:block;
+        height:$mega_height;
+        width:412px;
+        @include rem(min-height, $_3u);
+    }
+
+    .featured-area__article {
+        padding-left: 0;
+        margin-bottom: 0;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        display:block;
+
+        .image-wrap {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display:block;
+            padding:0;
+
+            img {
+                max-width: none;
+                position:relative;
+            }
+
+            .article__title .hN {
+                width:100%;
+                @include font-size(19px);
+                line-height:1.4;
+            }
+        }
+    }
+}
+
+
+/**
+ * MegaMenu Hover Effects
+ * And other stuff for bigger screens
+ */
+
+$menu_transition_speed: 0.15s;
+
+@include media-query(lap-and-up) {
+    .nav--main {
+        li {
+            @include transition(all 0.15s linear);
+
+            > .sub-menu {
+                display:inline-block;
+                opacity:0;
+                @include transition(all $menu_transition_speed ease-in);
+                @include translate3d(0, 0px, 0);
+            }
+
+            &:hover, &.current-menu-item {
+                border-bottom-color: $accent; 
+                background-color:rgba(255,255,255,0.05);
+            }
+
+            &:hover{
+                > a {
+                    color: white;
+                }                  
+            }            
+
+            &.hidden > .sub-menu {
+                display:none;
+            }
+            
+            &.open {
+                @include media-query(lap-and-up) {
+                    > .sub-menu {
+                        opacity:1;
+                        display: inline-block;
+                         @include translate3d(0, 0, 0);
+                         @include transition(all $menu_transition_speed ease-out 0);
+                    }
+                }
+            }
+        }
+
+        > li {
+            @include rem(border-top-width, 5px);
+            @include rem(border-bottom-width, 5px);
+
+            a {
+                color: #a6a1a1;
+            }
+
+            > a {
+                @include rem(padding, $_u4 $_u);
+                text-transform: uppercase;
+            }
+        }
+
+        .article--billboard-small {
+            background-color: #262525;
+            width: auto;
+            position: static;
+            margin: 0;
+
+            .article__thumb {
+                @include translateY(0);
+            }
+
+            .article__title {
+                color:white;       
+            }
+
+            .article__content {
+                background:$dark;
+            }
+
+            .article__description {
+                color:white;
+            }
+
+            .small-link {
+                
+            }
+
+            &:hover {
+                .article__thumb {
+                     @include translateY(0);
+                }
+                .article__title {
+                    
+                }
+                .article__content {
+
+                }
+                .article__description {
+
+                }
+                .small-link {
+
+                }
+            }
+        }        
+    }
+}
+
+
+
+
+
+/*----------------------------------------*\
+    $MOBILE NAVIGATION
+\*----------------------------------------*/
+
+$header_height: 3*$_u;
+$header_background: white;
+$transition_speed: 0.4s;
+
+
+
+.navigation--mobile{
+    display:block; 
+}
+
+@include media-query(lap-and-up) {
+    .navigation--mobile, .site-navigation__trigger {
+        display:none;
+    }       
+}
+
+@include media-query(palm) {
+
+    .header{
+        background: $header_background;
+        // position: absolute;
+        width: 100%;
+        // @include rem(height, $header_height);
+    }
+
+    .site-header {
+        float:left;
+    }
+
+    #page{
+        overflow: hidden;
+    }
+
+    // Hide the rest of the elements
+    .navigation--top,
+    .navigation--main,
+    .header-bar-container {
+        display: none;
+    }
+    
+
+
+    /*
+    * Menu Styling
+    */
+
+    .navigation--mobile{
+        width: 75%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        visibility: hidden;
+        z-index: -1;
+        overflow-y: scroll;
+        @include rem(padding-right, $_u);
+        @include rem(padding-left, $_u2);
+        height: 100%;
+
+        background-color: $dark;
+
+
+        @include transition(visibility 0 linear $transition_speed);
+
+        > ul > li{
+            &:last-child{
+                border-bottom: none;
+            }
+
+            a{
+                @include rem(padding, $_u4 $_u);            
+            }
+        }
+
+        > ul > .menu-item{
+            width: 100%;
+            border-bottom: 1px solid black;
+
+            a{
+                display: block;
+                color: white !important;
+            }
+        }
+
+        .menu-item a{
+            @include rem(padding-top, $_u2);
+            @include rem(padding-bottom, $_u2);
+        }
+
+        .admin-bar &{
+            top: 28px;
+        }
+    }
+
+    .separator--mobile-nav{
+        height: 1px;
+        background-color: $gray;
+        @include rem(margin, $_2u 0);
+    }
+
+
+    /* 
+    * Trigger Icon
+    */
+    .site-navigation__trigger {
+        display: block;
+        @include rem(width, 95px);
+        @include rem(height, $header_height);
+        padding:$half-spacing-unit $base-spacing-unit;
+        position: absolute;
+        top: 0; right: 0;
+        z-index:10;
+        @include font-size(42px);
+        text-align: center;
+        cursor: pointer;
+        color: #807f7d;
+
+        @include transition(color $transition_speed ease-in-out);
+
+        &:active, &:focus {
+            @include transition(color $transition_speed ease-in-out);
+        }
+
+        i {
+            display: block;
+            position: absolute;
+            @include rem(top, $half-spacing-unit + 2px);
+            @include rem(left, $half-spacing-unit);
+            overflow: hidden;
+        }
+
+
+        // Icon Styling
+        & {
+          @include transition(all $transition_speed);
+          cursor: pointer;
+          user-select: none;
+          opacity: .8;
+        }
+
+        .nav-icon {
+          position: relative;
+          top:20px;
+          display:block;
+          width: 100%;
+          height: 6px;
+          background: $gray;
+          border-radius: 2.5rem;
+          @include transition(all $transition_speed);
+          
+          &:after, &:before {
+            display: block;
+            content: "";
+            height: 6px;
+            width: 100%;
+            background: $gray;
+            position: absolute;
+            z-index: -1;
+            border-radius: 1rem;
+            @include transition(all $transition_speed);
+          }
+
+          &:after { top: -$half-spacing-unit; }
+          &:before { top: $half-spacing-unit; }
+
+        }
+    }
+
+
+
+    /*
+    * Content Preparation
+    */
+    .wrapper {
+        height: 100%;
+        min-height: 350px;
+        background-color: white; 
+
+        position: relative; 
+        z-index: 1;
+        @include transform(translateZ(0));
+        @include transition(all $transition_speed ease-in-out);
+    }
+
+
+
+    /*
+    * Showing Navigation (by moving .wrapper)
+    */
+
+    .navigation--is-visible {
+
+        .wrapper {
+            @include transform(translateX(-75%));
+        }
+
+        .navigation--mobile{
+            visibility: visible;
+            z-index: 1;
+            @include transition(z-index 0 linear $transition_speed);
+        }
+
+        // Trigger icon animations 
+        .nav-icon {
+            background: transparent;
+            top:20px !important;
+
+            &:before { @include rotate(-45deg); top: 0 !important; }  
+            &:after { @include rotate(45deg); top: 0 !important; }  
+        }
+   
+    }
+}
+
+// Flexbox does not work in IE8
+.lt-ie9{
+    .sub-menu__grid {
+        width: 1050px;
+        background-color: #eee;
+    }        
+}

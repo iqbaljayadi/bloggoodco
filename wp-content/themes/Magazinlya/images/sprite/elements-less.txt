@@ -1,0 +1,110 @@
+.stitches-sprite(@x: 0, @y: 0, @width: 0, @height: 0) {
+    background-position: @x @y;
+    width: @width;
+    height: @height;
+}
+
+.sprite {
+    background-image: url(spritesheet.png);    background-repeat: no-repeat;
+    display: block;
+
+    &.sprite-block-next {
+        .stitches-sprite(-20px, -20px, 15px, 15px);
+    }
+
+    &.sprite-block-prev {
+        .stitches-sprite(-20px, -75px, 15px, 15px);
+    }
+
+    &.sprite-blog-arrow-left {
+        .stitches-sprite(-20px, -130px, 38px, 38px);
+    }
+
+    &.sprite-blog-arrow-right {
+        .stitches-sprite(-20px, -208px, 38px, 38px);
+    }
+
+    &.sprite-gallery-close {
+        .stitches-sprite(-20px, -286px, 38px, 38px);
+    }
+
+    &.sprite-ico-categ {
+        .stitches-sprite(-20px, -364px, 25px, 25px);
+    }
+
+    &.sprite-ico-comments {
+        .stitches-sprite(-20px, -429px, 14px, 10px);
+    }
+
+    &.sprite-ico-home {
+        .stitches-sprite(-20px, -479px, 25px, 25px);
+    }
+
+    &.sprite-ico-search {
+        .stitches-sprite(-20px, -544px, 25px, 25px);
+    }
+
+    &.sprite-ico-video-large {
+        .stitches-sprite(-20px, -609px, 40px, 40px);
+    }
+
+    &.sprite-ico-view {
+        .stitches-sprite(-20px, -689px, 14px, 10px);
+    }
+
+    &.sprite-li {
+        .stitches-sprite(-20px, -739px, 5px, 9px);
+    }
+
+    &.sprite-load-more {
+        .stitches-sprite(-20px, -788px, 7px, 4px);
+    }
+
+    &.sprite-menu-arrow-down-white {
+        .stitches-sprite(-20px, -832px, 7px, 4px);
+    }
+
+    &.sprite-menu-right-dark {
+        .stitches-sprite(-20px, -876px, 4px, 7px);
+    }
+
+    &.sprite-menu-right-white {
+        .stitches-sprite(-20px, -923px, 4px, 7px);
+    }
+
+    &.sprite-similar-left {
+        .stitches-sprite(-20px, -970px, 5px, 9px);
+    }
+
+    &.sprite-similar-right {
+        .stitches-sprite(-20px, -1019px, 5px, 9px);
+    }
+
+    &.sprite-slide-arrow-left {
+        .stitches-sprite(-20px, -1068px, 28px, 28px);
+    }
+
+    &.sprite-slide-arrow-right {
+        .stitches-sprite(-20px, -1136px, 28px, 28px);
+    }
+
+    &.sprite-star-off {
+        .stitches-sprite(-20px, -1204px, 17px, 17px);
+    }
+
+    &.sprite-star-on {
+        .stitches-sprite(-20px, -1261px, 17px, 17px);
+    }
+
+    &.sprite-up {
+        .stitches-sprite(-20px, -1318px, 51px, 51px);
+    }
+
+    &.sprite-up-hover {
+        .stitches-sprite(-20px, -1409px, 51px, 51px);
+    }
+
+    &.sprite-video-small {
+        .stitches-sprite(-20px, -1500px, 20px, 20px);
+    }
+}

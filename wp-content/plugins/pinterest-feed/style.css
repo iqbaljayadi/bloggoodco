@@ -1,0 +1,43 @@
+#pfeed:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.pfeed-pin {
+	width: 222px;
+	font-size: 11px;
+	background-color: #fff;
+	box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+	margin-bottom: 15px;
+	float: left;
+}
+	.pfeed-image {
+		padding: 15px 15px 0;
+	}
+		.pfeed-image img {
+			border: none;
+			box-shadow: none !important
+		}
+	.pfeed-description {
+		padding: 10px 15px;
+		background-color: #f2f0f0;
+		height: 30px;
+		line-height: 14px;
+		overflow: hidden;
+	}
+		.pfeed-description p {
+			height: 30px;
+			overflow: hidden;
+			word-wrap: break-word;
+			color: #ad9c9c;
+			line-height: 14px !important;
+			margin: 0 !important;
+		}
+		.pfeed-description a {
+			color: #ad9c9c;
+			outline: none;
+			text-decoration: none;
+		}
+		.pfeed-description a:hover {
+			text-decoration: underline;
+		}

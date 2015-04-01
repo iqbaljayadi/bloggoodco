@@ -1,0 +1,157 @@
+#attention-grabber {
+    width: 98%;
+    padding: 2px 1%;
+    color: #fff;
+    position: relative;
+    border-bottom: 3px solid #2e373e;
+    height: 30px;
+	top: 0;
+	margin-top: 0;
+}
+
+#attention-grabber span, #attention-grabber div {
+    font-size: 14px;
+}
+
+#ag-container, #ag-thanks-container {
+    text-align: center;
+}
+
+.pad-top {
+    margin-top: 4px;
+}
+
+#ag-email-form {
+    display: inline;
+}
+
+#ag-email {
+    font-size: 13px;
+    line-height: 14px;
+    padding: 3px 6px 0;
+    margin: 3px 0 3px 0.5em;
+    background: #fff;
+    width: 200px;
+    border-radius: 3px;
+}
+
+#ag-email::-webkit-input-placeholder, #ag-email:-moz-placeholder, #ag-email::-moz-placeholder, #ag-email::-ms-input-placeholder {
+    padding-top: 7px;
+}
+
+#ag-submit {
+    border-radius: 3px;
+    font-size: 13px;
+    margin-right: 1em;
+    padding: 4px 6px;
+}
+
+a#ag-submit {
+    margin-left: 0.5em;
+    text-decoration: none !important;
+}
+
+#ag-created-by, #ag-go-away {
+    display: block;
+    text-decoration: none !important;
+    position: absolute;
+    top: 50%;
+}
+
+#ag-created-by {
+    width: 26px;
+    height: 26px;
+    left: 12px;
+    margin-top: -13px;
+}
+
+#ag-go-away {
+    right: 12px;
+    margin-top: -9px;
+    cursor: pointer;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid rgba(0,0,0,0.4);
+	margin-top: -9px;
+}
+
+.arrow-up:hover {
+    border-bottom: 15px solid rgba(0,0,0,0.6);
+}
+
+.arrow-up:active {
+    border-bottom: 15px solid rgba(0,0,0,0.8);
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid rgba(0,0,0,0.4);
+	margin-top: 23px !important;
+}
+
+.arrow-down:hover {
+    border-top: 15px solid rgba(0,0,0,0.6);
+}
+
+.arrow-down:active {
+    border-top: 15px solid rgba(0,0,0,0.8);
+}
+
+.ag-height0 {
+
+}
+.ag-slid-up, #attention-grabber.ag-slid-up {
+    top: -34px;
+    margin-bottom: -34px;
+}
+
+.ag-height0 #ag-created-by {
+    opacity: 0;
+}
+.ag-height0 #ag-go-away {
+    margin-top: 4px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+@media only screen and (max-width: 980px) {
+    #attention-grabber span, #attention-grabber div {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 950px) {
+    #ag-created-by {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #ag-additional {
+        display: none;
+    }
+    #ag-error {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #attention-grabber {
+        display: none;
+    }
+}
+
+@media print {
+    #attention-grabber {
+        display: none;
+    }
+}

@@ -1,0 +1,201 @@
+/*  ----------------------------------------------------------------------------
+    default wordpress gallery
+*/
+
+/*  ----------------------------------------------------------------------------
+    gallery
+*/
+.gallery {
+  position: relative;
+
+}
+
+
+.gallery-item a,
+.gallery-item a:hover
+{
+  -o-transition: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  transition: none !important;
+}
+
+.gallery-columns-3 .gallery-item {
+  width: 33.3333% !important;
+}
+
+.gallery-columns-2 .gallery-item {
+  width: 50% !important;
+}
+
+
+.gallery-columns-4 .gallery-item {
+  width: 25% !important;
+}
+
+.gallery-item {
+  margin: 0px !important;
+  position: relative;
+  float: left;
+}
+
+.gallery-item img {
+  border: none !important;
+}
+
+body .gallery .gallery-caption {
+
+  //background: transparent url('@{td_css_path}images/bg_black_opacity.png') repeat;
+
+
+  color:white;
+  font-size:16px;
+  font-family: @font1;
+  line-height: 20px;
+  text-decoration: none !important;
+
+  font-style: normal !important;
+
+  position: absolute;
+  bottom:0px;
+  left: 0px;
+  padding: 4px 10px;
+  opacity: 0;
+
+
+  -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+
+  overflow: hidden;
+  max-width: 110px;
+  height:20px;
+}
+
+
+.gallery-item:hover .gallery-caption {
+  opacity: 0.9;
+}
+
+
+
+/*  ----------------------------------------------------------------------------
+    jetpack tile gallery
+*/
+.post .type-square {
+  img {
+    margin: 0px !important;
+  }
+
+  .tiled-gallery-item {
+    overflow: hidden;
+    margin: 1px;
+  }
+
+  .tiled-gallery-caption {
+    //background: transparent url('../images/bg_black_opacity.png') repeat;
+
+
+    color:white;
+    font-size:16px;
+    font-family: @font1;
+    line-height: 20px;
+    text-decoration: none !important;
+  }
+
+
+
+
+}
+
+
+
+
+/*  ----------------------------------------------------------------------------
+    jetpack slideshow
+*/
+
+@td_jetpack_slide_rt_height:300px;
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1018px) {
+  .jetpack-slideshow {
+    height: @td_jetpack_slide_rt_height !important;
+  }
+
+  .jetpack-slideshow .slideshow-slide {
+    height: @td_jetpack_slide_rt_height !important;
+    line-height: @td_jetpack_slide_rt_height !important;
+  }
+};
+
+
+@td_jetpack_slide_custom1_height:350px;
+@media (max-width: 540px) {
+  .jetpack-slideshow {
+    height: @td_jetpack_slide_custom1_height !important;
+  }
+
+  .jetpack-slideshow .slideshow-slide {
+    height: @td_jetpack_slide_custom1_height !important;
+    line-height: @td_jetpack_slide_custom1_height !important;
+  }
+};
+
+
+@td_jetpack_slide_custom2_height:300px;
+@media (max-width: 480px) {
+  .jetpack-slideshow {
+    height: @td_jetpack_slide_custom2_height !important;
+  }
+
+  .jetpack-slideshow .slideshow-slide {
+    height: @td_jetpack_slide_custom2_height !important;
+    line-height: @td_jetpack_slide_custom2_height !important;
+  }
+};
+
+@td_jetpack_slide_custom3_height:250px;
+@media (max-width: 321px) {
+  .jetpack-slideshow {
+    height: @td_jetpack_slide_custom3_height !important;
+  }
+
+  .jetpack-slideshow .slideshow-slide {
+    height: @td_jetpack_slide_custom3_height !important;
+    line-height: @td_jetpack_slide_custom3_height !important;
+  }
+};
+
+
+.jetpack-slideshow {
+  background-color: transparent !important;
+  margin: 0px !important;
+  border: none !important;
+  margin-bottom: @baseLineHeight !important;
+  border-radius: 0px !important;
+  /* responsive phone */
+  @media (max-width: 767px) {
+      .mx_image_background();
+  }
+}
+
+div.slideshow-slide {
+  width: 100% !important;
+}
+
+.jetpack-slideshow {
+  .slideshow-slide,
+  .slideshow-slide img
+  {
+    height: auto !important;;
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+  }
+}

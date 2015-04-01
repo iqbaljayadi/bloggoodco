@@ -1,0 +1,92 @@
+/*------------------------------------*\
+    $PAGINATIONS
+\*------------------------------------*/
+
+%current {
+    background-color: $accent;
+    color: white;
+    display: inline-block;
+}
+.pagination{
+    border: none;
+    text-align: center;
+    @include rem(margin, $_2u 0);
+    padding-left: 0;
+
+    .current {
+       @extend %current;
+    }
+
+    a.prev, a.next, .pagination-item a {
+        &:before, &:after{
+            display: inline-block;
+            @include transform(rotate(45deg));
+            @include rem(width, 10px);
+            @include rem(height, 10px);
+            @include rem(margin, 0 $_u4);
+            border-color: $dark;
+            border-width: 2px;
+            @include transition(all .15s linear);
+        }
+
+        &:hover {
+            &:before, &:after{
+                border-color: white;
+            }              
+        }            
+    }        
+
+    a.prev, .pagination-item--prev a {
+        @include rem(margin-right, $_u);
+        
+        &:before {
+            content: '';
+            border-left-style: solid;
+            border-bottom-style: solid;
+        } 
+    }
+
+    a.next, .pagination-item--next a {        
+        @include rem(margin-left, $_u);
+
+        &:after {
+            content: '';
+            border-right-style: solid;
+            border-top-style: solid;                 
+        }
+    } 
+
+    li {
+        @include rem(margin-right, 2px);
+
+        a, span {
+            @include rem(padding, $_u4 $_u2);
+            color: black;
+            @include font-size(16px);
+            font-family: "Arvo";
+            text-transform: uppercase;
+            @include transition(all .15s linear);
+
+            &:hover{
+                background-color: $accent;
+                color: white;                
+            }
+        }
+
+        .page-numbers.dots:hover{
+            background: white;
+            color: $dark;
+        }
+    }
+}
+
+
+/*------------------------------------*\
+    $SINGLE
+\*------------------------------------*/
+
+/*body*/.single .pagination {
+    span {
+        @extend %current;
+    }
+}

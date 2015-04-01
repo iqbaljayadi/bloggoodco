@@ -1,0 +1,425 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);
+.listfusion-lightbox-start html, .listfusion-lightbox-start body, .listfusion-lightbox-start div, .listfusion-lightbox-start span, .listfusion-lightbox-start applet, .listfusion-lightbox-start object, .listfusion-lightbox-start iframe, .listfusion-lightbox-start h1, .listfusion-lightbox-start h2, .listfusion-lightbox-start h3, .listfusion-lightbox-start h4, .listfusion-lightbox-start h5, .listfusion-lightbox-start h6, .listfusion-lightbox-start p, .listfusion-lightbox-start blockquote, .listfusion-lightbox-start pre, .listfusion-lightbox-start a, .listfusion-lightbox-start abbr, .listfusion-lightbox-start acronym, .listfusion-lightbox-start address, .listfusion-lightbox-start big, .listfusion-lightbox-start cite, .listfusion-lightbox-start code, .listfusion-lightbox-start del, .listfusion-lightbox-start dfn, .listfusion-lightbox-start em, .listfusion-lightbox-start img, .listfusion-lightbox-start ins, .listfusion-lightbox-start kbd, .listfusion-lightbox-start q, .listfusion-lightbox-start s, .listfusion-lightbox-start samp,.listfusion-lightbox-start small, .listfusion-lightbox-start strike, .listfusion-lightbox-start strong, .listfusion-lightbox-start sub, .listfusion-lightbox-start sup, .listfusion-lightbox-start tt, .listfusion-lightbox-start var, .listfusion-lightbox-start b, .listfusion-lightbox-start u, .listfusion-lightbox-start i, .listfusion-lightbox-start center, .listfusion-lightbox-start dl, .listfusion-lightbox-start dt, .listfusion-lightbox-start dd, .listfusion-lightbox-start ol, .listfusion-lightbox-start ul, .listfusion-lightbox-start li, .listfusion-lightbox-start fieldset, .listfusion-lightbox-start form, .listfusion-lightbox-start label, .listfusion-lightbox-start legend, .listfusion-lightbox-start table, .listfusion-lightbox-start caption, .listfusion-lightbox-start tbody, .listfusion-lightbox-start tfoot, .listfusion-lightbox-start thead, .listfusion-lightbox-start tr, .listfusion-lightbox-start th, .listfusion-lightbox-start td, .listfusion-lightbox-start article, .listfusion-lightbox-start aside, .listfusion-lightbox-start canvas, .listfusion-lightbox-start details, .listfusion-lightbox-start embed, .listfusion-lightbox-start .listfusion-lightbox-start figure, .listfusion-lightbox-start figcaption, .listfusion-lightbox-start footer, .listfusion-lightbox-start header, .listfusion-lightbox-start hgroup, .listfusion-lightbox-start menu, .listfusion-lightbox-start nav, .listfusion-lightbox-start output, .listfusion-lightbox-start ruby, .listfusion-lightbox-start section, .listfusion-lightbox-start summary, .listfusion-lightbox-start time, .listfusion-lightbox-start mark, .listfusion-lightbox-start audio, .listfusion-lightbox-start video, .listfusion-lightbox-start input[type=submit] {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.listfusion-lightbox-start article, .listfusion-lightbox-start aside, .listfusion-lightbox-start details, .listfusion-lightbox-start figcaption, .listfusion-lightbox-start figure, .listfusion-lightbox-start footer, .listfusion-lightbox-start header, .listfusion-lightbox-start hgroup, .listfusion-lightbox-start menu, .listfusion-lightbox-start nav, .listfusion-lightbox-start section {
+    display: block;
+}
+.listfusion-lightbox-start body {
+    line-height: 1;
+}
+.listfusion-lightbox-start ol, .listfusion-lightbox-start ul {
+    list-style: none;
+}
+.listfusion-lightbox-start blockquote, .listfusion-lightbox-start q {
+    quotes: none;
+}
+.listfusion-lightbox-start blockquote:before, .listfusion-lightbox-start blockquote:after,q:before, .listfusion-lightbox-start q:after {
+    content: '';
+    content: none;
+}
+.listfusion-lightbox-start table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.listfusion-lightbox-start *: not([type=submit]) {
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+}
+.listfusion-lightbox-start .fluid-width-video-container {
+    width: 1000px;
+}
+.listfusion-lightbox-start input[type=text] {
+    color: black;
+}
+.listfusion-lightbox-start .powered a {
+    font-weight: bold;
+    color: #FFF;
+}
+.listfusion-lightbox-start {
+    height: 100%;
+    min-height: 350px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+	min-height: 520px;
+    min-width: 910px;
+}
+.listfusion-lightbox-start .lightbox-overlay {
+    background-image: url('%plugin-url%user-lib/popup/%popup-style%/images/trans-bgx.png');
+    height: 100%;
+    min-height: 350px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div {
+    z-index: 1000;
+}
+.listfusion-lightbox-start .powered {
+    clear: both;
+    text-align: center;
+    padding-top: 30px;
+    display: block;
+    width: 830px;
+}
+.listfusion-lightbox-start .powered a {
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #000;
+    color: #fff;
+    font-size: 12px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+.listfusion-lightbox-start .powered a:hover {
+    text-decoration: underline;
+}
+.listfusion-lightbox-start .listfusion-close-lightbox {
+    position: absolute;
+    background-image: url('%plugin-url%user-lib/popup/%popup-style%/images/lightbox-close.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    top: -15px;
+    right: -15px;
+    height: 30px;
+    width: 30px;
+    background-size: 100%;
+}
+.listfusion-lightbox-start .listfusion-close-lightbox:hover {
+    background-position: left top;
+}
+.listfusion-lightbox-start .listfusion-close-lightbox span {
+    display: none;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div {
+    color: #fff;
+    width: 830px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+	background:rgba(18, 17, 17, 0.5);
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-top {
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-top-content {
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding-bottom: 10px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-top p.heading {
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    color: #fff;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-top .bullet-listx {
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: 20px;
+    padding-top: 0px;
+    width: 100%;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-top ul.bullet-list {
+    float: left;
+    margin-left: 50%;
+    margin-right: -25%;
+    position: relative;
+    list-style: none;
+    color: #000000;
+    max-width: 340px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-top ul.bullet-list li {
+    right: 50%;
+    position: relative;
+    font-size: 14px;
+    min-height: 24px;
+    display: block;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    background-image: url('%plugin-url%user-lib/popup/%popup-style%/images/bullet.png');
+    background-position: 0px 1px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    margin-bottom: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.listfusion-lightbox-start .lightbox-middle-bar p.heading2 {
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 60px;
+    text-shadow: 0px 1px 0px #000;
+    color: #ff5700;
+}
+.listfusion-lightbox-start .lightbox-bottom {
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 0px;
+    padding-top: 30px;
+}
+.listfusion-lightbox-start .lightbox-video {
+    background-repeat: no-repeat;
+    background-position: right center;
+    float: left;
+    width: 530px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-info {
+    height: 230px;
+    float: left;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-info h1 {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    color: #002753;
+    font-weight: normal;
+    letter-spacing: -1px;
+    text-shadow: 0px 1px 0px #fff;
+    margin-bottom: 45px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-info .green-ticks {
+    list-style: none;
+    margin-top: 20px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-info .green-ticks li {
+    background-image: url('%plugin-url%user-lib/popup/%popup-style%/images/green-tick.png');
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    color: #002753;
+    font-weight: normal;
+    letter-spacing: -1px;
+    text-shadow: 0px 1px 0px #fff;
+    background-position: left center;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-info .discover {
+    background-image: url('%plugin-url%user-lib/popup/%popup-style%/images/discover.png');
+    background-repeat: no-repeat;
+    height: 12px;
+    width: 176px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-info .discover span {
+    display: none;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-signup {
+    height: 260px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 50px;
+    width: 250px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-signup p.get-free {
+    font-size: 16px;
+    line-height: 21px;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    color: #fff;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 25px;
+    text-shadow: 0px 1px 0px #000;
+}
+.lightbox-clear {
+    clear: both;
+}
+.listfusion-lightbox-start .lightbox-bottom .form {
+    float: right;
+    width: 270px;
+}
+.listfusion-lightbox-start .lightbox-bottom input[type="text"] {
+    margin-bottom: 10px;
+    border: 0px;
+    line-height: 20px;
+    padding: 8px 40px 8px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 206px;
+    border: 2px solid #fff;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-size: 14px;
+    background-color: #fff;
+    margin-top: 10px;
+    background-position: left top;
+    outline: none;
+    color: #888888;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    background-image: url('%plugin-url%user-lib/popup/%popup-style%/images/icons.png');
+    background-repeat: no-repeat;
+    background-position: 224px 10px;
+}
+.listfusion-lightbox-start .lightbox-bottom input[type="text"].email {
+    background-position: 224px -44px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.listfusion-lightbox-start .lightbox-bottom input[type="submit"] {
+    width: 260px;
+    height: 49px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-weight: bold;
+    line-height: 45px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    border-top: 1px solid #ffba69;
+    border: 1px solid #394045;
+	text-shadow: 0px 0px 1px #5F5F5F;
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    -o-box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+}
+.listfusion-lightbox-start .lightbox-bottom input[type="submit"].listfusion-submit-btn {
+    background: #%btm-from-color%;
+    background: -moz-linear-gradient(top, #%btm-from-color% 0%, #%btm-to-color% 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #%btm-from-color%), color-stop(100%, #%btm-to-color%));
+    background: -webkit-linear-gradient(top, #%btm-from-color% 0%, #%btm-to-color% 100%);
+    background: -o-linear-gradient(top, #%btm-from-color% 0%, #%btm-to-color% 100%);
+    background: -ms-linear-gradient(top, #%btm-from-color% 0%, #%btm-to-color% 100%);
+    background: linear-gradient(to bottom, #%btm-from-color% 0%, #%btm-to-color% 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#%btm-from-color%', endColorstr='#%btm-to-color%', GradientType=0 );
+    padding: 0px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: %btm-size%px;
+    color: #%btm-text-color%;
+    font-family: "Open Sans", Georgia, Times, serif;
+}
+.listfusion-lightbox-start .lightbox-bottom input[type="submit"].listfusion-submit-btn:hover {
+    background: #%btm-from-hover-color%;
+    background: -moz-linear-gradient(top, #%btm-from-hover-color% 0%, #%btm-to-hover-color% 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #%btm-from-hover-color%), color-stop(100%, #%btm-to-hover-color%));
+    background: -webkit-linear-gradient(top, #%btm-from-hover-color% 0%, #%btm-to-hover-color% 100%);
+    background: -o-linear-gradient(top, #%btm-from-hover-color% 0%, #%btm-to-hover-color% 100%);
+    background: -ms-linear-gradient(top, #%btm-from-hover-color% 0%, #%btm-to-hover-color% 100%);
+    background: linear-gradient(to bottom, #%btm-from-hover-color% 0%, #%btm-to-hover-color% 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#%btm-from-hover-color%', endColorstr='#%btm-to-hover-color%', GradientType=0 );
+}
+.listfusion-lightbox-start .lightbox-bottom .secure {
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 17px;
+    font-weight: bold;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    left: -9px;
+    text-align: center;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    color: #8e8e8e;
+}
+.listfusion-lightbox-start .lightbox-bottom .secure img {
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+.listfusion-lightbox-start .pwd a {
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-weight: normal;
+    color: #FFF;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+	padding-top:20px;
+	float:right;
+}
+.listfusion-lightbox-start .aplbpop_social {
+    display: inline-block;
+    padding: 5px 5px;
+    vertical-align: middle;
+	float:left;
+}
+.listfusion-lightbox-start .lightbox-video iframe {
+	width:530px;
+	height:315px;
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+.listfusion-lightbox-start .listfusion-lightbox-main-div {
+	width:65%;
+}
+.listfusion-lightbox-start .lightbox-video {
+	 width: 50%;
+}
+.listfusion-lightbox-start .lightbox-bottom .form {
+	float: left;
+	padding-left: 30px;
+	width: 30%;
+}
+.listfusion-lightbox-start .lightbox-video iframe {
+    height: 315px;
+    width: 100%;
+}
+
+.listfusion-lightbox-start .lightbox-bottom .secure {
+    width: 135%;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-top p.heading {
+    width: 135%;
+}
+}
+@media screen and (max-width: 480px) {
+.listfusion-lightbox-start .listfusion-lightbox-main-div {
+	width:28%;
+}
+.listfusion-lightbox-start .lightbox-video {
+	 width: 100%;
+	 float:none;
+}
+
+.listfusion-lightbox-start .lightbox-bottom .form {
+    float: left;
+    padding-left: 0px;
+    width: 30%;
+}
+.listfusion-lightbox-start .lightbox-video iframe {
+    height: auto;
+    width: 100%;
+}
+
+.listfusion-lightbox-start .lightbox-bottom .secure {
+    width: 135%;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-top p.heading {
+    width: 135%;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-top {
+	display:none;
+}
+.listfusion-lightbox-start .lightbox-bottom .secure {
+	display:none;
+}
+}

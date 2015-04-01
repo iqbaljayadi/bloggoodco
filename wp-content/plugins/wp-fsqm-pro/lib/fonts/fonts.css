@@ -1,0 +1,1410 @@
+@font-face {
+	font-family: 'ipt-plugin-uif';
+	src:url('ipt-plugin-uif.eot');
+	src:url('ipt-plugin-uif.eot?#iefix') format('embedded-opentype'),
+		url('ipt-plugin-uif.woff?') format('woff'),
+		url('ipt-plugin-uif.ttf?') format('truetype'),
+		url('ipt-plugin-uif.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+.ipt_uif_common [data-icon]:before {
+	font-family: 'ipt-plugin-uif';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	line-height: inherit;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Fix for Fontello framework or some fontawesome stuff */
+.ipt_uif_common [class^="icon-"]:before,
+.ipt_uif_common [class*=" icon-"]:before {
+	display: inline;
+	font-family: 'ipt-plugin-uif';
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: inherit;
+	margin: 0;
+	padding: 0;
+	text-align: inherit;
+	text-decoration: inherit;
+	text-transform: none;
+	width: auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.ipt_uif_common .icon-home:before, .ipt_uif_common .icon-home-2:before, .ipt_uif_common .icon-home-3:before, .ipt_uif_common .icon-office:before, .ipt_uif_common .icon-newspaper:before, .ipt_uif_common .icon-pencil:before, .ipt_uif_common .icon-quill:before, .ipt_uif_common .icon-pen:before, .ipt_uif_common .icon-blog:before, .ipt_uif_common .icon-droplet:before, .ipt_uif_common .icon-paint-format:before, .ipt_uif_common .icon-image:before, .ipt_uif_common .icon-headphones:before, .ipt_uif_common .icon-play:before, .ipt_uif_common .icon-camera:before, .ipt_uif_common .icon-dice:before, .ipt_uif_common .icon-pacman:before, .ipt_uif_common .icon-spades:before, .ipt_uif_common .icon-clubs:before, .ipt_uif_common .icon-diamonds:before, .ipt_uif_common .icon-pawn:before, .ipt_uif_common .icon-bullhorn:before, .ipt_uif_common .icon-connection:before, .ipt_uif_common .icon-podcast:before, .ipt_uif_common .icon-feed:before, .ipt_uif_common .icon-book:before, .ipt_uif_common .icon-books:before, .ipt_uif_common .icon-library:before, .ipt_uif_common .icon-file:before, .ipt_uif_common .icon-file-2:before, .ipt_uif_common .icon-copy:before, .ipt_uif_common .icon-copy-2:before, .ipt_uif_common .icon-paste:before, .ipt_uif_common .icon-paste-2:before, .ipt_uif_common .icon-paste-3:before, .ipt_uif_common .icon-stack:before, .ipt_uif_common .icon-folder:before, .ipt_uif_common .icon-folder-open:before, .ipt_uif_common .icon-tag:before, .ipt_uif_common .icon-tags:before, .ipt_uif_common .icon-barcode:before, .ipt_uif_common .icon-qrcode:before, .ipt_uif_common .icon-ticket:before, .ipt_uif_common .icon-cart:before, .ipt_uif_common .icon-cart-2:before, .ipt_uif_common .icon-coin:before, .ipt_uif_common .icon-credit:before, .ipt_uif_common .icon-calculate:before, .ipt_uif_common .icon-support:before, .ipt_uif_common .icon-phone:before, .ipt_uif_common .icon-phone-hang-up:before, .ipt_uif_common .icon-address-book:before, .ipt_uif_common .icon-notebook:before, .ipt_uif_common .icon-envelop:before, .ipt_uif_common .icon-pushpin:before, .ipt_uif_common .icon-location:before, .ipt_uif_common .icon-location-2:before, .ipt_uif_common .icon-compass:before, .ipt_uif_common .icon-map:before, .ipt_uif_common .icon-map-2:before, .ipt_uif_common .icon-history:before, .ipt_uif_common .icon-clock:before, .ipt_uif_common .icon-clock-2:before, .ipt_uif_common .icon-alarm:before, .ipt_uif_common .icon-alarm-2:before, .ipt_uif_common .icon-bell:before, .ipt_uif_common .icon-stopwatch:before, .ipt_uif_common .icon-calendar:before, .ipt_uif_common .icon-calendar-2:before, .ipt_uif_common .icon-print:before, .ipt_uif_common .icon-keyboard:before, .ipt_uif_common .icon-laptop:before, .ipt_uif_common .icon-mobile:before, .ipt_uif_common .icon-tv:before, .ipt_uif_common .icon-drawer:before, .ipt_uif_common .icon-drawer-2:before, .ipt_uif_common .icon-drawer-3:before, .ipt_uif_common .icon-box-add:before, .ipt_uif_common .icon-box-remove:before, .ipt_uif_common .icon-download:before, .ipt_uif_common .icon-upload:before, .ipt_uif_common .icon-storage:before, .ipt_uif_common .icon-undo:before, .ipt_uif_common .icon-redo:before, .ipt_uif_common .icon-flip:before, .ipt_uif_common .icon-flip-2:before, .ipt_uif_common .icon-undo-2:before, .ipt_uif_common .icon-redo-2:before, .ipt_uif_common .icon-forward:before, .ipt_uif_common .icon-reply:before, .ipt_uif_common .icon-bubbles:before, .ipt_uif_common .icon-bubbles-2:before, .ipt_uif_common .icon-bubble:before, .ipt_uif_common .icon-bubbles-3:before, .ipt_uif_common .icon-bubbles-4:before, .ipt_uif_common .icon-users:before, .ipt_uif_common .icon-user:before, .ipt_uif_common .icon-users-2:before, .ipt_uif_common .icon-user-2:before, .ipt_uif_common .icon-user-3:before, .ipt_uif_common .icon-quotes-left:before, .ipt_uif_common .icon-busy:before, .ipt_uif_common .icon-spinner:before, .ipt_uif_common .icon-spinner-2:before, .ipt_uif_common .icon-spinner-3:before, .ipt_uif_common .icon-spinner-4:before, .ipt_uif_common .icon-spinner-5:before, .ipt_uif_common .icon-binoculars:before, .ipt_uif_common .icon-search:before, .ipt_uif_common .icon-zoom-in:before, .ipt_uif_common .icon-zoom-out:before, .ipt_uif_common .icon-contract:before, .ipt_uif_common .icon-expand:before, .ipt_uif_common .icon-contract-2:before, .ipt_uif_common .icon-key:before, .ipt_uif_common .icon-key-2:before, .ipt_uif_common .icon-lock:before, .ipt_uif_common .icon-lock-2:before, .ipt_uif_common .icon-unlocked:before, .ipt_uif_common .icon-wrench:before, .ipt_uif_common .icon-equalizer:before, .ipt_uif_common .icon-cogs:before, .ipt_uif_common .icon-cog:before, .ipt_uif_common .icon-hammer:before, .ipt_uif_common .icon-wand:before, .ipt_uif_common .icon-aid:before, .ipt_uif_common .icon-bug:before, .ipt_uif_common .icon-pie:before, .ipt_uif_common .icon-stats:before, .ipt_uif_common .icon-bars:before, .ipt_uif_common .icon-gift:before, .ipt_uif_common .icon-trophy:before, .ipt_uif_common .icon-glass:before, .ipt_uif_common .icon-mug:before, .ipt_uif_common .icon-food:before, .ipt_uif_common .icon-leaf:before, .ipt_uif_common .icon-rocket:before, .ipt_uif_common .icon-meter2:before, .ipt_uif_common .icon-dashboard:before, .ipt_uif_common .icon-hammer-2:before, .ipt_uif_common .icon-fire:before, .ipt_uif_common .icon-lab:before, .ipt_uif_common .icon-magnet:before, .ipt_uif_common .icon-remove:before, .ipt_uif_common .icon-remove-2:before, .ipt_uif_common .icon-briefcase:before, .ipt_uif_common .icon-airplane:before, .ipt_uif_common .icon-truck:before, .ipt_uif_common .icon-road:before, .ipt_uif_common .icon-accessibility:before, .ipt_uif_common .icon-target:before, .ipt_uif_common .icon-shield:before, .ipt_uif_common .icon-lightning:before, .ipt_uif_common .icon-switch:before, .ipt_uif_common .icon-power-cord:before, .ipt_uif_common .icon-signup:before, .ipt_uif_common .icon-list:before, .ipt_uif_common .icon-menu:before, .ipt_uif_common .icon-tree:before, .ipt_uif_common .icon-cloud:before, .ipt_uif_common .icon-cloud-download:before, .ipt_uif_common .icon-cloud-upload:before, .ipt_uif_common .icon-download-2:before, .ipt_uif_common .icon-upload-2:before, .ipt_uif_common .icon-download-3:before, .ipt_uif_common .icon-upload-3:before, .ipt_uif_common .icon-globe:before, .ipt_uif_common .icon-earth:before, .ipt_uif_common .icon-link:before, .ipt_uif_common .icon-flag:before, .ipt_uif_common .icon-attachment:before, .ipt_uif_common .icon-eye:before, .ipt_uif_common .icon-eye-blocked:before, .ipt_uif_common .icon-eye-2:before, .ipt_uif_common .icon-bookmark:before, .ipt_uif_common .icon-bookmarks:before, .ipt_uif_common .icon-brightness-medium:before, .ipt_uif_common .icon-brightness-contrast:before, .ipt_uif_common .icon-contrast:before, .ipt_uif_common .icon-star:before, .ipt_uif_common .icon-star-2:before, .ipt_uif_common .icon-star-3:before, .ipt_uif_common .icon-heart:before, .ipt_uif_common .icon-heart-2:before, .ipt_uif_common .icon-heart-broken:before, .ipt_uif_common .icon-thumbs-up:before, .ipt_uif_common .icon-thumbs-up-2:before, .ipt_uif_common .icon-happy:before, .ipt_uif_common .icon-happy-2:before, .ipt_uif_common .icon-smiley:before, .ipt_uif_common .icon-smiley-2:before, .ipt_uif_common .icon-tongue:before, .ipt_uif_common .icon-tongue-2:before, .ipt_uif_common .icon-sad:before, .ipt_uif_common .icon-sad-2:before, .ipt_uif_common .icon-wink:before, .ipt_uif_common .icon-wink-2:before, .ipt_uif_common .icon-grin:before, .ipt_uif_common .icon-grin-2:before, .ipt_uif_common .icon-cool:before, .ipt_uif_common .icon-cool-2:before, .ipt_uif_common .icon-angry:before, .ipt_uif_common .icon-angry-2:before, .ipt_uif_common .icon-evil:before, .ipt_uif_common .icon-evil-2:before, .ipt_uif_common .icon-shocked:before, .ipt_uif_common .icon-shocked-2:before, .ipt_uif_common .icon-confused:before, .ipt_uif_common .icon-confused-2:before, .ipt_uif_common .icon-neutral:before, .ipt_uif_common .icon-neutral-2:before, .ipt_uif_common .icon-wondering:before, .ipt_uif_common .icon-wondering-2:before, .ipt_uif_common .icon-point-up:before, .ipt_uif_common .icon-point-right:before, .ipt_uif_common .icon-point-down:before, .ipt_uif_common .icon-point-left:before, .ipt_uif_common .icon-warning:before, .ipt_uif_common .icon-notification:before, .ipt_uif_common .icon-question:before, .ipt_uif_common .icon-info:before, .ipt_uif_common .icon-info-2:before, .ipt_uif_common .icon-blocked:before, .ipt_uif_common .icon-cancel-circle:before, .ipt_uif_common .icon-checkmark-circle:before, .ipt_uif_common .icon-spam:before, .ipt_uif_common .icon-close:before, .ipt_uif_common .icon-spell-check:before, .ipt_uif_common .icon-minus:before, .ipt_uif_common .icon-plus:before, .ipt_uif_common .icon-enter:before, .ipt_uif_common .icon-exit:before, .ipt_uif_common .icon-play-2:before, .ipt_uif_common .icon-pause:before, .ipt_uif_common .icon-stop:before, .ipt_uif_common .icon-backward:before, .ipt_uif_common .icon-forward-2:before, .ipt_uif_common .icon-play-3:before, .ipt_uif_common .icon-pause-2:before, .ipt_uif_common .icon-stop-2:before, .ipt_uif_common .icon-backward-2:before, .ipt_uif_common .icon-forward-3:before, .ipt_uif_common .icon-first:before, .ipt_uif_common .icon-last:before, .ipt_uif_common .icon-previous:before, .ipt_uif_common .icon-next:before, .ipt_uif_common .icon-eject:before, .ipt_uif_common .icon-volume-high:before, .ipt_uif_common .icon-volume-medium:before, .ipt_uif_common .icon-volume-low:before, .ipt_uif_common .icon-volume-mute:before, .ipt_uif_common .icon-volume-mute-2:before, .ipt_uif_common .icon-volume-increase:before, .ipt_uif_common .icon-volume-decrease:before, .ipt_uif_common .icon-loop:before, .ipt_uif_common .icon-loop-2:before, .ipt_uif_common .icon-loop-3:before, .ipt_uif_common .icon-shuffle:before, .ipt_uif_common .icon-arrow-up-left:before, .ipt_uif_common .icon-arrow-up:before, .ipt_uif_common .icon-arrow-up-right:before, .ipt_uif_common .icon-arrow-right:before, .ipt_uif_common .icon-arrow-down-right:before, .ipt_uif_common .icon-arrow-down:before, .ipt_uif_common .icon-arrow-down-left:before, .ipt_uif_common .icon-arrow-left:before, .ipt_uif_common .icon-arrow-up-left-2:before, .ipt_uif_common .icon-arrow-up-2:before, .ipt_uif_common .icon-arrow-up-right-2:before, .ipt_uif_common .icon-arrow-right-2:before, .ipt_uif_common .icon-arrow-down-right-2:before, .ipt_uif_common .icon-arrow-down-2:before, .ipt_uif_common .icon-arrow-down-left-2:before, .ipt_uif_common .icon-arrow-left-2:before, .ipt_uif_common .icon-arrow-up-left-3:before, .ipt_uif_common .icon-arrow-up-3:before, .ipt_uif_common .icon-arrow-up-right-3:before, .ipt_uif_common .icon-arrow-right-3:before, .ipt_uif_common .icon-arrow-down-right-3:before, .ipt_uif_common .icon-arrow-down-3:before, .ipt_uif_common .icon-arrow-down-left-3:before, .ipt_uif_common .icon-arrow-left-3:before, .ipt_uif_common .icon-tab:before, .ipt_uif_common .icon-checkbox-unchecked:before, .ipt_uif_common .icon-checkbox-partial:before, .ipt_uif_common .icon-crop:before, .ipt_uif_common .icon-scissors:before, .ipt_uif_common .icon-filter:before, .ipt_uif_common .icon-filter-2:before, .ipt_uif_common .icon-font:before, .ipt_uif_common .icon-text-height:before, .ipt_uif_common .icon-text-width:before, .ipt_uif_common .icon-bold:before, .ipt_uif_common .icon-underline:before, .ipt_uif_common .icon-italic:before, .ipt_uif_common .icon-strikethrough:before, .ipt_uif_common .icon-omega:before, .ipt_uif_common .icon-sigma:before, .ipt_uif_common .icon-table:before, .ipt_uif_common .icon-pilcrow:before, .ipt_uif_common .icon-left-to-right:before, .ipt_uif_common .icon-right-to-left:before, .ipt_uif_common .icon-console:before, .ipt_uif_common .icon-share:before, .ipt_uif_common .icon-mail:before, .ipt_uif_common .icon-mail-2:before, .ipt_uif_common .icon-google:before, .ipt_uif_common .icon-google-plus:before, .ipt_uif_common .icon-google-plus-2:before, .ipt_uif_common .icon-google-plus-3:before, .ipt_uif_common .icon-google-drive:before, .ipt_uif_common .icon-facebook:before, .ipt_uif_common .icon-facebook-2:before, .ipt_uif_common .icon-instagram:before, .ipt_uif_common .icon-twitter:before, .ipt_uif_common .icon-twitter-2:before, .ipt_uif_common .icon-feed-2:before, .ipt_uif_common .icon-feed-3:before, .ipt_uif_common .icon-youtube:before, .ipt_uif_common .icon-vimeo:before, .ipt_uif_common .icon-vimeo-2:before, .ipt_uif_common .icon-lanyrd:before, .ipt_uif_common .icon-flickr:before, .ipt_uif_common .icon-flickr-2:before, .ipt_uif_common .icon-flickr-3:before, .ipt_uif_common .icon-picassa:before, .ipt_uif_common .icon-dribbble:before, .ipt_uif_common .icon-dribbble-2:before, .ipt_uif_common .icon-dribbble-3:before, .ipt_uif_common .icon-forrst:before, .ipt_uif_common .icon-forrst-2:before, .ipt_uif_common .icon-deviantart:before, .ipt_uif_common .icon-deviantart-2:before, .ipt_uif_common .icon-steam:before, .ipt_uif_common .icon-github:before, .ipt_uif_common .icon-github-2:before, .ipt_uif_common .icon-github-3:before, .ipt_uif_common .icon-github-4:before, .ipt_uif_common .icon-wordpress:before, .ipt_uif_common .icon-joomla:before, .ipt_uif_common .icon-blogger:before, .ipt_uif_common .icon-tumblr:before, .ipt_uif_common .icon-tumblr-2:before, .ipt_uif_common .icon-yahoo:before, .ipt_uif_common .icon-tux:before, .ipt_uif_common .icon-finder:before, .ipt_uif_common .icon-windows:before, .ipt_uif_common .icon-soundcloud:before, .ipt_uif_common .icon-soundcloud-2:before, .ipt_uif_common .icon-reddit:before, .ipt_uif_common .icon-lastfm:before, .ipt_uif_common .icon-stumbleupon:before, .ipt_uif_common .icon-stackoverflow:before, .ipt_uif_common .icon-pinterest:before, .ipt_uif_common .icon-xing:before, .ipt_uif_common .icon-xing-2:before, .ipt_uif_common .icon-foursquare:before, .ipt_uif_common .icon-foursquare-2:before, .ipt_uif_common .icon-paypal:before, .ipt_uif_common .icon-paypal-2:before, .ipt_uif_common .icon-yelp:before, .ipt_uif_common .icon-libreoffice:before, .ipt_uif_common .icon-file-pdf:before, .ipt_uif_common .icon-file-openoffice:before, .ipt_uif_common .icon-file-zip:before, .ipt_uif_common .icon-file-powerpoint:before, .ipt_uif_common .icon-file-xml:before, .ipt_uif_common .icon-file-css:before, .ipt_uif_common .icon-html5:before, .ipt_uif_common .icon-css3:before, .ipt_uif_common .icon-IcoMoon:before, .ipt_uif_common .icon-pencil-2:before, .ipt_uif_common .icon-image-2:before, .ipt_uif_common .icon-images:before, .ipt_uif_common .icon-camera-2:before, .ipt_uif_common .icon-film:before, .ipt_uif_common .icon-profile:before, .ipt_uif_common .icon-file-3:before, .ipt_uif_common .icon-file-4:before, .ipt_uif_common .icon-copy-3:before, .ipt_uif_common .icon-cart-3:before, .ipt_uif_common .icon-screen:before, .ipt_uif_common .icon-mobile-2:before, .ipt_uif_common .icon-tablet:before, .ipt_uif_common .icon-cabinet:before, .ipt_uif_common .icon-music:before, .ipt_uif_common .icon-spinner-6:before, .ipt_uif_common .icon-bubble-2:before, .ipt_uif_common .icon-disk:before, .ipt_uif_common .icon-user-4:before, .ipt_uif_common .icon-expand-2:before, .ipt_uif_common .icon-settings:before, .ipt_uif_common .icon-cog-2:before, .ipt_uif_common .icon-bars-2:before, .ipt_uif_common .icon-meter:before, .ipt_uif_common .icon-list-2:before, .ipt_uif_common .icon-numbered-list:before, .ipt_uif_common .icon-menu-2:before, .ipt_uif_common .icon-checkmark:before, .ipt_uif_common .icon-checkmark-2:before, .ipt_uif_common .icon-radio-checked:before, .ipt_uif_common .icon-radio-unchecked:before, .ipt_uif_common .icon-checkbox-checked:before, .ipt_uif_common .icon-table-2:before, .ipt_uif_common .icon-insert-template:before, .ipt_uif_common .icon-code:before, .ipt_uif_common .icon-embed:before, .ipt_uif_common .icon-new-tab:before, .ipt_uif_common .icon-indent-decrease:before, .ipt_uif_common .icon-indent-increase:before, .ipt_uif_common .icon-paragraph-justify:before, .ipt_uif_common .icon-paragraph-right:before, .ipt_uif_common .icon-paragraph-center:before, .ipt_uif_common .icon-paragraph-left:before, .ipt_uif_common .icon-paragraph-justify-2:before, .ipt_uif_common .icon-paragraph-right-2:before, .ipt_uif_common .icon-paragraph-center-2:before, .ipt_uif_common .icon-paragraph-left-2:before, .ipt_uif_common .icon-mail-3:before, .ipt_uif_common .icon-twitter-3:before, .ipt_uif_common .icon-mail-4:before, .ipt_uif_common .icon-feed-4:before, .ipt_uif_common .icon-youtube-2:before, .ipt_uif_common .icon-vimeo2:before, .ipt_uif_common .icon-flickr-4:before, .ipt_uif_common .icon-facebook-3:before, .ipt_uif_common .icon-google-plus-4:before, .ipt_uif_common .icon-picassa-2:before, .ipt_uif_common .icon-wordpress-2:before, .ipt_uif_common .icon-github-5:before, .ipt_uif_common .icon-steam-2:before, .ipt_uif_common .icon-blogger-2:before, .ipt_uif_common .icon-apple:before, .ipt_uif_common .icon-android:before, .ipt_uif_common .icon-windows8:before, .ipt_uif_common .icon-skype:before, .ipt_uif_common .icon-linkedin:before, .ipt_uif_common .icon-paypal-3:before, .ipt_uif_common .icon-flattr:before, .ipt_uif_common .icon-pinterest-2:before, .ipt_uif_common .icon-stumbleupon-2:before, .ipt_uif_common .icon-delicious:before, .ipt_uif_common .icon-lastfm-2:before, .ipt_uif_common .icon-file-word:before, .ipt_uif_common .icon-file-excel:before, .ipt_uif_common .icon-html5-2:before, .ipt_uif_common .icon-chrome:before, .ipt_uif_common .icon-firefox:before, .ipt_uif_common .icon-IE:before, .ipt_uif_common .icon-safari:before, .ipt_uif_common .icon-opera:before {
+	font-family: 'ipt-plugin-uif';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: inherit;
+	-webkit-font-smoothing: antialiased;
+}
+.ipt_uif_common .icon-home:before {
+	content: "\e000";
+}
+.ipt_uif_common .icon-home-2:before {
+	content: "\e051";
+}
+.ipt_uif_common .icon-home-3:before {
+	content: "\e052";
+}
+.ipt_uif_common .icon-office:before {
+	content: "\e053";
+}
+.ipt_uif_common .icon-newspaper:before {
+	content: "\e054";
+}
+.ipt_uif_common .icon-pencil:before {
+	content: "\e001";
+}
+.ipt_uif_common .icon-quill:before {
+	content: "\e055";
+}
+.ipt_uif_common .icon-pen:before {
+	content: "\e056";
+}
+.ipt_uif_common .icon-blog:before {
+	content: "\e057";
+}
+.ipt_uif_common .icon-droplet:before {
+	content: "\e058";
+}
+.ipt_uif_common .icon-paint-format:before {
+	content: "\e059";
+}
+.ipt_uif_common .icon-image:before {
+	content: "\e002";
+}
+.ipt_uif_common .icon-headphones:before {
+	content: "\e003";
+}
+.ipt_uif_common .icon-play:before {
+	content: "\e004";
+}
+.ipt_uif_common .icon-camera:before {
+	content: "\e005";
+}
+.ipt_uif_common .icon-dice:before {
+	content: "\e04d";
+}
+.ipt_uif_common .icon-pacman:before {
+	content: "\e05a";
+}
+.ipt_uif_common .icon-spades:before {
+	content: "\e05b";
+}
+.ipt_uif_common .icon-clubs:before {
+	content: "\e05c";
+}
+.ipt_uif_common .icon-diamonds:before {
+	content: "\e05d";
+}
+.ipt_uif_common .icon-pawn:before {
+	content: "\e05e";
+}
+.ipt_uif_common .icon-bullhorn:before {
+	content: "\e05f";
+}
+.ipt_uif_common .icon-connection:before {
+	content: "\e060";
+}
+.ipt_uif_common .icon-podcast:before {
+	content: "\e061";
+}
+.ipt_uif_common .icon-feed:before {
+	content: "\e062";
+}
+.ipt_uif_common .icon-book:before {
+	content: "\e063";
+}
+.ipt_uif_common .icon-books:before {
+	content: "\e064";
+}
+.ipt_uif_common .icon-library:before {
+	content: "\e065";
+}
+.ipt_uif_common .icon-file:before {
+	content: "\e006";
+}
+.ipt_uif_common .icon-file-2:before {
+	content: "\e007";
+}
+.ipt_uif_common .icon-copy:before {
+	content: "\e008";
+}
+.ipt_uif_common .icon-copy-2:before {
+	content: "\e009";
+}
+.ipt_uif_common .icon-paste:before {
+	content: "\e066";
+}
+.ipt_uif_common .icon-paste-2:before {
+	content: "\e067";
+}
+.ipt_uif_common .icon-paste-3:before {
+	content: "\e068";
+}
+.ipt_uif_common .icon-stack:before {
+	content: "\e069";
+}
+.ipt_uif_common .icon-folder:before {
+	content: "\e06a";
+}
+.ipt_uif_common .icon-folder-open:before {
+	content: "\e06b";
+}
+.ipt_uif_common .icon-tag:before {
+	content: "\e06c";
+}
+.ipt_uif_common .icon-tags:before {
+	content: "\e06d";
+}
+.ipt_uif_common .icon-barcode:before {
+	content: "\e06e";
+}
+.ipt_uif_common .icon-qrcode:before {
+	content: "\e06f";
+}
+.ipt_uif_common .icon-ticket:before {
+	content: "\e070";
+}
+.ipt_uif_common .icon-cart:before {
+	content: "\e071";
+}
+.ipt_uif_common .icon-cart-2:before {
+	content: "\e00a";
+}
+.ipt_uif_common .icon-coin:before {
+	content: "\e072";
+}
+.ipt_uif_common .icon-credit:before {
+	content: "\e073";
+}
+.ipt_uif_common .icon-calculate:before {
+	content: "\e074";
+}
+.ipt_uif_common .icon-support:before {
+	content: "\e075";
+}
+.ipt_uif_common .icon-phone:before {
+	content: "\e076";
+}
+.ipt_uif_common .icon-phone-hang-up:before {
+	content: "\e077";
+}
+.ipt_uif_common .icon-address-book:before {
+	content: "\e078";
+}
+.ipt_uif_common .icon-notebook:before {
+	content: "\e079";
+}
+.ipt_uif_common .icon-envelop:before {
+	content: "\e07a";
+}
+.ipt_uif_common .icon-pushpin:before {
+	content: "\e07b";
+}
+.ipt_uif_common .icon-location:before {
+	content: "\e07c";
+}
+.ipt_uif_common .icon-location-2:before {
+	content: "\e07d";
+}
+.ipt_uif_common .icon-compass:before {
+	content: "\e07e";
+}
+.ipt_uif_common .icon-map:before {
+	content: "\e07f";
+}
+.ipt_uif_common .icon-map-2:before {
+	content: "\e080";
+}
+.ipt_uif_common .icon-history:before {
+	content: "\e081";
+}
+.ipt_uif_common .icon-clock:before {
+	content: "\e082";
+}
+.ipt_uif_common .icon-clock-2:before {
+	content: "\e083";
+}
+.ipt_uif_common .icon-alarm:before {
+	content: "\e084";
+}
+.ipt_uif_common .icon-alarm-2:before {
+	content: "\e085";
+}
+.ipt_uif_common .icon-bell:before {
+	content: "\e086";
+}
+.ipt_uif_common .icon-stopwatch:before {
+	content: "\e087";
+}
+.ipt_uif_common .icon-calendar:before {
+	content: "\e088";
+}
+.ipt_uif_common .icon-calendar-2:before {
+	content: "\e089";
+}
+.ipt_uif_common .icon-print:before {
+	content: "\e08a";
+}
+.ipt_uif_common .icon-keyboard:before {
+	content: "\e08b";
+}
+.ipt_uif_common .icon-laptop:before {
+	content: "\e00b";
+}
+.ipt_uif_common .icon-mobile:before {
+	content: "\e08c";
+}
+.ipt_uif_common .icon-tv:before {
+	content: "\e00c";
+}
+.ipt_uif_common .icon-drawer:before {
+	content: "\e00d";
+}
+.ipt_uif_common .icon-drawer-2:before {
+	content: "\e00e";
+}
+.ipt_uif_common .icon-drawer-3:before {
+	content: "\e08d";
+}
+.ipt_uif_common .icon-box-add:before {
+	content: "\e08e";
+}
+.ipt_uif_common .icon-box-remove:before {
+	content: "\e08f";
+}
+.ipt_uif_common .icon-download:before {
+	content: "\e090";
+}
+.ipt_uif_common .icon-upload:before {
+	content: "\e091";
+}
+.ipt_uif_common .icon-storage:before {
+	content: "\e00f";
+}
+.ipt_uif_common .icon-undo:before {
+	content: "\e092";
+}
+.ipt_uif_common .icon-redo:before {
+	content: "\e093";
+}
+.ipt_uif_common .icon-flip:before {
+	content: "\e094";
+}
+.ipt_uif_common .icon-flip-2:before {
+	content: "\e095";
+}
+.ipt_uif_common .icon-undo-2:before {
+	content: "\e096";
+}
+.ipt_uif_common .icon-redo-2:before {
+	content: "\e097";
+}
+.ipt_uif_common .icon-forward:before {
+	content: "\e098";
+}
+.ipt_uif_common .icon-reply:before {
+	content: "\e099";
+}
+.ipt_uif_common .icon-bubbles:before {
+	content: "\e010";
+}
+.ipt_uif_common .icon-bubbles-2:before {
+	content: "\e09a";
+}
+.ipt_uif_common .icon-bubble:before {
+	content: "\e09b";
+}
+.ipt_uif_common .icon-bubbles-3:before {
+	content: "\e09c";
+}
+.ipt_uif_common .icon-bubbles-4:before {
+	content: "\e09d";
+}
+.ipt_uif_common .icon-users:before {
+	content: "\e011";
+}
+.ipt_uif_common .icon-user:before {
+	content: "\e09e";
+}
+.ipt_uif_common .icon-users-2:before {
+	content: "\e09f";
+}
+.ipt_uif_common .icon-user-2:before {
+	content: "\e0a0";
+}
+.ipt_uif_common .icon-user-3:before {
+	content: "\e0a1";
+}
+.ipt_uif_common .icon-quotes-left:before {
+	content: "\e0a2";
+}
+.ipt_uif_common .icon-busy:before {
+	content: "\e0a3";
+}
+.ipt_uif_common .icon-spinner:before {
+	content: "\e012";
+}
+.ipt_uif_common .icon-spinner-2:before {
+	content: "\e0a4";
+}
+.ipt_uif_common .icon-spinner-3:before {
+	content: "\e0a5";
+}
+.ipt_uif_common .icon-spinner-4:before {
+	content: "\e0a6";
+}
+.ipt_uif_common .icon-spinner-5:before {
+	content: "\e0a7";
+}
+.ipt_uif_common .icon-binoculars:before {
+	content: "\e0a8";
+}
+.ipt_uif_common .icon-search:before {
+	content: "\e0a9";
+}
+.ipt_uif_common .icon-zoom-in:before {
+	content: "\e0aa";
+}
+.ipt_uif_common .icon-zoom-out:before {
+	content: "\e0ab";
+}
+.ipt_uif_common .icon-contract:before {
+	content: "\e013";
+}
+.ipt_uif_common .icon-expand:before {
+	content: "\e0ac";
+}
+.ipt_uif_common .icon-contract-2:before {
+	content: "\e0ad";
+}
+.ipt_uif_common .icon-key:before {
+	content: "\e0ae";
+}
+.ipt_uif_common .icon-key-2:before {
+	content: "\e0af";
+}
+.ipt_uif_common .icon-lock:before {
+	content: "\e0b0";
+}
+.ipt_uif_common .icon-lock-2:before {
+	content: "\e0b1";
+}
+.ipt_uif_common .icon-unlocked:before {
+	content: "\e0b2";
+}
+.ipt_uif_common .icon-wrench:before {
+	content: "\e0b3";
+}
+.ipt_uif_common .icon-equalizer:before {
+	content: "\e014";
+}
+.ipt_uif_common .icon-cogs:before {
+	content: "\e04c";
+}
+.ipt_uif_common .icon-cog:before {
+	content: "\e0b4";
+}
+.ipt_uif_common .icon-hammer:before {
+	content: "\e0b5";
+}
+.ipt_uif_common .icon-wand:before {
+	content: "\e0b6";
+}
+.ipt_uif_common .icon-aid:before {
+	content: "\e0b7";
+}
+.ipt_uif_common .icon-bug:before {
+	content: "\e0b8";
+}
+.ipt_uif_common .icon-pie:before {
+	content: "\e0b9";
+}
+.ipt_uif_common .icon-stats:before {
+	content: "\e0ba";
+}
+.ipt_uif_common .icon-bars:before {
+	content: "\e015";
+}
+.ipt_uif_common .icon-gift:before {
+	content: "\e0bb";
+}
+.ipt_uif_common .icon-trophy:before {
+	content: "\e0bc";
+}
+.ipt_uif_common .icon-glass:before {
+	content: "\e0bd";
+}
+.ipt_uif_common .icon-mug:before {
+	content: "\e0be";
+}
+.ipt_uif_common .icon-food:before {
+	content: "\e0bf";
+}
+.ipt_uif_common .icon-leaf:before {
+	content: "\e0c0";
+}
+.ipt_uif_common .icon-rocket:before {
+	content: "\e0c1";
+}
+.ipt_uif_common .icon-meter2:before {
+	content: "\e016";
+}
+.ipt_uif_common .icon-dashboard:before {
+	content: "\e0c2";
+}
+.ipt_uif_common .icon-hammer-2:before {
+	content: "\e0c3";
+}
+.ipt_uif_common .icon-fire:before {
+	content: "\e0c4";
+}
+.ipt_uif_common .icon-lab:before {
+	content: "\e0c5";
+}
+.ipt_uif_common .icon-magnet:before {
+	content: "\e0c6";
+}
+.ipt_uif_common .icon-remove:before {
+	content: "\e0c7";
+}
+.ipt_uif_common .icon-remove-2:before {
+	content: "\e0c8";
+}
+.ipt_uif_common .icon-briefcase:before {
+	content: "\e0c9";
+}
+.ipt_uif_common .icon-airplane:before {
+	content: "\e0ca";
+}
+.ipt_uif_common .icon-truck:before {
+	content: "\e0cb";
+}
+.ipt_uif_common .icon-road:before {
+	content: "\e0cc";
+}
+.ipt_uif_common .icon-accessibility:before {
+	content: "\e0cd";
+}
+.ipt_uif_common .icon-target:before {
+	content: "\e0ce";
+}
+.ipt_uif_common .icon-shield:before {
+	content: "\e0cf";
+}
+.ipt_uif_common .icon-lightning:before {
+	content: "\e0d0";
+}
+.ipt_uif_common .icon-switch:before {
+	content: "\e0d1";
+}
+.ipt_uif_common .icon-power-cord:before {
+	content: "\e0d2";
+}
+.ipt_uif_common .icon-signup:before {
+	content: "\e0d3";
+}
+.ipt_uif_common .icon-list:before {
+	content: "\e017";
+}
+.ipt_uif_common .icon-menu:before {
+	content: "\e018";
+}
+.ipt_uif_common .icon-tree:before {
+	content: "\e04b";
+}
+.ipt_uif_common .icon-cloud:before {
+	content: "\e0d4";
+}
+.ipt_uif_common .icon-cloud-download:before {
+	content: "\e0d5";
+}
+.ipt_uif_common .icon-cloud-upload:before {
+	content: "\e0d6";
+}
+.ipt_uif_common .icon-download-2:before {
+	content: "\e0d7";
+}
+.ipt_uif_common .icon-upload-2:before {
+	content: "\e0d8";
+}
+.ipt_uif_common .icon-download-3:before {
+	content: "\e0d9";
+}
+.ipt_uif_common .icon-upload-3:before {
+	content: "\e0da";
+}
+.ipt_uif_common .icon-globe:before {
+	content: "\e0db";
+}
+.ipt_uif_common .icon-earth:before {
+	content: "\e0dc";
+}
+.ipt_uif_common .icon-link:before {
+	content: "\e0dd";
+}
+.ipt_uif_common .icon-flag:before {
+	content: "\e0de";
+}
+.ipt_uif_common .icon-attachment:before {
+	content: "\e0df";
+}
+.ipt_uif_common .icon-eye:before {
+	content: "\e0e0";
+}
+.ipt_uif_common .icon-eye-blocked:before {
+	content: "\e0e1";
+}
+.ipt_uif_common .icon-eye-2:before {
+	content: "\e0e2";
+}
+.ipt_uif_common .icon-bookmark:before {
+	content: "\e0e3";
+}
+.ipt_uif_common .icon-bookmarks:before {
+	content: "\e0e4";
+}
+.ipt_uif_common .icon-brightness-medium:before {
+	content: "\e0e5";
+}
+.ipt_uif_common .icon-brightness-contrast:before {
+	content: "\e0e6";
+}
+.ipt_uif_common .icon-contrast:before {
+	content: "\e0e7";
+}
+.ipt_uif_common .icon-star:before {
+	content: "\e0e8";
+}
+.ipt_uif_common .icon-star-2:before {
+	content: "\e0e9";
+}
+.ipt_uif_common .icon-star-3:before {
+	content: "\e0ea";
+}
+.ipt_uif_common .icon-heart:before {
+	content: "\e0eb";
+}
+.ipt_uif_common .icon-heart-2:before {
+	content: "\e0ec";
+}
+.ipt_uif_common .icon-heart-broken:before {
+	content: "\e0ed";
+}
+.ipt_uif_common .icon-thumbs-up:before {
+	content: "\e0ee";
+}
+.ipt_uif_common .icon-thumbs-up-2:before {
+	content: "\e0ef";
+}
+.ipt_uif_common .icon-happy:before {
+	content: "\e0f0";
+}
+.ipt_uif_common .icon-happy-2:before {
+	content: "\e0f1";
+}
+.ipt_uif_common .icon-smiley:before {
+	content: "\e0f2";
+}
+.ipt_uif_common .icon-smiley-2:before {
+	content: "\e0f3";
+}
+.ipt_uif_common .icon-tongue:before {
+	content: "\e0f4";
+}
+.ipt_uif_common .icon-tongue-2:before {
+	content: "\e0f5";
+}
+.ipt_uif_common .icon-sad:before {
+	content: "\e0f6";
+}
+.ipt_uif_common .icon-sad-2:before {
+	content: "\e0f7";
+}
+.ipt_uif_common .icon-wink:before {
+	content: "\e0f8";
+}
+.ipt_uif_common .icon-wink-2:before {
+	content: "\e0f9";
+}
+.ipt_uif_common .icon-grin:before {
+	content: "\e0fa";
+}
+.ipt_uif_common .icon-grin-2:before {
+	content: "\e0fb";
+}
+.ipt_uif_common .icon-cool:before {
+	content: "\e0fc";
+}
+.ipt_uif_common .icon-cool-2:before {
+	content: "\e0fd";
+}
+.ipt_uif_common .icon-angry:before {
+	content: "\e0fe";
+}
+.ipt_uif_common .icon-angry-2:before {
+	content: "\e0ff";
+}
+.ipt_uif_common .icon-evil:before {
+	content: "\e100";
+}
+.ipt_uif_common .icon-evil-2:before {
+	content: "\e101";
+}
+.ipt_uif_common .icon-shocked:before {
+	content: "\e102";
+}
+.ipt_uif_common .icon-shocked-2:before {
+	content: "\e103";
+}
+.ipt_uif_common .icon-confused:before {
+	content: "\e104";
+}
+.ipt_uif_common .icon-confused-2:before {
+	content: "\e105";
+}
+.ipt_uif_common .icon-neutral:before {
+	content: "\e106";
+}
+.ipt_uif_common .icon-neutral-2:before {
+	content: "\e107";
+}
+.ipt_uif_common .icon-wondering:before {
+	content: "\e108";
+}
+.ipt_uif_common .icon-wondering-2:before {
+	content: "\e109";
+}
+.ipt_uif_common .icon-point-up:before {
+	content: "\e10a";
+}
+.ipt_uif_common .icon-point-right:before {
+	content: "\e10b";
+}
+.ipt_uif_common .icon-point-down:before {
+	content: "\e10c";
+}
+.ipt_uif_common .icon-point-left:before {
+	content: "\e10d";
+}
+.ipt_uif_common .icon-warning:before {
+	content: "\e10e";
+}
+.ipt_uif_common .icon-notification:before {
+	content: "\e10f";
+}
+.ipt_uif_common .icon-question:before {
+	content: "\e110";
+}
+.ipt_uif_common .icon-info:before {
+	content: "\e111";
+}
+.ipt_uif_common .icon-info-2:before {
+	content: "\e112";
+}
+.ipt_uif_common .icon-blocked:before {
+	content: "\e113";
+}
+.ipt_uif_common .icon-cancel-circle:before {
+	content: "\e114";
+}
+.ipt_uif_common .icon-checkmark-circle:before {
+	content: "\e115";
+}
+.ipt_uif_common .icon-spam:before {
+	content: "\e116";
+}
+.ipt_uif_common .icon-close:before {
+	content: "\e117";
+}
+.ipt_uif_common .icon-spell-check:before {
+	content: "\e019";
+}
+.ipt_uif_common .icon-minus:before {
+	content: "\e01a";
+}
+.ipt_uif_common .icon-plus:before {
+	content: "\e118";
+}
+.ipt_uif_common .icon-enter:before {
+	content: "\e119";
+}
+.ipt_uif_common .icon-exit:before {
+	content: "\e11a";
+}
+.ipt_uif_common .icon-play-2:before {
+	content: "\e11b";
+}
+.ipt_uif_common .icon-pause:before {
+	content: "\e11c";
+}
+.ipt_uif_common .icon-stop:before {
+	content: "\e11d";
+}
+.ipt_uif_common .icon-backward:before {
+	content: "\e11e";
+}
+.ipt_uif_common .icon-forward-2:before {
+	content: "\e11f";
+}
+.ipt_uif_common .icon-play-3:before {
+	content: "\e120";
+}
+.ipt_uif_common .icon-pause-2:before {
+	content: "\e121";
+}
+.ipt_uif_common .icon-stop-2:before {
+	content: "\e122";
+}
+.ipt_uif_common .icon-backward-2:before {
+	content: "\e123";
+}
+.ipt_uif_common .icon-forward-3:before {
+	content: "\e124";
+}
+.ipt_uif_common .icon-first:before {
+	content: "\e125";
+}
+.ipt_uif_common .icon-last:before {
+	content: "\e126";
+}
+.ipt_uif_common .icon-previous:before {
+	content: "\e127";
+}
+.ipt_uif_common .icon-next:before {
+	content: "\e128";
+}
+.ipt_uif_common .icon-eject:before {
+	content: "\e129";
+}
+.ipt_uif_common .icon-volume-high:before {
+	content: "\e12a";
+}
+.ipt_uif_common .icon-volume-medium:before {
+	content: "\e12b";
+}
+.ipt_uif_common .icon-volume-low:before {
+	content: "\e12c";
+}
+.ipt_uif_common .icon-volume-mute:before {
+	content: "\e12d";
+}
+.ipt_uif_common .icon-volume-mute-2:before {
+	content: "\e12e";
+}
+.ipt_uif_common .icon-volume-increase:before {
+	content: "\e12f";
+}
+.ipt_uif_common .icon-volume-decrease:before {
+	content: "\e130";
+}
+.ipt_uif_common .icon-loop:before {
+	content: "\e131";
+}
+.ipt_uif_common .icon-loop-2:before {
+	content: "\e132";
+}
+.ipt_uif_common .icon-loop-3:before {
+	content: "\e133";
+}
+.ipt_uif_common .icon-shuffle:before {
+	content: "\e134";
+}
+.ipt_uif_common .icon-arrow-up-left:before {
+	content: "\e135";
+}
+.ipt_uif_common .icon-arrow-up:before {
+	content: "\e136";
+}
+.ipt_uif_common .icon-arrow-up-right:before {
+	content: "\e137";
+}
+.ipt_uif_common .icon-arrow-right:before {
+	content: "\e138";
+}
+.ipt_uif_common .icon-arrow-down-right:before {
+	content: "\e139";
+}
+.ipt_uif_common .icon-arrow-down:before {
+	content: "\e13a";
+}
+.ipt_uif_common .icon-arrow-down-left:before {
+	content: "\e13b";
+}
+.ipt_uif_common .icon-arrow-left:before {
+	content: "\e13c";
+}
+.ipt_uif_common .icon-arrow-up-left-2:before {
+	content: "\e13d";
+}
+.ipt_uif_common .icon-arrow-up-2:before {
+	content: "\e13e";
+}
+.ipt_uif_common .icon-arrow-up-right-2:before {
+	content: "\e13f";
+}
+.ipt_uif_common .icon-arrow-right-2:before {
+	content: "\e140";
+}
+.ipt_uif_common .icon-arrow-down-right-2:before {
+	content: "\e141";
+}
+.ipt_uif_common .icon-arrow-down-2:before {
+	content: "\e142";
+}
+.ipt_uif_common .icon-arrow-down-left-2:before {
+	content: "\e143";
+}
+.ipt_uif_common .icon-arrow-left-2:before {
+	content: "\e144";
+}
+.ipt_uif_common .icon-arrow-up-left-3:before {
+	content: "\e145";
+}
+.ipt_uif_common .icon-arrow-up-3:before {
+	content: "\e146";
+}
+.ipt_uif_common .icon-arrow-up-right-3:before {
+	content: "\e147";
+}
+.ipt_uif_common .icon-arrow-right-3:before {
+	content: "\e148";
+}
+.ipt_uif_common .icon-arrow-down-right-3:before {
+	content: "\e149";
+}
+.ipt_uif_common .icon-arrow-down-3:before {
+	content: "\e14a";
+}
+.ipt_uif_common .icon-arrow-down-left-3:before {
+	content: "\e14b";
+}
+.ipt_uif_common .icon-arrow-left-3:before {
+	content: "\e14c";
+}
+.ipt_uif_common .icon-tab:before {
+	content: "\e14d";
+}
+.ipt_uif_common .icon-checkbox-unchecked:before {
+	content: "\e050";
+}
+.ipt_uif_common .icon-checkbox-partial:before {
+	content: "\e14e";
+}
+.ipt_uif_common .icon-crop:before {
+	content: "\e01b";
+}
+.ipt_uif_common .icon-scissors:before {
+	content: "\e01c";
+}
+.ipt_uif_common .icon-filter:before {
+	content: "\e14f";
+}
+.ipt_uif_common .icon-filter-2:before {
+	content: "\e150";
+}
+.ipt_uif_common .icon-font:before {
+	content: "\e151";
+}
+.ipt_uif_common .icon-text-height:before {
+	content: "\e152";
+}
+.ipt_uif_common .icon-text-width:before {
+	content: "\e153";
+}
+.ipt_uif_common .icon-bold:before {
+	content: "\e154";
+}
+.ipt_uif_common .icon-underline:before {
+	content: "\e155";
+}
+.ipt_uif_common .icon-italic:before {
+	content: "\e156";
+}
+.ipt_uif_common .icon-strikethrough:before {
+	content: "\e157";
+}
+.ipt_uif_common .icon-omega:before {
+	content: "\e158";
+}
+.ipt_uif_common .icon-sigma:before {
+	content: "\e159";
+}
+.ipt_uif_common .icon-table:before {
+	content: "\e021";
+}
+.ipt_uif_common .icon-pilcrow:before {
+	content: "\e04f";
+}
+.ipt_uif_common .icon-left-to-right:before {
+	content: "\e15a";
+}
+.ipt_uif_common .icon-right-to-left:before {
+	content: "\e15b";
+}
+.ipt_uif_common .icon-console:before {
+	content: "\e01d";
+}
+.ipt_uif_common .icon-share:before {
+	content: "\e01e";
+}
+.ipt_uif_common .icon-mail:before {
+	content: "\e01f";
+}
+.ipt_uif_common .icon-mail-2:before {
+	content: "\e020";
+}
+.ipt_uif_common .icon-google:before {
+	content: "\e022";
+}
+.ipt_uif_common .icon-google-plus:before {
+	content: "\e023";
+}
+.ipt_uif_common .icon-google-plus-2:before {
+	content: "\e024";
+}
+.ipt_uif_common .icon-google-plus-3:before {
+	content: "\e025";
+}
+.ipt_uif_common .icon-google-drive:before {
+	content: "\e026";
+}
+.ipt_uif_common .icon-facebook:before {
+	content: "\e027";
+}
+.ipt_uif_common .icon-facebook-2:before {
+	content: "\e028";
+}
+.ipt_uif_common .icon-instagram:before {
+	content: "\e029";
+}
+.ipt_uif_common .icon-twitter:before {
+	content: "\e02a";
+}
+.ipt_uif_common .icon-twitter-2:before {
+	content: "\e02b";
+}
+.ipt_uif_common .icon-feed-2:before {
+	content: "\e02c";
+}
+.ipt_uif_common .icon-feed-3:before {
+	content: "\e02d";
+}
+.ipt_uif_common .icon-youtube:before {
+	content: "\e02e";
+}
+.ipt_uif_common .icon-vimeo:before {
+	content: "\e02f";
+}
+.ipt_uif_common .icon-vimeo-2:before {
+	content: "\e030";
+}
+.ipt_uif_common .icon-lanyrd:before {
+	content: "\e031";
+}
+.ipt_uif_common .icon-flickr:before {
+	content: "\e04e";
+}
+.ipt_uif_common .icon-flickr-2:before {
+	content: "\e15c";
+}
+.ipt_uif_common .icon-flickr-3:before {
+	content: "\e032";
+}
+.ipt_uif_common .icon-picassa:before {
+	content: "\e15d";
+}
+.ipt_uif_common .icon-dribbble:before {
+	content: "\e033";
+}
+.ipt_uif_common .icon-dribbble-2:before {
+	content: "\e15e";
+}
+.ipt_uif_common .icon-dribbble-3:before {
+	content: "\e15f";
+}
+.ipt_uif_common .icon-forrst:before {
+	content: "\e160";
+}
+.ipt_uif_common .icon-forrst-2:before {
+	content: "\e161";
+}
+.ipt_uif_common .icon-deviantart:before {
+	content: "\e162";
+}
+.ipt_uif_common .icon-deviantart-2:before {
+	content: "\e163";
+}
+.ipt_uif_common .icon-steam:before {
+	content: "\e164";
+}
+.ipt_uif_common .icon-github:before {
+	content: "\e034";
+}
+.ipt_uif_common .icon-github-2:before {
+	content: "\e165";
+}
+.ipt_uif_common .icon-github-3:before {
+	content: "\e166";
+}
+.ipt_uif_common .icon-github-4:before {
+	content: "\e167";
+}
+.ipt_uif_common .icon-wordpress:before {
+	content: "\e035";
+}
+.ipt_uif_common .icon-joomla:before {
+	content: "\e036";
+}
+.ipt_uif_common .icon-blogger:before {
+	content: "\e168";
+}
+.ipt_uif_common .icon-tumblr:before {
+	content: "\e037";
+}
+.ipt_uif_common .icon-tumblr-2:before {
+	content: "\e169";
+}
+.ipt_uif_common .icon-yahoo:before {
+	content: "\e16a";
+}
+.ipt_uif_common .icon-tux:before {
+	content: "\e16b";
+}
+.ipt_uif_common .icon-finder:before {
+	content: "\e038";
+}
+.ipt_uif_common .icon-windows:before {
+	content: "\e039";
+}
+.ipt_uif_common .icon-soundcloud:before {
+	content: "\e03a";
+}
+.ipt_uif_common .icon-soundcloud-2:before {
+	content: "\e16c";
+}
+.ipt_uif_common .icon-reddit:before {
+	content: "\e03b";
+}
+.ipt_uif_common .icon-lastfm:before {
+	content: "\e03c";
+}
+.ipt_uif_common .icon-stumbleupon:before {
+	content: "\e03d";
+}
+.ipt_uif_common .icon-stackoverflow:before {
+	content: "\e03e";
+}
+.ipt_uif_common .icon-pinterest:before {
+	content: "\e03f";
+}
+.ipt_uif_common .icon-xing:before {
+	content: "\e040";
+}
+.ipt_uif_common .icon-xing-2:before {
+	content: "\e16d";
+}
+.ipt_uif_common .icon-foursquare:before {
+	content: "\e041";
+}
+.ipt_uif_common .icon-foursquare-2:before {
+	content: "\e16e";
+}
+.ipt_uif_common .icon-paypal:before {
+	content: "\e042";
+}
+.ipt_uif_common .icon-paypal-2:before {
+	content: "\e16f";
+}
+.ipt_uif_common .icon-yelp:before {
+	content: "\e170";
+}
+.ipt_uif_common .icon-libreoffice:before {
+	content: "\e171";
+}
+.ipt_uif_common .icon-file-pdf:before {
+	content: "\e172";
+}
+.ipt_uif_common .icon-file-openoffice:before {
+	content: "\e173";
+}
+.ipt_uif_common .icon-file-zip:before {
+	content: "\e043";
+}
+.ipt_uif_common .icon-file-powerpoint:before {
+	content: "\e044";
+}
+.ipt_uif_common .icon-file-xml:before {
+	content: "\e174";
+}
+.ipt_uif_common .icon-file-css:before {
+	content: "\e175";
+}
+.ipt_uif_common .icon-html5:before {
+	content: "\e045";
+}
+.ipt_uif_common .icon-css3:before {
+	content: "\e176";
+}
+.ipt_uif_common .icon-IcoMoon:before {
+	content: "\e046";
+}
+.ipt_uif_common .icon-pencil-2:before {
+	content: "\e047";
+}
+.ipt_uif_common .icon-image-2:before {
+	content: "\e048";
+}
+.ipt_uif_common .icon-images:before {
+	content: "\e049";
+}
+.ipt_uif_common .icon-camera-2:before {
+	content: "\e04a";
+}
+.ipt_uif_common .icon-film:before {
+	content: "\e177";
+}
+.ipt_uif_common .icon-profile:before {
+	content: "\e178";
+}
+.ipt_uif_common .icon-file-3:before {
+	content: "\e179";
+}
+.ipt_uif_common .icon-file-4:before {
+	content: "\e17a";
+}
+.ipt_uif_common .icon-copy-3:before {
+	content: "\e17b";
+}
+.ipt_uif_common .icon-cart-3:before {
+	content: "\e17c";
+}
+.ipt_uif_common .icon-screen:before {
+	content: "\e17d";
+}
+.ipt_uif_common .icon-mobile-2:before {
+	content: "\e17e";
+}
+.ipt_uif_common .icon-tablet:before {
+	content: "\e17f";
+}
+.ipt_uif_common .icon-cabinet:before {
+	content: "\e180";
+}
+.ipt_uif_common .icon-music:before {
+	content: "\e181";
+}
+.ipt_uif_common .icon-spinner-6:before {
+	content: "\e182";
+}
+.ipt_uif_common .icon-bubble-2:before {
+	content: "\e183";
+}
+.ipt_uif_common .icon-disk:before {
+	content: "\e184";
+}
+.ipt_uif_common .icon-user-4:before {
+	content: "\e185";
+}
+.ipt_uif_common .icon-expand-2:before {
+	content: "\e186";
+}
+.ipt_uif_common .icon-settings:before {
+	content: "\e187";
+}
+.ipt_uif_common .icon-cog-2:before {
+	content: "\e188";
+}
+.ipt_uif_common .icon-bars-2:before {
+	content: "\e189";
+}
+.ipt_uif_common .icon-meter:before {
+	content: "\e18a";
+}
+.ipt_uif_common .icon-list-2:before {
+	content: "\e18b";
+}
+.ipt_uif_common .icon-numbered-list:before {
+	content: "\e18c";
+}
+.ipt_uif_common .icon-menu-2:before {
+	content: "\e18d";
+}
+.ipt_uif_common .icon-checkmark:before {
+	content: "\e18e";
+}
+.ipt_uif_common .icon-checkmark-2:before {
+	content: "\e18f";
+}
+.ipt_uif_common .icon-radio-checked:before {
+	content: "\e190";
+}
+.ipt_uif_common .icon-radio-unchecked:before {
+	content: "\e191";
+}
+.ipt_uif_common .icon-checkbox-checked:before {
+	content: "\e192";
+}
+.ipt_uif_common .icon-table-2:before {
+	content: "\e193";
+}
+.ipt_uif_common .icon-insert-template:before {
+	content: "\e194";
+}
+.ipt_uif_common .icon-code:before {
+	content: "\e195";
+}
+.ipt_uif_common .icon-embed:before {
+	content: "\e196";
+}
+.ipt_uif_common .icon-new-tab:before {
+	content: "\e197";
+}
+.ipt_uif_common .icon-indent-decrease:before {
+	content: "\e198";
+}
+.ipt_uif_common .icon-indent-increase:before {
+	content: "\e199";
+}
+.ipt_uif_common .icon-paragraph-justify:before {
+	content: "\e19a";
+}
+.ipt_uif_common .icon-paragraph-right:before {
+	content: "\e19b";
+}
+.ipt_uif_common .icon-paragraph-center:before {
+	content: "\e19c";
+}
+.ipt_uif_common .icon-paragraph-left:before {
+	content: "\e19d";
+}
+.ipt_uif_common .icon-paragraph-justify-2:before {
+	content: "\e19e";
+}
+.ipt_uif_common .icon-paragraph-right-2:before {
+	content: "\e19f";
+}
+.ipt_uif_common .icon-paragraph-center-2:before {
+	content: "\e1a0";
+}
+.ipt_uif_common .icon-paragraph-left-2:before {
+	content: "\e1a1";
+}
+.ipt_uif_common .icon-mail-3:before {
+	content: "\e1a2";
+}
+.ipt_uif_common .icon-twitter-3:before {
+	content: "\e1a3";
+}
+.ipt_uif_common .icon-mail-4:before {
+	content: "\e1a4";
+}
+.ipt_uif_common .icon-feed-4:before {
+	content: "\e1a5";
+}
+.ipt_uif_common .icon-youtube-2:before {
+	content: "\e1a6";
+}
+.ipt_uif_common .icon-vimeo2:before {
+	content: "\e1a7";
+}
+.ipt_uif_common .icon-flickr-4:before {
+	content: "\e1a8";
+}
+.ipt_uif_common .icon-facebook-3:before {
+	content: "\e1a9";
+}
+.ipt_uif_common .icon-google-plus-4:before {
+	content: "\e1aa";
+}
+.ipt_uif_common .icon-picassa-2:before {
+	content: "\e1ab";
+}
+.ipt_uif_common .icon-wordpress-2:before {
+	content: "\e1ac";
+}
+.ipt_uif_common .icon-github-5:before {
+	content: "\e1ad";
+}
+.ipt_uif_common .icon-steam-2:before {
+	content: "\e1ae";
+}
+.ipt_uif_common .icon-blogger-2:before {
+	content: "\e1af";
+}
+.ipt_uif_common .icon-apple:before {
+	content: "\e1b0";
+}
+.ipt_uif_common .icon-android:before {
+	content: "\e1b1";
+}
+.ipt_uif_common .icon-windows8:before {
+	content: "\e1b2";
+}
+.ipt_uif_common .icon-skype:before {
+	content: "\e1b3";
+}
+.ipt_uif_common .icon-linkedin:before {
+	content: "\e1b4";
+}
+.ipt_uif_common .icon-paypal-3:before {
+	content: "\e1b5";
+}
+.ipt_uif_common .icon-flattr:before {
+	content: "\e1b6";
+}
+.ipt_uif_common .icon-pinterest-2:before {
+	content: "\e1b7";
+}
+.ipt_uif_common .icon-stumbleupon-2:before {
+	content: "\e1b8";
+}
+.ipt_uif_common .icon-delicious:before {
+	content: "\e1b9";
+}
+.ipt_uif_common .icon-lastfm-2:before {
+	content: "\e1ba";
+}
+.ipt_uif_common .icon-file-word:before {
+	content: "\e1bb";
+}
+.ipt_uif_common .icon-file-excel:before {
+	content: "\e1bc";
+}
+.ipt_uif_common .icon-html5-2:before {
+	content: "\e1bd";
+}
+.ipt_uif_common .icon-chrome:before {
+	content: "\e1be";
+}
+.ipt_uif_common .icon-firefox:before {
+	content: "\e1bf";
+}
+.ipt_uif_common .icon-IE:before {
+	content: "\e1c0";
+}
+.ipt_uif_common .icon-safari:before {
+	content: "\e1c1";
+}
+.ipt_uif_common .icon-opera:before {
+	content: "\e1c2";
+}

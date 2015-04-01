@@ -1,0 +1,92 @@
+body {
+  color:@td_text_color;
+
+  @media (max-width: 767px) {
+    padding: 0px;
+  }
+
+
+
+}
+
+
+//on iPad - hack for speed up - mutat in data-uri-images.less
+body.ipad-background {
+  //background: white url('@{td_css_path}images/bg_black_opacity.png') repeat !important;
+}
+
+
+
+.td-page-wrap { //the border
+  background-color: white;
+  border:1px solid #ebebeb;
+  border-top:none;
+  border-bottom:none;
+
+  //box shadow wrapp
+  .box-shadow(0px 3px 19px rgba(50, 50, 50, 0.19));
+}
+
+//page wrapping fix (second wrap)
+.td-grid-wrap {
+  padding: 48px 0px 0px 0px; //remove on responsive
+
+  @media (min-width: 1200px) {
+    padding: 49px 13px 0px 13px;
+  }
+}
+
+//page wrapping
+.container-fluid {
+
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media (min-width: 1200px) {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1018px) {
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+
+  @media (max-width: 767px) {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+
+.td-page-meta {
+  display:none;
+}
+
+/*  ----------------------------------------------------------------------------
+    category page
+*/
+
+.td_block_wrap.category-title {
+  padding-bottom: 0px;
+}
+
+
+
+/*  ----------------------------------------------------------------------------
+    404
+*/
+
+.td-404-title {
+  font-family: @font1;
+  font-weight: 700;
+  font-size:40px;
+  color:@td_gray;
+  text-align: center;
+  padding: 20px 0px 70px 0px ;
+
+}
+
+.td-404-head {
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /wp-content/cache
+Disallow: /wp-content/themes
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /trackback/
+Disallow: /search/
+Disallow: /cdn-cgi/
+Disallow: /trackback/$
+Disallow: *.swf
+Disallow: *.js
+
+sitemap: http://www.good.co/blog/sitemap.xml

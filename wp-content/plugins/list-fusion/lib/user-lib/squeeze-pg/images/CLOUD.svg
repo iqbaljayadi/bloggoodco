@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <title>CLOUD</title>
+ <defs>
+  <filter x="-50%" y="-50%" height="200%" width="200%" id="svg_3_blur">
+   <feGaussianBlur stdDeviation="8.8"/>
+  </filter>
+  <filter x="-50%" y="-50%" height="200%" width="200%" id="svg_2_blur">
+   <feGaussianBlur stdDeviation="9.2"/>
+  </filter>
+  <filter x="-50%" y="-50%" height="200%" width="200%" id="svg_11_blur">
+   <feGaussianBlur stdDeviation="10"/>
+  </filter>
+  <filter x="-50%" y="-50%" height="200%" width="200%" id="svg_10_blur">
+   <feGaussianBlur stdDeviation="7.1"/>
+  </filter>
+  <filter x="-50%" y="-50%" height="200%" width="200%" id="svg_9_blur">
+   <feGaussianBlur stdDeviation="9.3"/>
+  </filter>
+  <filter x="-50%" y="-50%" height="200%" width="200%" id="svg_8_blur">
+   <feGaussianBlur stdDeviation="7"/>
+  </filter>
+  <filter x="-50%" y="-50%" height="200%" width="200%" id="svg_7_blur">
+   <feGaussianBlur stdDeviation="7.3"/>
+  </filter>
+  <filter x="-50%" y="-50%" height="200%" width="200%" id="svg_6_blur">
+   <feGaussianBlur stdDeviation="8.3"/>
+  </filter>
+  <filter x="-50%" y="-50%" height="200%" width="200%" id="svg_4_blur">
+   <feGaussianBlur stdDeviation="10"/>
+  </filter>
+  <filter x="-50%" y="-50%" height="200%" width="200%" id="svg_5_blur">
+   <feGaussianBlur stdDeviation="7.7"/>
+  </filter>
+ </defs>
+ <metadata id="metadata3228">image/svg+xml</metadata>
+ <g>
+  <title>Ebene 1</title>
+  <g opacity="0.75" id="layer1">
+   <g id="g6444">
+    <path d="m307.187988,90.097801c-37.513977,0 -69.202988,23.923203 -79.061981,56.5942c-4.105011,-2.320999 -8.827011,-3.656998 -13.875,-3.656998c-15.613007,0 -28.282013,12.668991 -28.282013,28.281998c0,0.158997 -0.001999,0.309998 0,0.468002c-4.675995,-0.958008 -9.579987,-1.5 -14.655991,-1.5c-30.947006,0 -56.062004,19.01799 -56.062004,42.438004c0,23.418991 25.114998,42.436996 56.062004,42.436996c12.257004,0 23.582993,-3.005997 32.813004,-8.061996c5.511993,16.491989 21.066986,28.405991 39.405991,28.405991c12.427002,0 23.569016,-5.471008 31.186996,-14.125c7.390991,3.865997 16.082001,6.093994 25.375,6.093994c12.64502,0 24.184021,-4.113007 32.843994,-10.875c11.670013,12.111023 28.82901,19.781006 47.969025,19.781006c23.480988,0 44.001984,-11.553009 55.030975,-28.686996c1.661011,0.242996 3.364014,0.375 5.094025,0.375c18.679993,0 33.811981,-14.690994 33.811981,-32.813004c0,-18.121994 -15.131989,-32.843994 -33.811981,-32.843994c-3.343018,0 -6.575012,0.498001 -9.625,1.375c-10.06601,-11.865005 -25.115021,-20.089996 -42.313019,-22.093002c-3.516998,-40.082001 -38.848999,-71.5942 -81.906006,-71.5942l0,0z" stroke-width="2.587" stroke-miterlimit="4" stroke-dashoffset="0" stroke="#000000" fill-rule="nonzero" fill="#7f7f7f" id="path5530"/>
+    <path d="m305.398987,88.316399c-34.289978,0.1026 -67.81398,23.007599 -78.468994,55.718605c-15.508987,-7.865005 -36.340988,1.233994 -41.375,17.780991c-0.82399,2.51001 -1.365997,5.139999 -1.5,7.782013c-24.331985,-4.286011 -53.109985,3.676987 -66.155991,25.875c-8.726006,14.481995 -4.485001,34.125992 7.937996,45.061996c20.144997,19.158997 53.129005,21.182983 77.280998,9.813004c7.835999,20.92598 33.259003,32.764999 54.405991,25.061996c6.735016,-2.179016 12.871002,-6.496002 17.75,-11.312012c18.137024,8.748993 41.098999,7.194 57.469025,-4.656982c26.257996,26.371979 74.152985,25.298004 98.843994,-2.656006c2.947998,-2.014008 3.790985,-7.904007 8.092987,-6.561996c19.945007,1.383987 38.725006,-16.469009 37.125,-36.625c-0.651978,-20.761002 -22.112,-36.666 -42.25,-32.407013c-4.152985,1.721008 -5.743988,-4.418991 -9.156006,-5.967987c-9.656982,-8.484009 -22.474976,-13.10701 -34.5,-15.438004c-3.664978,-36.201004 -34.97699,-65.816803 -70.582977,-70.518501c-4.921021,-0.745201 -9.927002,-1.0653 -14.917023,-0.950104z" stroke-width="2.587" stroke-miterlimit="4" stroke-dashoffset="0" stroke="#a3ced5" fill-rule="nonzero" fill="#7f7f7f" id="path6438"/>
+   </g>
+  </g>
+  <ellipse filter="url(#svg_2_blur)" ry="27" rx="34" cy="133" cx="282" stroke-width="5" stroke="#ffffff" fill="#ffffff" opacity="0.75" id="svg_2"/>
+  <ellipse filter="url(#svg_3_blur)" ry="25" rx="34" cy="131" cx="322" stroke-width="5" stroke="#ffffff" fill="#ffffff" opacity="0.75" id="svg_3"/>
+  <ellipse filter="url(#svg_4_blur)" ry="26" rx="44" cy="211" cx="188" stroke-width="5" stroke="#ffffff" fill="#ffffff" opacity="0.75" id="svg_4"/>
+  <ellipse filter="url(#svg_5_blur)" ry="15" rx="13" cy="171" cx="213" stroke-width="5" stroke="#ffffff" fill="#ffffff" opacity="0.75" id="svg_5"/>
+  <ellipse filter="url(#svg_6_blur)" ry="23" rx="26" cy="239" cx="235" stroke-width="5" stroke="#ffffff" fill="#ffffff" opacity="0.75" id="svg_6"/>
+  <ellipse filter="url(#svg_7_blur)" ry="25" rx="28" cy="226" cx="293" stroke-width="5" stroke="#ffffff" fill="#ffffff" opacity="0.75" id="svg_7"/>
+  <ellipse filter="url(#svg_8_blur)" ry="29" rx="45" cy="227" cx="367" stroke-width="5" stroke="#ffffff" fill="#ffffff" opacity="0.75" id="svg_8"/>
+  <ellipse filter="url(#svg_9_blur)" ry="24" rx="17" cy="219" cx="426" stroke-width="5" stroke="#ffffff" fill="#ffffff" opacity="0.75" id="svg_9"/>
+  <ellipse filter="url(#svg_10_blur)" ry="19" rx="21" cy="193" cx="390" stroke-width="5" stroke="#ffffff" fill="#ffffff" opacity="0.75" id="svg_10"/>
+  <ellipse filter="url(#svg_11_blur)" ry="52" rx="89" cy="190" cx="305" stroke-width="5" stroke="#ffffff" fill="#ffffff" opacity="0.75" id="svg_11"/>
+ </g>
+</svg>

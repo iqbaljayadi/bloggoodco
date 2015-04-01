@@ -1,0 +1,282 @@
+/*  ----------------------------------------------------------------------------
+    theme specific type
+*/
+
+.h5-caps-title {
+  font-family: @font1;
+  text-transform: uppercase;
+  font-size:18px;
+  font-weight: 600;
+  color:@td_black;
+}
+
+
+
+
+a:active, a:focus { /* IE remove focus */
+  outline: none;
+  //ie-dummy: expression(this.hideFocus=true);
+}
+
+
+a {  /* normal link */
+  color:@td_theme_color;
+  text-decoration: none !important;
+  .transition(all @td_transition_time);
+}
+
+a:hover {
+  text-decoration: underline !important;
+  color:darken(@td_theme_color, 10%);
+  .transition(all @td_transition_time);
+}
+
+
+ins {
+  background: #FFF9C0;
+  text-decoration: none;
+}
+
+
+code {
+  position: relative;
+  top:-1px;
+  border: none;
+  background: url('@{td_css_path}images/header/header-bg.png') repeat transparent;
+}
+
+
+
+pre {
+  background-color: transparent;
+  padding: 0px;
+  border: none;
+  border-radius: 0px;
+
+  margin-top: 24px;
+}
+
+
+/*  ----------------------------------------------------------------------------
+    quote
+*/
+blockquote {
+  padding: 0px;
+
+  position: relative;
+  border-left: none;
+  margin-bottom: @baseLineHeight;
+  margin-top: @baseLineHeight;
+
+}
+
+blockquote p {
+  font-family: 'Open Sans', arial, sans-serif !important;
+  font-size:18px !important;
+  line-height: 26px !important;
+  font-weight: 600 !important;
+  color:#1F1F1F;
+}
+
+blockquote p:first-child {
+  padding-top: 0px;
+}
+
+blockquote small {
+  font-size:12px;
+  font-style: italic;
+  font-weight: normal;
+  color:#444444;
+}
+
+blockquote.pull-right {
+  padding-left: 20px;
+  border-right: none;
+}
+
+blockquote.pull-right:after {
+  border-right: 2px solid #FB5502;
+  width:40px;
+  right: -40px;
+}
+
+
+/*  ----------------------------------------------------------------------------
+    ul li
+*/
+
+ul {
+  list-style: disc url('@{td_css_path}images/icons/li.png');
+
+}
+
+ul li ul { /* sub ul */
+  padding-top: 0px;
+}
+
+ul li {
+  margin:0px;
+  line-height: 24px;
+}
+
+
+
+ol {  /* ordered list */
+  line-height: 25px;
+
+}
+
+ol li ol {
+  padding-top: 0px;
+}
+
+ol li {
+  margin:0px;
+  line-height: 20px;
+}
+
+
+
+.dl-horizontal a {
+  font-weight: 500 !important;
+}
+
+.dl-horizontal dt {
+  width: 70px;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 15px;
+}
+
+.dl-horizontal dd {
+  margin-left: 90px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+/*  ----------------------------------------------------------------------------
+    h
+*/
+@td_h3_base_size:20px;
+@td_h3_line_height:24px;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: @font1;
+  color:@td_black;
+  font-weight: 600;
+  margin:34px 0px 7px 0px;
+}
+
+h1 {
+  font-size: @td_h3_base_size + 8;
+  line-height: @td_h3_line_height + 8;
+}
+
+h2 {
+  font-size: @td_h3_base_size + 4;
+  line-height: @td_h3_line_height + 4;
+}
+
+h3 {
+  font-size: @td_h3_base_size;
+  line-height: @td_h3_line_height;
+}
+
+h4 {
+  font-size: @td_h3_base_size - 2;
+  line-height: @td_h3_line_height - 2;
+}
+
+h5 {
+  font-size: @td_h3_base_size - 5;
+  line-height: @td_h3_line_height - 5;
+}
+
+h6 {
+  font-size: @td_h3_base_size - 8;
+  line-height: @td_h3_line_height - 8;
+}
+
+
+/*  ----------------------------------------------------------------------------
+    text and Images align
+*/
+
+.alignnone {
+
+}
+
+.aligncenter {
+  text-align: center;
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.alignleft {
+  float:left;
+  margin-right: 20px;
+  margin-top:6px;
+  width: auto !important;
+}
+
+.alignright {
+  float:right;
+  margin-left: 20px !important;
+  margin-top:7px;
+  width: auto !important;
+}
+
+
+/*  ----------------------------------------------------------------------------
+     caption
+*/
+
+.wp-caption-text {
+  text-align: left;
+  margin: 0px !important;
+
+  padding: 5px 0px 5px 0px;
+
+  font-family: 'Open Sans', arial, sans-serif !important;
+  font-size:12px;
+  font-style: italic;
+  font-weight: normal;
+  color:#444444;
+}
+
+
+.wp-caption {
+  text-align: center;
+  max-width: 100% !important;
+
+}
+
+
+.alignnone img,
+.aligncenter img
+{
+  width: 100%;
+}
+
+
+.wp-caption img {
+  max-width: 100% !important;
+  margin-top: 24px;
+}
+
+
+/* tables */
+.table-color th{
+  background-color: #EBEBEB;
+}
+
+
+
+address {
+  font-size: inherit !important;
+  line-height: inherit !important;
+  margin-top: 24px;
+}

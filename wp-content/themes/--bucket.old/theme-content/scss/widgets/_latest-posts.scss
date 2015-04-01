@@ -1,0 +1,20 @@
+.widget_wpgrade_posts_slider_widget {
+    position: relative;
+
+    .widget__title {
+        margin-bottom: 0;
+    }
+
+    .rsArrow .rsArrowIcn{
+    	width:$_u2;
+    	height:$_u2;
+    }
+
+    .pixslider{
+        display: none;
+
+        &.slider--loaded{
+            display: block;
+        }
+    }
+}

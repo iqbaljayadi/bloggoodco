@@ -1,0 +1,461 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Kaushan+Script);
+.listfusion-lightbox-start,.listfusion-lightbox-start div,.listfusion-lightbox-start span,.listfusion-lightbox-start applet,.listfusion-lightbox-start object,.listfusion-lightbox-start iframe,.listfusion-lightbox-start h1,.listfusion-lightbox-start h2,.listfusion-lightbox-start h3,.listfusion-lightbox-start h4,.listfusion-lightbox-start h5,.listfusion-lightbox-start h6,.listfusion-lightbox-start p,.listfusion-lightbox-start blockquote,.listfusion-lightbox-start pre,.listfusion-lightbox-start a,.listfusion-lightbox-start abbr,.listfusion-lightbox-start acronym,.listfusion-lightbox-start address,.listfusion-lightbox-start big,.listfusion-lightbox-start cite,.listfusion-lightbox-start code,.listfusion-lightbox-start del,.listfusion-lightbox-start dfn,.listfusion-lightbox-start em,.listfusion-lightbox-start img,.listfusion-lightbox-start ins,.listfusion-lightbox-start kbd,.listfusion-lightbox-start q,.listfusion-lightbox-start s,.listfusion-lightbox-start samp,.listfusion-lightbox-start small,.listfusion-lightbox-start strike,.listfusion-lightbox-start strong,.listfusion-lightbox-start sub,.listfusion-lightbox-start sup,.listfusion-lightbox-start tt,.listfusion-lightbox-start var,.listfusion-lightbox-start b,.listfusion-lightbox-start u,.listfusion-lightbox-start i,.listfusion-lightbox-start center,.listfusion-lightbox-start dl,.listfusion-lightbox-start dt,.listfusion-lightbox-start dd,.listfusion-lightbox-start ol,.listfusion-lightbox-start ul,.listfusion-lightbox-start li,.listfusion-lightbox-start fieldset,.listfusion-lightbox-start form,.listfusion-lightbox-start label,.listfusion-lightbox-start legend,.listfusion-lightbox-start table,.listfusion-lightbox-start caption,.listfusion-lightbox-start tbody,.listfusion-lightbox-start tfoot,.listfusion-lightbox-start thead,.listfusion-lightbox-start tr,.listfusion-lightbox-start th,.listfusion-lightbox-start td,.listfusion-lightbox-start article,.listfusion-lightbox-start aside,.listfusion-lightbox-start canvas,.listfusion-lightbox-start details,.listfusion-lightbox-start embed,.listfusion-lightbox-start figure,.listfusion-lightbox-start figcaption,.listfusion-lightbox-start footer,.listfusion-lightbox-start header,.listfusion-lightbox-start hgroup,.listfusion-lightbox-start menu,.listfusion-lightbox-start nav,.listfusion-lightbox-start output,.listfusion-lightbox-start ruby,.listfusion-lightbox-start section,.listfusion-lightbox-start summary,.listfusion-lightbox-start time,.listfusion-lightbox-start mark,.listfusion-lightbox-start audio,.listfusion-lightbox-start video,.listfusion-lightbox-start input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-weight: normal;
+}
+.listfusion-lightbox-start {
+    height: 100%;
+    min-height: 520px;
+    min-width: 910px;
+    left: 0;
+    top: 0;
+    background-image: url('%plugin-url%user-lib/popup/%popup-style%/images/main-bg-trans.png');
+    width: 100%;
+    position: fixed;
+}
+.listfusion-lightbox-start .lightbox-clear {
+    clear: both;
+}
+.listfusion-lightbox-start .listfusion-close-lightbox {
+    float: right;
+    position: relative;
+    right: 12px;
+    top: 15px;
+    background-image: url('%plugin-url%user-lib/popup/%popup-style%/images/lightbox-close.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 25px;
+    width: 25px;
+}
+.listfusion-lightbox-start .listfusion-close-lightbox:hover {
+    background-position: left bottom;
+}
+.listfusion-lightbox-start .listfusion-close-lightbox span {
+    display: none;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel {
+    width: 550px;
+    padding: 30px 40px;
+    padding-right: 0px;
+    padding-top: 20px;
+    height: 392px;
+    float: left;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel .elbpro-display-images {
+    float: left;
+    margin-right: 5px;
+    width: 230px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel .elbpro-display-images img {
+    vertical-align: bottom;
+    float: none;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-left-content {
+    float: right;
+    width: 305px;
+    height: 278px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel p.heading {
+    letter-spacing: -1px;
+    color: #2C2A2A;
+    font-family: "Kaushan Script",Arial,Sans-Serif;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    letter-spacing: -1px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-shadow: 0px 1px 1px #292828;
+    -moz-text-shadow: 0px 1px 1px #292828;
+    -webkit-text-shadow: 0px 1px 1px #292828;
+    text-transform: capitalize;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel p {
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: normal;
+    color: #000;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel .bullet-listx {
+    margin-top: 20px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel ul.bullet-list {
+    list-style: none;
+    max-width: 400px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel ul.bullet-list li {
+    font-size: 14px;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    background-image: url('%plugin-url%user-lib/popup/%popup-style%/images/bullet.png');
+    background-position: 0px 0px;
+    text-shadow: 0px 1px 0px #fff;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    margin-bottom: 5px;
+    line-height: 27px;
+    color: #2f323b;
+	font-weight:bold;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div {
+    color: #fff;
+    height: 460px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 922px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-left-panel {
+    width: 380px;
+    height: 275px;
+    margin-left: 75px;
+    margin-top: 45px;
+    float: left;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-left-panel h1 {
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+    text-shadow: 0px 1px 2px #000;
+    letter-spacing: -1px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-left-panel p {
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #000;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-left-panel .bullet-listx {
+    width: 100%;
+    margin-top: 25px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-left-panel ul.bullet-list {
+    list-style: none;
+    max-width: 400px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .lightbox-left-panel ul.bullet-list li {
+    font-size: 18px;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    background-image: url('%plugin-url%user-lib/popup/%popup-style%/images/bullet.png');
+    background-position: 0px 0px;
+    text-shadow: 0px 1px 0px #000;
+    font-weight: normal;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    line-height: 27px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-right-panel {
+    width: 222px;
+    padding: 14px;
+    float: right;
+    margin-right: 19px;
+    border-radius: 8px;
+    margin-top: 50px;
+    height: 330px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-right-panel p.heading2 {
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    font-style: normal;
+    margin-bottom: 10px;
+    line-height: 30px;
+    color: #fff;
+    letter-spacing: 0px;
+    text-shadow: 0 0 1px #0c0c0c;
+    -moz-text-shadow: 0 0 1px #0c0c0c;
+    -webkit-text-shadow: 0 0 1px #0c0c0c;
+    padding-bottom: 10px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-right-panel p {
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 19px;
+    color: #555555;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.lightbox-clear {
+    clear: both;
+}
+.listfusion-lightbox-start .elbpro-right-panel form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+.listfusion-lightbox-start .elbpro-right-panel input[type="text"] {
+    background-image: url('%plugin-url%user-lib/popup/%popup-style%/images/lightbox-text-box.png');
+    margin-bottom: 10px;
+    border: 0px;
+    line-height: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    width: 195px;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-size: 14px;
+    padding-left: 10px;
+    background-color: transparent;
+    background-position: left top;
+    outline: none;
+}
+.listfusion-lightbox-start .elbpro-right-panel input[type="text"].email {
+    background-position: left bottom;
+}
+.listfusion-lightbox-start .elbpro-right-panel input[type="submit"] {
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 47px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border: none;
+    font-size: 19px;
+    color: #fff;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 1px #5F5F5F;
+    -moz-text-shadow: 0px 0px 1px #5F5F5F;
+    -webkit-text-shadow: 0px 0px 1px #5F5F5F;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+}
+.listfusion-lightbox-start .elbpro-right-panel input[type="submit"].listfusion-submit-btn {
+    background: #%btm-from-color%;
+    background: -moz-linear-gradient(top, #%btm-from-color% 0%, #%btm-to-color% 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #%btm-from-color%), color-stop(100%, #%btm-to-color%));
+    background: -webkit-linear-gradient(top, #%btm-from-color% 0%, #%btm-to-color% 100%);
+    background: -o-linear-gradient(top, #%btm-from-color% 0%, #%btm-to-color% 100%);
+    background: -ms-linear-gradient(top, #%btm-from-color% 0%, #%btm-to-color% 100%);
+    background: linear-gradient(to bottom, #%btm-from-color% 0%, #%btm-to-color% 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#%btm-from-color%', endColorstr='#%btm-to-color%', GradientType=0 );
+    padding: 0px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: %btm-size%px;
+    color: #%btm-text-color%;
+    font-family: "Open Sans",Arial,Sans-Serif;
+}
+.listfusion-lightbox-start .elbpro-right-panel input[type="submit"].listfusion-submit-btn:hover {
+    background: #%btm-from-hover-color%;
+    background: -moz-linear-gradient(top, #%btm-from-hover-color% 0%, #%btm-to-hover-color% 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #%btm-from-hover-color%), color-stop(100%, #%btm-to-hover-color%));
+    background: -webkit-linear-gradient(top, #%btm-from-hover-color% 0%, #%btm-to-hover-color% 100%);
+    background: -o-linear-gradient(top, #%btm-from-hover-color% 0%, #%btm-to-hover-color% 100%);
+    background: -ms-linear-gradient(top, #%btm-from-hover-color% 0%, #%btm-to-hover-color% 100%);
+    background: linear-gradient(to bottom, #%btm-from-hover-color% 0%, #%btm-to-hover-color% 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#%btm-from-hover-color%', endColorstr='#%btm-to-hover-color%', GradientType=0 );
+}
+
+.listfusion-lightbox-start .elbpro-right-panel input[type="submit"]:hover {
+    background-position: left center;
+}
+.listfusion-lightbox-start .elbpro-right-panel input[type="submit"]:active {
+    background-position: left bottom;
+}
+.listfusion-lightbox-start .elbpro-right-panel p.secure {
+    font-size: 11px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+    margin-top: 0px;
+    line-height: 14px;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    color: #BAB7B7;
+    font-size: xx-small;
+    font-style: italic;
+    width: 240px;
+    text-align: left;
+    padding-right: 10px;
+}
+.listfusion-lightbox-start .elbpro-bg-theme-1 {
+    background-image: url('%plugin-url%user-lib/popup/%popup-style%/images/bg-6/elbpro-theme-1.png');
+}
+.listfusion-lightbox-start .elbpro-bg-theme-2 {
+    background-image: url('%plugin-url%user-lib/popup/%popup-style%/images/bg-6/elbpro-theme-2.png');
+}
+.listfusion-lightbox-start .elbpro-bg-theme-3 {
+    background-image: url('%plugin-url%user-lib/popup/%popup-style%/images/bg-6/elbpro-theme-3.png');
+}
+.listfusion-lightbox-start .elbpro-bg-theme-4 {
+    background-image: url('%plugin-url%user-lib/popup/%popup-style%/images/bg-6/elbpro-theme-4.png');
+}
+.listfusion-lightbox-start .elbpro-bg-theme-5 {
+    background-image: url('%plugin-url%user-lib/popup/%popup-style%/images/bg-6/elbpro-theme-5.png');
+}
+.listfusion-lightbox-start .powered {
+    clear: both;
+    margin-top: 0px;
+    padding: 8px;
+    padding-top: 5px;
+    display: block;
+    color: #fff;
+}
+.listfusion-lightbox-start .powered a {
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-weight: normal;
+    color: #FFF;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.listfusion-lightbox-start .powered a:hover {
+    text-decoration: underline;
+}
+.listfusion-lightbox-start .pwd {
+    font-family: "Open Sans",Arial,Sans-Serif;
+    clear: both;
+    margin-top: 0px;
+    padding: 8px;
+    padding-top: 0px;
+    display: block;
+    color: #fff;
+    font-size: 12px;
+	float: left;
+	margin-left: 13px;
+}
+.listfusion-lightbox-start .pwd a {
+    font-family: "Open Sans",Arial,Sans-Serif;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    padding-bottom: 10px;
+}
+.listfusion-lightbox-start .aplbpop_social {
+    display: inline-block;
+    padding: 5px 5px;
+    vertical-align: middle;
+	float:left;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+.listfusion-lightbox-start .elbpro-bg-theme-1, .listfusion-lightbox-start .elbpro-bg-theme-2, .listfusion-lightbox-start .elbpro-bg-theme-3, .listfusion-lightbox-start .elbpro-bg-theme-4, .listfusion-lightbox-start .elbpro-bg-theme-5 {
+	background-image:none;
+	background:#FFF;
+}
+.listfusion-lightbox-start .elbpro-bg-theme-1 .elbpro-right-panel {
+	background:#2B628D;
+}
+.listfusion-lightbox-start .elbpro-bg-theme-2 .elbpro-right-panel{
+	background: #9E1111;
+}
+.listfusion-lightbox-start .elbpro-bg-theme-3 .elbpro-right-panel {
+	background: #3F3F3F;
+}
+.listfusion-lightbox-start .elbpro-bg-theme-4 .elbpro-right-panel{
+	background: #BF33A6;
+}
+.listfusion-lightbox-start .elbpro-bg-theme-5 .elbpro-right-panel {
+	background: #7EA733;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel p#arrowimg{
+	display:none;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel {
+	width: 47%;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel .elbpro-display-images {
+	 display:none;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div {
+	 width: 65%;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel p.heading {
+	padding-left: 0px;
+	margin-top: 0px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-right-panel {
+	margin-top: 0px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel ul.bullet-list {
+    margin-left: 21px;
+}
+.listfusion-lightbox-start .listfusion-close-lightbox {
+	top: -13px;
+	margin-right: -19px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.listfusion-lightbox-start .elbpro-bg-theme-1, .listfusion-lightbox-start .elbpro-bg-theme-2, .listfusion-lightbox-start .elbpro-bg-theme-3, .listfusion-lightbox-start .elbpro-bg-theme-4, .listfusion-lightbox-start .elbpro-bg-theme-5 {
+	background-image:none;
+	background:#FFF;
+}
+.listfusion-lightbox-start .elbpro-bg-theme-1 .elbpro-right-panel, .listfusion-lightbox-start .elbpro-bg-theme-2 .elbpro-right-panel, .listfusion-lightbox-start .elbpro-bg-theme-3 .elbpro-right-panel, .listfusion-lightbox-start .elbpro-bg-theme-4 .elbpro-right-panel, .listfusion-lightbox-start .elbpro-bg-theme-5 .elbpro-right-panel {
+	background:#FFF;
+	float:none;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel p#arrowimg{
+	display:none;
+}
+.listfusion-lightbox-start .listfusion-close-lightbox {
+    top: 5px;
+    right: 5px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-right-panel p.heading2 {
+    display: none;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel ul.bullet-list {
+  display: none;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel .elbpro-display-images {
+	 display:none;
+}
+.listfusion-lightbox-start .elbpro-right-panel form {
+    padding: 10px 0px 0px 50px;
+}
+.listfusion-lightbox-start .lightbox-optin-panel form {
+    width: auto;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div {
+    width: 30%;
+}
+.listfusion-lightbox-start .listfusion-close-lightbox {
+    right: -10px;
+    top: -8px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel {
+	width: 95%;
+	padding: 0px;
+}
+.listfusion-lightbox-start .elbpro-right-panel form {
+    padding: 10px 0 0 15px;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel {
+    height: 224px;
+}
+.listfusion-lightbox-start .elbpro-right-panel p.secure {
+	 display:none;
+}
+.listfusion-lightbox-start .listfusion-lightbox-main-div .elbpro-main-body-panel p.heading {
+	margin-top: -17px;
+}
+}

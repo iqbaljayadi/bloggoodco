@@ -1,0 +1,64 @@
+/* CSS Document */
+#divbox a{
+	margin: 0;
+	padding:0;
+}
+#divbox{
+	background:  #000000 ;
+	opacity: .5;
+	filter:alpha(opacity=50);
+	margin: 0;
+	padding: 0;
+}
+#divbox_data{
+	margin: 0;
+	padding: 0;
+}
+#divbox_frame{ margin: 0; padding: 0;}
+
+#divbox_frame{
+	background: #fff url('../img/loader.gif') no-repeat center center;
+	border: 10px solid #eee;
+}
+#divbox_frame.white{
+	background: none;
+	background-color: white;
+}
+
+#divbox_frame .closed{
+	position: absolute;
+	z-index: 1006;
+	background:url('../img/close.png') no-repeat center center;
+	width: 24px;
+	height: 24px;
+	right: -20px;
+	top: -20px;
+	cursor: pointer;
+}
+#divbox_frame .number{
+	right: 30px;
+	width: 20px;
+}
+
+#divbox_frame .caption{
+	display: none;
+	background: #ccc;
+	opacity: .5;
+	filter:alpha(opacity=50);
+	color: #000;
+	padding-left: 30px;
+	padding-right: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+#divbox_ajax{
+	display: none; 
+	width: 400px;
+}
+
+/* IE6 FixPNG */
+*html #divbox_frame .closed{
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../img/close.png);
+}

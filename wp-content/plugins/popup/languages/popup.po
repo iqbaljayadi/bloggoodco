@@ -1,0 +1,196 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Popup wordpress plugin\n"
+"POT-Creation-Date: 2014-07-24 21:51+0800\n"
+"PO-Revision-Date: 2014-07-24 21:51+0800\n"
+"Last-Translator: \n"
+"Language-Team: www.gopiplus.com <www.gopiplus.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../popup.php:146
+msgid "Popup"
+msgstr ""
+
+#: ../popup.php:162
+msgid "Wordpress popup plugin"
+msgstr ""
+
+#: ../popup.php:163
+msgid "Setting"
+msgstr ""
+
+#: ../popup.php:245
+msgid "Details successfully updated."
+msgstr ""
+
+#: ../popup.php:252
+msgid "Random message display"
+msgstr ""
+
+#: ../popup.php:254
+msgid "Enter YES (or) NO"
+msgstr ""
+
+#: ../popup.php:256
+msgid "Popup session option"
+msgstr ""
+
+#: ../popup.php:258
+msgid ""
+"Enter YES (or) NO  (This option is to display the popup once per session)"
+msgstr ""
+
+#: ../popup.php:260
+msgid "Popup 1"
+msgstr ""
+
+#: ../popup.php:261
+msgid "Popup image 1 text (IMG1)"
+msgstr ""
+
+#: ../popup.php:263
+msgid "What is the text you want to display in popup window. (IMG1)"
+msgstr ""
+
+#: ../popup.php:264
+msgid "Popup image 1 path (i.e image URL)"
+msgstr ""
+
+#: ../popup.php:266 ../popup.php:277 ../popup.php:288 ../popup.php:299
+#: ../popup.php:310 ../popup.php:321
+msgid "Where is the picture located on the internet"
+msgstr ""
+
+#: ../popup.php:267
+msgid "Popup image 1 link"
+msgstr ""
+
+#: ../popup.php:269
+msgid ""
+"When someone clicks on the picture, where do you want to send them. (Enter # "
+"if you dont have any link)"
+msgstr ""
+
+#: ../popup.php:271
+msgid "Popup 2"
+msgstr ""
+
+#: ../popup.php:272
+msgid "Popup image 2 text (IMG2)"
+msgstr ""
+
+#: ../popup.php:274 ../popup.php:285 ../popup.php:296 ../popup.php:307
+#: ../popup.php:318
+msgid "What is the text you want to display in popup window."
+msgstr ""
+
+#: ../popup.php:275
+msgid "Popup image 2 path (i.e image URL)"
+msgstr ""
+
+#: ../popup.php:278
+msgid "Popup image 2 link"
+msgstr ""
+
+#: ../popup.php:280 ../popup.php:291 ../popup.php:302 ../popup.php:313
+#: ../popup.php:324
+msgid "When someone clicks on the picture, where do you want to send them."
+msgstr ""
+
+#: ../popup.php:282
+msgid "Popup 3"
+msgstr ""
+
+#: ../popup.php:283
+msgid "Popup image 3 text (IMG3)"
+msgstr ""
+
+#: ../popup.php:286
+msgid "Popup image 3 path (i.e image URL)"
+msgstr ""
+
+#: ../popup.php:289
+msgid "Popup image 3 link"
+msgstr ""
+
+#: ../popup.php:293
+msgid "Popup 4"
+msgstr ""
+
+#: ../popup.php:294
+msgid "Popup image 4 text (IMG4)"
+msgstr ""
+
+#: ../popup.php:297
+msgid "Popup image 4 path (i.e image URL)"
+msgstr ""
+
+#: ../popup.php:300
+msgid "Popup image 4 link"
+msgstr ""
+
+#: ../popup.php:304
+msgid "Popup 5"
+msgstr ""
+
+#: ../popup.php:305
+msgid "Popup image 5 text (IMG5)"
+msgstr ""
+
+#: ../popup.php:308
+msgid "Popup image 5 path (i.e image URL)"
+msgstr ""
+
+#: ../popup.php:311
+msgid "Popup image 5 link"
+msgstr ""
+
+#: ../popup.php:315
+msgid "Popup 6"
+msgstr ""
+
+#: ../popup.php:316
+msgid "Popup image 6 text (IMG6)"
+msgstr ""
+
+#: ../popup.php:319
+msgid "Popup image 6 path (i.e image URL)"
+msgstr ""
+
+#: ../popup.php:322
+msgid "Popup image 6 link"
+msgstr ""
+
+#: ../popup.php:327
+msgid "Update Setting"
+msgstr ""
+
+#: ../popup.php:328
+msgid "Help"
+msgstr ""
+
+#: ../popup.php:332
+msgid "Plugin configuration option"
+msgstr ""
+
+#: ../popup.php:334
+msgid "Option to add the popup into particular pages and posts."
+msgstr ""
+
+#: ../popup.php:335
+msgid "Option to add the popup window into all the pages in the website."
+msgstr ""
+
+#: ../popup.php:337
+msgid "Check official website for more information"
+msgstr ""
+
+#: ../popup.php:338
+msgid "click here"
+msgstr ""

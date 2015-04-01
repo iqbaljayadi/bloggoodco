@@ -1,0 +1,129 @@
+/*---------------------------------*\
+         		STATS
+\*---------------------------------*/
+.stats {
+
+}
+
+.stat-group {
+
+}
+	.stat {
+
+	}
+	.stat__title {
+
+	}
+	.stat__value {
+
+	}
+
+
+
+/**
+ * Footer Posts stats
+ */
+.site__stats {
+	
+	text-align:center;
+	position:relative;
+
+	a, & {
+		color:$light;
+	}
+
+	.container {
+		position:relative;
+		min-height:30px;
+	}
+
+	.stat-group {
+		margin-bottom:0;
+		margin-left:0;
+	}
+
+	li {
+		vertical-align:bottom;
+	}
+
+	.stat {
+		margin-top:$_2u;
+		margin-left:-1px;
+		height:2*$_2u;
+		width:$_2u;
+		position:relative;
+
+		
+	}
+
+	.stat__value, .stat__title {
+		font-size:12px;
+		line-height:2.5;
+		width:100%;
+		z-index:1;
+
+		@include transition(all 0.15s 0.07s);
+
+		&:after {
+			background:$accent;
+			content:"";
+			display:block;
+			width:100%;
+			height:120%; // bounce effect
+			max-height:0;
+
+			position:absolute;
+			bottom:0;
+			left:0;
+			z-index:-1;
+
+			@include transition(max-height 0.40s bezier(easeOutBack) 0.07s);
+		}
+	}
+
+	.stat__value {
+		padding-top:3px;
+
+		background:#f2f2f2;
+		min-height:32px;
+
+		position:absolute;
+		bottom:34px;
+		left:0;
+	}
+
+	.stat__title {
+		font-weight:normal;
+		text-transform:uppercase;
+		position:absolute;
+		bottom:0;
+		left:0;
+
+		&:after {
+			top:0;
+			bottom:auto;
+		}
+	}
+
+	&:after {
+		background:#f2f2f2;
+		content:"";
+		display:block;
+		width:100%;
+		height:5px;
+
+		position:absolute;
+		bottom:30px;
+		z-index:100;
+	}
+
+
+	.stat:hover {
+		.stat__value, .stat__title {
+			color:#fff;
+			&:after {
+				max-height:100%;
+			}
+		}
+	}
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<meta name = "viewport" content = "width=device-width, minimum-scale=1, maximum-scale=1">
+		
+		<!-- META -->
+		<meta charset = "utf-8">
+		
+		<!-- CSS -->
+
+		<link rel = "stylesheet" media = "screen" href = "_css/common.css" />
+		
+		<!-- JS -->
+		<script src = "../../../_lib/jquery-1.4.min.js"></script>
+		<script src = "../../../_lib/jquery.easing-1.3.js"></script>
+		
+		<!-- iosSlider plugin -->
+		<script src = "../../../_src/jquery.iosslider.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+				
+				$('.iosSlider').iosSlider({
+					snapToChildren: true,
+					desktopClickDrag: true,
+					keyboardControls: true,
+					infiniteSlider: true,
+                    navPrevSelector: $('.prevButton'),
+                    navNextSelector: $('.nextButton'),
+					navSlideSelector: $('.selectors .item'),
+					onSlideChange: slideChange
+				});
+				
+			}); 
+			
+			function slideChange(args) {
+				
+				$('.selectors .item').removeClass('selected');
+				$('.selectors .item:eq(' + (args.currentSlideNumber - 1) + ')').addClass('selected');
+				
+			}
+		</script>
+		
+		<title>iosScripts/iosSlider demos - Full Width Collapse Height</title>
+
+        <style>
+            .iosSlider .prevButton {
+                position: absolute;
+                top: 130px;
+                left: 0;
+                width: 20px;
+                height: 40px;
+                background: url(../../_resources/slider-buttons.png) no-repeat 0 0;
+                z-index: 2;
+            }
+
+            .iosSlider .nextButton {
+                position: absolute;
+                top: 130px;
+                right: 0;
+                width: 20px;
+                height: 40px;
+                background: url(../../_resources/slider-buttons.png) no-repeat 100% 0;
+                z-index: 2;
+            }
+            </style>
+
+	</head>
+	
+	<body>
+		
+		<div class = 'container' style="width:326px; height: 406px !important;  overflow: hidden" >
+			
+			<div class = 'iosSlider' style="background-color: #9EA8B8;">
+			
+				<div class = 'slider'>
+
+					<div class = 'item'>
+						<img src="1.jpg" />
+					</div>
+					<div class = 'item'>
+						<img src="2.jpg" />
+					</div>
+					<div class = 'item'>
+						<img src="1.jpg" />
+					</div>
+					<div class = 'item'>
+						<img src="1.jpg" />
+					</div>
+					<div class = 'item'>
+						<img src="2.jpg" />
+					</div>
+				
+				</div>
+				
+
+
+
+
+                <div class = 'prevButton'></div>
+
+                <div class = 'nextButton'></div>
+
+			</div>
+
+		</div>
+
+
+			
+	</body>
+	
+</html>

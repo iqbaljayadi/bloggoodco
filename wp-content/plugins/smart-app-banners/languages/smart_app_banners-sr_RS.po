@@ -1,0 +1,123 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sap\n"
+"POT-Creation-Date: 2013-11-25 21:35-0500\n"
+"PO-Revision-Date: 2013-11-29 11:17+0100\n"
+"Last-Translator: Borisa Djuraskovic <borisad@webhostinghub.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: index.php:13 index.php:346
+msgid "Smart App Banners"
+msgstr "Smart App Banners"
+
+#: index.php:44
+msgid ""
+"Enter your <b>nine-digit</b> app ID below. To find your app ID from the <a "
+"href=\"http://itunes.apple.com/linkmaker/\" target=\"_blank\">iTunes Link "
+"Maker</a>, type the name of your app in the Search field, and select the "
+"appropriate country and media type. In the results, find your app and select "
+"iPhone App Link in the column on the right. Your app ID is the nine-digit "
+"number in between id and ?mt."
+msgstr ""
+"Unesite <b>nine-digit</b> app ID ispod. Da b iste našli vaš app ID sa <a "
+"href=\"http://itunes.apple.com/linkmaker/\" target=\"_blank\">iTunes Link "
+"Maker</a>, uneste ime vaše aplikacije u   polju pretrage, i izaberite "
+"odgovarajuću zemlju i tip medija. U rezultatu, nadjite vašu aplikaciju i "
+"izaberite iPhone App Link u koloni na desno. Vaš app ID je broj od devet "
+"cifara izmedju id i ?mt."
+
+#: index.php:76 index.php:398 index.php:563
+msgid "Your App ID"
+msgstr "Your App ID"
+
+#: index.php:89 index.php:405
+msgid "eg: 123456789"
+msgstr "eg: 123456789"
+
+#: index.php:95
+msgid "Show banner on all pages?"
+msgstr "Prikazati baner na svim stranicama?"
+
+#: index.php:106
+msgid ""
+"Uncheck this box to only show smart app banners on specific posts and pages"
+msgstr ""
+"Uklonite čekiranje kvadrata da biste prikazali samo smart app banere na "
+"odredjenim postovima i stranicama"
+
+#: index.php:133
+#, php-format
+msgid ""
+"%s is almost ready.</strong> You must <a href=\"%s/wp-admin/options-general."
+"php?page=%s-setting-admin\">enter your App ID</a> for it to work."
+msgstr ""
+"%s je skoro spremna.</strong> Morate<a href=\"%s/wp-admin/options-general."
+"php?page=%s-setting-admin\"> uneti vašu App ID</a> for it to work."
+
+#: index.php:146
+msgid "Settings"
+msgstr "Postavke"
+
+#: index.php:318
+msgid "Find me on LinkedIn"
+msgstr "Nadjite me na LinkedIn"
+
+#: index.php:319
+msgid "Follow me on Twitter"
+msgstr "Pratite me na Twitter-u"
+
+#: index.php:404
+msgid "Enter your app id"
+msgstr "Unesite vaš app id"
+
+#: index.php:547
+msgid "Motech Download on the App Store"
+msgstr "Motech Download na App Store"
+
+#: index.php:548
+msgid "Displays a Download on the App Store badge linking to your app"
+msgstr ""
+"Prikazuje download dugme za App Store povezivanjem sa vašom aplikacijom"
+
+#: index.php:571 index.php:778
+msgid "Badge Size (100 = Full, 50 = half...)"
+msgstr "Veličina dugmeta (100 = celo, 50 = pola...)"
+
+#: index.php:579 index.php:786
+msgid "Align"
+msgstr "Poravnati"
+
+#: index.php:583 index.php:790
+msgid "Left"
+msgstr "Levo"
+
+#: index.php:584 index.php:791
+msgid "Center"
+msgstr "Centar"
+
+#: index.php:585 index.php:792
+msgid "Right"
+msgstr "Desno"
+
+#: index.php:754
+msgid "Motech Download for Android"
+msgstr "Motech Download za Android"
+
+#: index.php:755
+msgid "Displays a Download for Android badge linking to your app"
+msgstr "Prikazuje download dugme za Android povezivanjem sa vašom aplikacijom"
+
+#: index.php:770
+msgid ""
+"Your Apps <a href='http://developer.android.com/distribute/googleplay/"
+"promote/linking.html' target='_blank'><i>Package Name</i></a>"
+msgstr ""
+" <a href='http://developer.android.com/distribute/googleplay/promote/linking."
+"html' target='_blank'><i>Ima paketa</i></a> vaših aplikacija"

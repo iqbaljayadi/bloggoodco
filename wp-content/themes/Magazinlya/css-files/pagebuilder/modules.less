@@ -1,0 +1,427 @@
+
+
+@td_module_margin_bottom:34px;
+
+
+/*  ----------------------------------------------------------------------------
+    module general
+*/
+
+.td_mod_wrap {
+
+  /* all modules have a margin bottom */
+  margin-bottom: @td_module_margin_bottom;
+
+  .entry-title a {
+    font-family: @font1;
+    color:@td_black !important;
+    font-weight: normal;
+  }
+
+  /*
+  .entry-title a:hover {
+    background-color: #F6F6F6;
+    text-decoration: none !important;
+  }
+  */
+
+
+  .entry-title {
+    margin: 0px;
+  }
+
+
+  .meta-info { /* entry category + comments + td_mvc */
+    position: relative;
+	
+  }
+
+
+  .entry-thumb:hover {
+    //.transition(opacity @td_transition_time);
+    opacity: 0.97;
+  }
+
+}
+
+/*  ----------------------------------------------------------------------------
+    play button
+*/
+.thumb-wrap {
+  position: relative;
+
+  .video-play-icon-big {
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+  }
+
+  .video-play-icon {
+    position: absolute;
+    top:52px;
+    left: 95px;
+  }
+}
+
+/*  ----------------------------------------------------------------------------
+    author + date
+*/
+.entry-author-date {
+  font-family:@font2;
+  color:@td_gray;
+  font-size:12px;
+}
+
+
+/*  ----------------------------------------------------------------------------
+    comments and td_mvc
+*/
+.entry-comments-views {
+  position: absolute;
+  top:0px;
+  right: 0px;
+  color:@td_gray;
+  font-size:11px;
+  font-style: italic;
+  .td-sp { /* the small icons */
+    margin-right: 6px;
+    margin-left: 14px;
+    display: inline-block !important;
+    position: relative;
+    top:2px;
+  }
+}
+
+
+/*  ----------------------------------------------------------------------------
+    category
+*/
+.entry-category {
+  font-family:@font2;
+  font-size:12px;
+  line-height: 10px;
+
+  a {
+    color:@td_text_color !important;
+  }
+  span {
+    font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;
+    font-size:18px !important;
+    line-height: 10px;
+    margin-right: 5px;
+  }
+}
+
+
+/*  ----------------------------------------------------------------------------
+    stars
+*/
+
+.td-review-star {
+  display: inline-block !important;
+}
+
+
+
+/*  ----------------------------------------------------------------------------
+    The modules with Image + meta+ text below meta info align, title, author-date general
+*/
+
+.td_mod2, 
+.td_mod5,
+.td_mod6 {
+	
+	.meta-info {
+		margin: 10px 0px 9px 0px;
+	}
+	
+	.entry-comments-views {
+		line-height: 11px;
+		top: 2px;
+	}
+	
+	.entry-title {
+		padding-bottom: 2px;
+	}
+	
+	.entry-author-date {
+		padding-bottom: 7px; 
+	}
+	
+	.entry-review-stars {
+        padding-top: 4px;
+		padding-bottom: 3px;
+	}
+
+    .entry-comments-views {
+      //top:0px;
+    }
+}
+
+
+
+/*  ----------------------------------------------------------------------------
+    module 2
+*/
+
+.td_mod2 {
+
+  .thumb-wrap {
+    text-align: center;
+
+    /* responsive phone */
+    @media (max-width: 767px) {
+      text-align: center;
+      .mx_image_background();
+    }
+  }
+
+
+  .entry-title a,
+  .entry-title {
+    font-size:20px;
+    line-height:24px !important;
+  }
+}
+
+/*  ----------------------------------------------------------------------------
+    module 3
+*/
+
+.td_mod3 {
+	min-height: 76px;
+
+	.clearfix();
+
+	.entry-title a,
+	.entry-title {
+      font-size:16px;
+      line-height: 19px;
+      position: relative;
+	}
+  
+	.entry-author-date {
+      position: relative;
+      top:3px;
+      padding-bottom: 3px;
+	}
+
+    .entry-category {
+      position: relative;
+      top:5px;
+    }
+	
+	.entry-review-stars {
+		padding-bottom: 0px;
+        position: relative;
+        top:5px;
+	}
+
+  .thumb-wrap img {
+    position: absolute;
+  }
+  .item-details {
+    margin-left: 135px;
+    position: relative;
+    top:-4px;
+  }
+}
+
+
+/* no thumb */
+.td_mod3.td_mod_no_thumb {
+  .item-details {
+    margin-left: 0px;
+  }
+}
+
+
+/* on portrait tablets - custom style */
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td_mod3 {
+    margin-bottom: @td_module_margin_bottom - 5;
+    .thumb-wrap {
+      width: 60px;
+    }
+
+    .item-details {
+      margin-left: 0px;
+    }
+
+    .entry-title a {
+      font-size: 14px;
+    }
+    .entry-title {
+      margin-left: 70px;
+      min-height: 46px;
+    }
+
+    .entry-author-date {
+      top:0px;
+      padding-bottom: 0px;
+    }
+
+    .video-play-icon {
+      //position: absolute;
+      right: 0px;
+      bottom: -38px;
+      left:auto;
+      top:auto;
+      width: 15px;
+    }
+  }
+}
+
+
+/*  ----------------------------------------------------------------------------
+    module 4
+*/
+
+.td_mod4 {
+  min-height: 76px;
+  //margin-bottom: 29px;
+
+  .clearfix();
+
+  .entry-title a,
+  .entry-title {
+    font-size:16px;
+    line-height: 19px;
+    position: relative;
+
+  }
+
+  .entry-author-date {
+    position: relative;
+    top:3px;
+    padding-bottom: 3px;
+  }
+
+  .entry-category {
+    position: relative;
+    top:5px;
+  }
+
+  .entry-review-stars {
+    padding-bottom: 0px;
+    position: relative;
+    top:5px;
+  }
+
+  /* thumb */
+  .thumb-wrap img {
+    position: absolute;
+    right:0px;
+  }
+
+
+  /* play icon */
+  .video-play-icon {
+    right: 5px !important;
+    left:auto !important;
+  }
+
+  .item-details {
+    margin-right: 125px;
+    position: relative;
+    top: -4px;
+  }
+}
+
+
+//no thumb
+.td_mod4.td_mod_no_thumb {
+  .item-details {
+    margin-right: 0px;
+  }
+}
+
+
+/* on portrait tablets - custom style */
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td_mod4 {
+    margin-bottom: @td_module_margin_bottom - 5;
+    .thumb-wrap .entry-thumb {
+      width: 60px;
+    }
+
+    .item-details {
+      margin-right: 0px;
+    }
+
+    .entry-title a {
+      font-size: 14px;
+    }
+    .entry-title {
+      margin-right: 70px;
+      min-height: 40px;
+    }
+
+    .entry-author-date {
+      top:0px;
+      padding-bottom: 0px;
+    }
+
+    .video-play-icon {
+      //position: absolute;
+      right: 0px !important;
+      bottom: -38px;
+      left:auto;
+      top:auto;
+      width: 15px;
+    }
+  }
+}
+
+
+/*  ----------------------------------------------------------------------------
+    module 5
+*/
+
+.td_mod5 {
+  margin-bottom: 24px;
+
+  .entry-title a,
+  .entry-title {
+    font-size:19px;
+    line-height: 22px;
+  }
+
+
+  .thumb-wrap {
+    text-align: center;
+    /* responsive phone */
+    @media (max-width: 767px) {
+      text-align: center;
+      .mx_image_background();
+    }
+  }
+}
+
+
+
+
+/*  ----------------------------------------------------------------------------
+    module 6
+*/
+
+.td_mod6 {
+  margin-bottom: 24px;
+
+  .entry-title a,
+  .entry-title {
+    font-size:19px;
+    line-height: 22px;
+  }
+
+
+  .thumb-wrap {
+    text-align: center;
+    /* responsive phone */
+    @media (max-width: 767px) {
+      text-align: center;
+      .mx_image_background();
+    }
+  }
+}
+

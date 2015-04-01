@@ -1,0 +1,125 @@
+/* RESET */
+[data-notifyrelo]{
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-size: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+[data-notifyrelo="main-container"]{
+	position: fixed;
+	z-index: 9999;
+}
+/* OVERLAY */
+[data-notifyrelo="main-overlay"]{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #000;
+	display: none;
+	z-index: 10999;
+}
+/* WRAPPER */
+[data-notifyrelo="wrapper"]{
+	position: relative;
+	margin-bottom: 20px;
+	display: none;
+	clear: both;
+	-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.5); /* Firefox */
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.5); /* Safari and Chrome */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    z-index: 9999;
+}
+/* RESIZE FULL */
+.data-notifyrelo-resize{
+	z-index: 11000;
+	position: fixed;
+}
+/* HEAD */
+[data-notifyrelo="head"]{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+[data-notifyrelo="logo"],
+[data-notifyrelo="title"],
+[data-notifyrelo="panel"]{
+	height: inherit;
+	line-height: inherit;
+	padding: 0 10px;
+}
+/* LOGO */
+[data-notifyrelo="logo"]{
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	font-size: 20px;
+	color: white;
+}
+/* PANEL */
+[data-notifyrelo="panel"]{
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0 5px 0 10px;
+}
+[data-notifyrelo="btn-drop-down"],
+[data-notifyrelo="close"]{
+	float: left;
+	padding: 0 5px;
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+}
+/* TITLE */
+[data-notifyrelo="title"]{
+	text-align: center;
+	display: inline-block;
+	padding-right: 20px;
+	font-style: italic;
+}
+/* BODY */
+[data-notifyrelo="body"]{
+	width: 100%;
+}
+[data-notifyrelo="toggle-panel"]{
+	width: 100%;
+	height: 0;
+	padding: 0 10px;
+	text-align: right;
+}
+[data-notifyrelo="toggle-panel"] i{
+	padding: 0 5px;
+	cursor: pointer;
+	display: none;
+	user-select: none;
+	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+}
+[data-notifyrelo="content"]{
+	padding-bottom: 0;
+}
+[data-notifyrelo="hidden-content"]{
+	padding-top: 0;
+	display: none;
+}
+[data-notifyrelo="content"],
+[data-notifyrelo="hidden-content"]{
+	width: 100%;
+
+/* SOUND */
+[data-notifyrelo="sound"]{
+	height: 0;
+	width: 0;
+	display:none;
+}

@@ -1,0 +1,860 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Gudea|Kaushan+Script|Lilita+One);
+#listfusion-withinpost-one body,#listfusion-withinpost-one dl,#listfusion-withinpost-one dt,#listfusion-withinpost-one dd,#listfusion-withinpost-one h1,#listfusion-withinpost-one h2,#listfusion-withinpost-one h3,#listfusion-withinpost-one h4,#listfusion-withinpost-one h5,#listfusion-withinpost-one h6,#listfusion-withinpost-one pre,#listfusion-withinpost-one code,#listfusion-withinpost-one fieldset,#listfusion-withinpost-one legend,#listfusion-withinpost-one blockquote,#listfusion-withinpost-one th,#listfusion-withinpost-one td {
+    float: none;
+    color: inherit;
+    position: static;
+    margin: 0;
+    padding: 0;
+}
+#listfusion-withinpost-one .af-body .af-textWrap {
+    width: 98%;
+    display: block;
+    float: none;
+}
+#listfusion-withinpost-one .af-body .privacyPolicy {
+    color: #CCCCCC;
+    font-size: 10px;
+    font-family: Helvetica, sans-serif;
+}
+#listfusion-withinpost-one .af-body a {
+    color: #CCCCCC;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+}
+#listfusion-withinpost-one .af-body input[type="text"] {
+	background-color: #FFFFFF!important;
+	margin-bottom: 10px;
+	border: 0px;
+	line-height: 20px;
+	height: 17px;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin: 5px 0px 5px 0px;
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+	width: 90%;
+	font-family: "Open Sans",Arial,Sans-Serif;
+	font-size: 14px;
+	padding-left: 10px;
+	background-color: transparent;
+	background-position: left top;
+	outline: none;
+	color: #000000;
+	border: 1px solid #CCC;
+	border-radius:2px;
+}
+#listfusion-withinpost-one .af-body input[type="submit"] {
+    background-repeat: no-repeat;
+    height: 40px;
+    margin: 4px 0px 0px 0px;
+	padding:0px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 0px;
+    text-align: center;
+	text-shadow: 0px 0px 1px #C9B7B7;
+	cursor:pointer;
+	width: 94%;
+}
+#listfusion-withinpost-one .af-body {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-image: none;
+    color: #CCCCCC;
+    font-size: 10px;
+    font-family: Helvetica, sans-serif;
+	background: whitesmoke;
+}
+#listfusion-withinpost-one .af-header {
+    padding-bottom: 9px;
+    padding-top: 9px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #66A82A;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-image: none;
+    border-width: 1px;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    color: #FFF;
+    font-size: 10px;
+    font-family: Helvetica, sans-serif;
+}
+#listfusion-withinpost-one .af-quirksMode .bodyText {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#listfusion-withinpost-one .af-quirksMode {
+    padding-right: 61px;
+    padding-left: 61px;
+}
+#listfusion-withinpost-one .af-standards .af-element {
+    padding-right: 61px;
+    padding-left: 61px;
+}
+#listfusion-withinpost-one .bodyText p {
+    margin: 1em 0;
+}
+
+#listfusion-withinpost-one div {
+    margin: 0;
+}
+#listfusion-withinpost-one form,#listfusion-withinpost-one textarea,.af-form-wrapper,.af-form-close-button,#listfusion-withinpost-one img {
+    float: none;
+    color: inherit;
+    position: static;
+    background-color: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+#listfusion-withinpost-one input,#listfusion-withinpost-one button,#listfusion-withinpost-one textarea,#listfusion-withinpost-one select {
+    font-size: 100%;
+}
+#listfusion-withinpost-one p {
+    color: inherit;
+}
+#listfusion-withinpost-one select,#listfusion-withinpost-one label,#listfusion-withinpost-one optgroup,#listfusion-withinpost-one option {
+    padding: 0;
+}
+#listfusion-withinpost-one table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#listfusion-withinpost-one ul,#listfusion-withinpost-one ol {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: disc;
+    padding-left: 40px;
+}
+#listfusion-withinpost-one,#listfusion-withinpost-one .quirksMode {
+    width: 100%;
+    max-width: 560px;
+}
+#listfusion-withinpost-one.af-quirksMode {
+    overflow-x: hidden;
+}
+#listfusion-withinpost-one {
+    background-color: #FFFFFF;
+    border-color: #CFCFCF;
+    border-width: 1px;
+    border-style: none;
+	display: block;
+	overflow: hidden;
+	margin:15px 0px;
+}
+#listfusion-withinpost-one .af-body .aplbpop_social{
+	float:left;
+	padding:0px 5px; 
+}
+<!--TWO-->
+#listfusion-withinpost-two body,#listfusion-withinpost-two dl,#listfusion-withinpost-two dt,#listfusion-withinpost-two dd,#listfusion-withinpost-two h1,#listfusion-withinpost-two h2,#listfusion-withinpost-two h3,#listfusion-withinpost-two h4,#listfusion-withinpost-two h5,#listfusion-withinpost-two h6,#listfusion-withinpost-two pre,#listfusion-withinpost-two code,#listfusion-withinpost-two fieldset,#listfusion-withinpost-two legend,#listfusion-withinpost-two blockquote,#listfusion-withinpost-two th,#listfusion-withinpost-two td {
+    float: none;
+    color: inherit;
+    position: static;
+    margin: 0;
+    padding: 0;
+}
+#listfusion-withinpost-two .af-body .af-textWrap {
+    width: 98%;
+    display: block;
+    float: none;
+}
+#listfusion-withinpost-two .af-body .privacyPolicy {
+    color: #CCCCCC;
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+}
+#listfusion-withinpost-two .af-body a {
+    color: #FF0000;
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: normal;
+}
+#listfusion-withinpost-two .af-body {
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    color: #CCCCCC;
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+	background-size: cover;
+}
+#listfusion-withinpost-two .af-footer {
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-position: top left;
+    background-repeat: repeat-x;
+    background-color: #5DA925;
+    border-width: 1px;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+}
+#listfusion-withinpost-two .af-header {
+    padding-bottom: 9px;
+    padding-top: 9px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-position: top left;
+    background-repeat: repeat-x;
+    background-color: #302D2D;
+    border-width: 1px;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+	border-bottom: 3px solid #5DA925;
+}
+#listfusion-withinpost-two .af-quirksMode .bodyText {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#listfusion-withinpost-two .af-quirksMode {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#listfusion-withinpost-two .af-standards .af-element {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#listfusion-withinpost-two .bodyText p {
+    margin: 1em 0;
+}
+#listfusion-withinpost-two .af-body input[type="text"] {
+	margin-bottom: 10px;
+	border: 0px;
+	line-height: 20px;
+	height: 35px;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin: 5px 0px 5px 0px;
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+	width: 90%;
+	font-family: "Open Sans",Arial,Sans-Serif;
+	font-size: 14px;
+	padding-left: 10px;
+	background-color: rgba(51, 34, 28, 0.4);
+	background-position: left top;
+	outline: none;
+	color: #FFFFFF;
+	border: 1px solid #636363;
+	border-radius:2px;
+}
+#listfusion-withinpost-two .af-body input[type="submit"] {
+    background-repeat: no-repeat;
+    height: 50px;
+    margin: 4px 0px 0px 0px;
+	padding:0px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 0px;
+    text-align: center;
+	text-shadow: 0px 0px 1px #C9B7B7;
+	cursor:pointer;
+	width:94%;
+}
+#listfusion-withinpost-two div {
+    margin: 0;
+}
+#listfusion-withinpost-two fieldset {
+    border: 0;
+}
+#listfusion-withinpost-two form,#listfusion-withinpost-two textarea,.af-form-wrapper,.af-form-close-button,#listfusion-withinpost-two img {
+    float: none;
+    color: inherit;
+    position: static;
+    background-color: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+#listfusion-withinpost-two input,#listfusion-withinpost-two button,#listfusion-withinpost-two textarea,#listfusion-withinpost-two select {
+    font-size: 100%;
+}
+#listfusion-withinpost-two p {
+    color: inherit;
+}
+#listfusion-withinpost-two select,#listfusion-withinpost-two label,#listfusion-withinpost-two optgroup,#listfusion-withinpost-two option {
+    padding: 0;
+}
+#listfusion-withinpost-two table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#listfusion-withinpost-two ul,#listfusion-withinpost-two ol {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: disc;
+    padding-left: 40px;
+}
+#listfusion-withinpost-two,#listfusion-withinpost-two .quirksMode {
+    width: 100%;
+    max-width: 560px;
+}
+#listfusion-withinpost-two.af-quirksMode {
+    overflow-x: hidden;
+}
+#listfusion-withinpost-two {
+    background-color: #FFFFFF;
+    border-color: #CFCFCF;
+    border-width: 1px;
+    border-style: solid;
+	display: block;
+	overflow: hidden;
+	margin:15px 0px;
+}
+#listfusion-withinpost-two .af-body .aplbpop_social{
+	float:left;
+	padding:0px 5px; 
+}
+<!--THREE-->
+#listfusion-withinpost-three body,#listfusion-withinpost-three dl,#listfusion-withinpost-three dt,#listfusion-withinpost-three dd,#listfusion-withinpost-three h1,#listfusion-withinpost-three h2,#listfusion-withinpost-three h3,#listfusion-withinpost-three h4,#listfusion-withinpost-three h5,#listfusion-withinpost-three h6,#listfusion-withinpost-three pre,#listfusion-withinpost-three code,#listfusion-withinpost-three fieldset,#listfusion-withinpost-three legend,#listfusion-withinpost-three blockquote,#listfusion-withinpost-three th,#listfusion-withinpost-three td {
+    float: none;
+    color: inherit;
+    position: static;
+    margin: 0;
+    padding: 0;
+}
+#listfusion-withinpost-three .af-body .af-textWrap {
+    width: 98%;
+    display: block;
+    float: none;
+}
+#listfusion-withinpost-three .af-body .privacyPolicy {
+    color: #000000;
+    font-size: 11px;
+    font-family: Helvetica, sans-serif;
+}
+#listfusion-withinpost-three .af-body a {
+    color: #094C80;
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: normal;
+}
+#listfusion-withinpost-three .af-body input[type="text"] {
+	background-color: #FFFFFF!important;
+	margin-bottom: 10px;
+	border: 0px;
+	line-height: 20px;
+	height: 17px;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin: 5px 0px 5px 0px;
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+	width: 90%;
+	font-family: "Open Sans",Arial,Sans-Serif;
+	font-size: 14px;
+	padding-left: 10px;
+	background-color: transparent;
+	background-position: left top;
+	outline: none;
+	color: #000000;
+	border: 1px solid #CCC;
+	border-radius:2px;
+}
+#listfusion-withinpost-three .af-body input[type="submit"] {
+    background-repeat: no-repeat;
+    height: 40px;
+    margin: 4px 0px 0px 0px;
+	padding:0px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 0px;
+    text-align: center;
+	text-shadow: 0px 0px 1px #C9B7B7;
+	cursor:pointer;
+	width:94%;
+}
+#listfusion-withinpost-three .af-body {
+    padding-bottom: 35px;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-image: none;
+    color: #000000;
+    font-size: 11px;
+    font-family: Helvetica, sans-serif;
+	background:rgb(233, 232, 214);
+}
+#listfusion-withinpost-three .af-footer {
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-image: none;
+    border-width: 1px;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    color: #000000;
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+}
+#listfusion-withinpost-three .af-header {
+    background-repeat: no-repeat;
+    background-position: inherit;
+    border-color: #7EB13E;
+    border-width: 5px;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+	background-size:cover;
+}
+#listfusion-withinpost-three .af-quirksMode .bodyText {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#listfusion-withinpost-three .af-standards .af-element {
+    padding-right: 55px;
+    padding-left: 55px;
+}
+#listfusion-withinpost-three .bodyText p {
+    margin: 1em 0;
+}
+#listfusion-withinpost-three .buttonContainer {
+    text-align: center;
+}
+#listfusion-withinpost-three button,#listfusion-withinpost-three input,#listfusion-withinpost-three submit,#listfusion-withinpost-three textarea,#listfusion-withinpost-three select,#listfusion-withinpost-three label,#listfusion-withinpost-three optgroup,#listfusion-withinpost-three option {
+    float: none;
+    position: static;
+    margin: 0;
+}
+#listfusion-withinpost-three div {
+    margin: 0;
+}
+#listfusion-withinpost-three fieldset {
+    border: 0;
+}
+#listfusion-withinpost-three form,#listfusion-withinpost-three textarea,.af-form-wrapper,.af-form-close-button,#listfusion-withinpost-three img {
+    float: none;
+    color: inherit;
+    position: static;
+    background-color: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+#listfusion-withinpost-three input,#listfusion-withinpost-three button,#listfusion-withinpost-three textarea,#listfusion-withinpost-three select {
+    font-size: 100%;
+}
+#listfusion-withinpost-three p {
+    color: inherit;
+}
+#listfusion-withinpost-three select,#listfusion-withinpost-three label,#listfusion-withinpost-three optgroup,#listfusion-withinpost-three option {
+    padding: 0;
+}
+#listfusion-withinpost-three table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#listfusion-withinpost-three ul,#listfusion-withinpost-three ol {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: disc;
+    padding-left: 40px;
+}
+#listfusion-withinpost-three,#listfusion-withinpost-three .quirksMode {
+    width: 100%;
+    max-width: 560px;
+}
+#listfusion-withinpost-three.af-quirksMode {
+    overflow-x: hidden;
+}
+#listfusion-withinpost-three {
+    background-color: #FFFFFF;
+    display: block;
+    overflow: hidden;
+	margin:15px 0px;
+}
+#listfusion-withinpost-three .af-body .aplbpop_social{
+	float:left;
+	padding:0px 5px; 
+}
+<!--FOUR-->
+#listfusion-withinpost-four body,#listfusion-withinpost-four dl,#listfusion-withinpost-four dt,#listfusion-withinpost-four dd,#listfusion-withinpost-four h1,#listfusion-withinpost-four h2,#listfusion-withinpost-four h3,#listfusion-withinpost-four h4,#listfusion-withinpost-four h5,#listfusion-withinpost-four h6,#listfusion-withinpost-four pre,#listfusion-withinpost-four code,#listfusion-withinpost-four fieldset,#listfusion-withinpost-four legend,#listfusion-withinpost-four blockquote,#listfusion-withinpost-four th,#listfusion-withinpost-four td {
+    float: none;
+    color: inherit;
+    position: static;
+    margin: 0;
+    padding: 0;
+}
+#listfusion-withinpost-four .af-body .af-textWrap {
+    width: 98%;
+    display: block;
+    float: none;
+}
+#listfusion-withinpost-four .af-body .privacyPolicy {
+    color: #000000;
+    font-size: 11px;
+    font-family: Helvetica, sans-serif;
+}
+#listfusion-withinpost-four .af-body a {
+    color: #094C80;
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: normal;
+}
+#listfusion-withinpost-four .af-header iframe{
+	width:100%;
+	margin-bottom:0px;
+}
+#listfusion-withinpost-four .af-body input[type="text"] {
+	background-color: #FFFFFF!important;
+	margin-bottom: 10px;
+	border: 0px;
+	line-height: 20px;
+	height: 17px;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin: 5px 0px 5px 0px;
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+	width: 90%;
+	font-family: "Open Sans",Arial,Sans-Serif;
+	font-size: 14px;
+	padding-left: 10px;
+	background-color: transparent;
+	background-position: left top;
+	outline: none;
+	color: #000000;
+	border: 1px solid #CCC;
+	border-radius:2px;
+}
+#listfusion-withinpost-four .af-body input[type="submit"] {
+    background-repeat: no-repeat;
+    height: 40px;
+    margin: 4px 0px 0px 0px;
+	padding:0px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 0px;
+    text-align: center;
+	text-shadow: 0px 0px 1px #C9B7B7;
+	cursor:pointer;
+	width:94%;
+}
+#listfusion-withinpost-four .af-body {
+    padding-bottom: 35px;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-image: none;
+    color: #000000;
+    font-size: 11px;
+    font-family: Helvetica, sans-serif;
+}
+#listfusion-withinpost-four .af-footer {
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-image: none;
+    border-width: 1px;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    color: #000000;
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+}
+#listfusion-withinpost-four .af-header {
+    background-repeat: no-repeat;
+    background-position: inherit;
+    /*border-width: 5px;*/
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+	background-size:cover;
+}
+#listfusion-withinpost-four .af-quirksMode .bodyText {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#listfusion-withinpost-four .af-standards .af-element {
+    padding-right: 55px;
+    padding-left: 55px;
+}
+#listfusion-withinpost-four .bodyText p {
+    margin: 1em 0;
+}
+#listfusion-withinpost-four .buttonContainer {
+    text-align: center;
+}
+#listfusion-withinpost-four button,#listfusion-withinpost-four input,#listfusion-withinpost-four submit,#listfusion-withinpost-four textarea,#listfusion-withinpost-four select,#listfusion-withinpost-four label,#listfusion-withinpost-four optgroup,#listfusion-withinpost-four option {
+    float: none;
+    position: static;
+    margin: 0;
+}
+#listfusion-withinpost-four div {
+    margin: 0;
+}
+#listfusion-withinpost-four fieldset {
+    border: 0;
+}
+#listfusion-withinpost-four form,#listfusion-withinpost-four textarea,.af-form-wrapper,.af-form-close-button,#listfusion-withinpost-four img {
+    float: none;
+    color: inherit;
+    position: static;
+    background-color: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+#listfusion-withinpost-four input,#listfusion-withinpost-four button,#listfusion-withinpost-four textarea,#listfusion-withinpost-four select {
+    font-size: 100%;
+}
+#listfusion-withinpost-four p {
+    color: inherit;
+}
+#listfusion-withinpost-four select,#listfusion-withinpost-four label,#listfusion-withinpost-four optgroup,#listfusion-withinpost-four option {
+    padding: 0;
+}
+#listfusion-withinpost-four table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#listfusion-withinpost-four ul,#listfusion-withinpost-four ol {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: disc;
+    padding-left: 40px;
+}
+#listfusion-withinpost-four,#listfusion-withinpost-four .quirksMode {
+    width: 100%;
+    max-width: 560px;
+}
+#listfusion-withinpost-four.af-quirksMode {
+    overflow-x: hidden;
+}
+#listfusion-withinpost-four {
+    background-color: #FFFFFF;
+    border-color: #CFCFCF;
+    border-width: 1px;
+    border-style: solid;
+    display: block;
+    overflow: hidden;
+	margin:15px 0px;
+}
+#listfusion-withinpost-four .af-body .aplbpop_social{
+	float:left;
+	padding:0px 5px; 
+}
+<!--FIVE-->
+#listfusion-withinpost-five body,#listfusion-withinpost-five dl,#listfusion-withinpost-five dt,#listfusion-withinpost-five dd,#listfusion-withinpost-five h1,#listfusion-withinpost-five h2,#listfusion-withinpost-five h3,#listfusion-withinpost-five h4,#listfusion-withinpost-five h5,#listfusion-withinpost-five h6,#listfusion-withinpost-five pre,#listfusion-withinpost-five code,#listfusion-withinpost-five fieldset,#listfusion-withinpost-five legend,#listfusion-withinpost-five blockquote,#listfusion-withinpost-five th,#listfusion-withinpost-five td {
+    float: none;
+    color: inherit;
+    position: static;
+    margin: 0;
+    padding: 0;
+}
+#listfusion-withinpost-five .af-body .af-textWrap {
+    width: 98%;
+    display: block;
+    float: none;
+}
+#listfusion-withinpost-five .af-body .privacyPolicy {
+    color: #CCCCCC;
+    font-size: 10px;
+    font-family: Helvetica, sans-serif;
+}
+#listfusion-withinpost-five .af-body a {
+    color: #CCCCCC;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+}
+#listfusion-withinpost-five .af-body input[type="text"] {
+	background-color: #FFFFFF!important;
+	margin-bottom: 10px;
+	border: 0px;
+	line-height: 20px;
+	height: 17px;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin: 5px 0px 5px 0px;
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+	width: 90%;
+	font-family: "Open Sans",Arial,Sans-Serif;
+	font-size: 14px;
+	padding-left: 10px;
+	background-color: transparent;
+	background-position: left top;
+	outline: none;
+	color: #000000;
+	border: 1px solid #CCC;
+	border-radius:2px;
+}
+#listfusion-withinpost-five .af-body input[type="submit"] {
+    background-repeat: no-repeat;
+    height: 40px;
+    margin: 4px 0px 0px 0px;
+	padding:0px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 0px;
+    text-align: center;
+	text-shadow: 0px 0px 1px #C9B7B7;
+	cursor:pointer;
+	width:94%;
+}
+#listfusion-withinpost-five .af-body {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-image: none;
+    color: #CCCCCC;
+    font-size: 10px;
+    font-family: Helvetica, sans-serif;
+	background: ButtonFace;
+}
+#listfusion-withinpost-five .af-header {
+    padding-bottom: 9px;
+    padding-top: 9px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #3883AD;/*#638D24*/
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-image: none;
+    border-width: 1px;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    color: #FFF;
+    font-size: 10px;
+    font-family: Helvetica, sans-serif;
+}
+#listfusion-withinpost-five .af-quirksMode .bodyText {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#listfusion-withinpost-five .af-quirksMode {
+    padding-right: 61px;
+    padding-left: 61px;
+}
+#listfusion-withinpost-five .af-standards .af-element {
+    padding-right: 61px;
+    padding-left: 61px;
+}
+#listfusion-withinpost-five .bodyText p {
+    margin: 1em 0;
+}
+
+#listfusion-withinpost-five div {
+    margin: 0;
+}
+#listfusion-withinpost-five form,#listfusion-withinpost-five textarea,.af-form-wrapper,.af-form-close-button,#listfusion-withinpost-five img {
+    float: none;
+    color: inherit;
+    position: static;
+    background-color: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+#listfusion-withinpost-five input,#listfusion-withinpost-five button,#listfusion-withinpost-five textarea,#listfusion-withinpost-five select {
+    font-size: 100%;
+}
+#listfusion-withinpost-five p {
+    color: inherit;
+}
+#listfusion-withinpost-five select,#listfusion-withinpost-five label,#listfusion-withinpost-five optgroup,#listfusion-withinpost-five option {
+    padding: 0;
+}
+#listfusion-withinpost-five table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#listfusion-withinpost-five ul,#listfusion-withinpost-five ol {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: disc;
+    padding-left: 40px;
+}
+#listfusion-withinpost-five,#listfusion-withinpost-five .quirksMode {
+    width: 100%;
+    max-width: 560px;
+}
+#listfusion-withinpost-five.af-quirksMode {
+    overflow-x: hidden;
+}
+#listfusion-withinpost-five {
+    background-color: #FFFFFF;
+    border-color: #CFCFCF;
+    border-width: 1px;
+    border-style: none;
+	display: block;
+	overflow: hidden;
+	margin:15px 0px;
+}
+#listfusion-withinpost-five .af-img{
+	padding-bottom:55px;
+	padding-top:55px;
+	background-repeat:no-repeat;background-position:top center;
+	background-size:cover; 
+	color:#333333;
+	font-size:12px;
+	font-family:Helvetica, sans-serif;
+}
+
+#listfusion-withinpost-five .af-body .aplbpop_social{
+	float:left;
+	padding:0px 5px; 
+}

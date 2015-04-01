@@ -1,0 +1,865 @@
+@charset "utf-8";
+/* CSS Document */
+/*=================== Common Reset=================*/
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+	padding: 0px;
+}
+.margin-top {
+	margin-top: 30px;
+}
+.margin-top-half {
+	margin-top: 15px;
+}
+.bold {
+	font-weight: bold;
+}
+.border-radius-none {
+	border-radius: 0px;
+}
+.margin-bottom {
+	margin-bottom: 20px;
+}
+.red-heighlight {
+	color: #C00;
+}
+.blue-heighlight {
+	color: #039;
+}
+.float-right {
+	float: right !important;
+}
+.center {
+	text-align: center;
+	display: block;
+}
+.clear-both {
+	display: block;
+	clear: both;
+}
+.form-control {
+	/*color:#000!important;*/
+	font-family:Open Sans;
+	font-weight:700;
+	margin-bottom: 15px;
+	color: #8a8a8a;
+}
+
+li {
+	line-height: 30px;
+	list-style: none;
+	background: url(bullet.png) no-repeat scroll 2px 8px;
+	padding: 6px 0px 5px 35px;
+	margin-left: -35px;
+	font-size:16px;
+}
+/* ========================== SQ Page 1 css =====================*/
+
+.page-sq-one-wrap {
+	border: 7px solid #EC0000;
+	border-radius: 5px;
+	max-width: 850px;
+	padding: 5px 10px;
+	display: block;
+}
+.page-sq-one-wrap h1 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 56px;
+	color: #CC0000;
+	font-family: Impact;
+	text-shadow: 4 5 6 #999;
+	line-height: 80px;
+}
+.page-sq-one-wrap p {
+	font-size: 20px;
+	padding: 9px 0px;
+	font-weight: bold;
+	color: #000;
+	line-height: 30px;
+	font-family: Open Sans;
+}
+.wrapper-one {
+	max-width: 850px;
+	margin: 0 auto;
+	padding-top: 20px;
+	display: block;
+}
+.wrapper-one .title h2 {
+	color: #EC0000;
+	font-weight: bold;
+	margin-top: 10px;
+	font-size: 50px;
+	text-align: center;
+	padding: 8px 0px;
+	line-height: 50px;
+	color: #444;
+	font-family: Passion One;
+	text-transform:capitalize;
+}
+.wrapper-one .title h5 {
+	font-family: Open Sans;
+	font-weight: bolder;
+	line-height: 35px;
+	padding: 10px 0px;
+	font-size: 22px;
+	text-align: center;
+}
+.wrapper-one .content-page {
+	margin-top: 10px;
+	font-size: 16px;
+	border-top: 1px solid #CCC;
+	padding: 25px 0px 0px 0px
+}
+.wrapper-one .content-page h5 {
+	margin: 0px;
+	padding: 0px;
+	font-family: Open Sans;
+}
+.wrapper-one .content-page ul.list-topic {
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper-one .content-page ul.list-topic li {
+	line-height: 30px;
+	list-style: none;
+	background: url(bullet.png) no-repeat scroll 2px 8px;
+	padding: 6px 0px 5px 35px;
+	margin-left: 0px;
+}
+.wrapper-one .form-wrap {
+	max-width: 500px;
+	padding-bottom: 15px;
+}
+/* ========================== SQ Page 2 css =====================*/
+
+.wrapper-two {
+	max-width: 900px;
+	margin: 0 auto;
+	display: block;
+}
+.wrapper-two .main-title {
+	color: #CC0000;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 40px;
+	margin-bottom: 25px;
+	padding: 5px 0;
+	text-align: center;
+}
+.wrapper-two .top-title {
+	font-size: 22px;
+	font-weight: bolder;
+	line-height: 30px;
+	padding: 10px 0;
+	text-align: center;
+}
+.wrapper-two .content-page {
+	font-size: 16px;
+}
+.wrapper-two .content-page h5 {
+	margin: 0px;
+	padding: 0px;
+	font-family: Open Sans;
+}
+.wrapper-two .content-page ul.list-topic {
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper-two .content-page ul.list-topic li {
+	line-height: 30px;
+	list-style: none;
+	background: url(bullet.png) no-repeat scroll 2px 8px;
+	padding:6px 0px 5px 35px;
+	margin-left: 0px;
+}
+.wrapper-two .sidebar {
+	background: #f1f1f1; /* Old browsers */
+	background: -moz-linear-gradient(top, #f1f1f1 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f1f1f1), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f1f1f1 0%, #ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f1f1f1 0%, #ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f1f1f1 0%, #ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #f1f1f1 0%, #ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
+	padding: 20px 20px 30px 20px;
+	min-height: 500px;
+}
+.wrapper-two .sidebar h4 {
+	font-family: 'Kaushan Script', Helvetica, sans-serif;
+	line-height: 35px;
+	font-size: 28px;
+	color: #007FCB;
+	font-weight: bold;
+	text-align: center;
+}
+/* ========================== SQ Page 3 css =====================*/
+
+.wrapper-three {
+	height: 100%;
+	width: 100%;
+	padding-bottom: 100px;
+}
+.wrapper-three-inner {
+	max-width: 850px;
+	margin: 0 auto;
+	display: block;
+}
+.footer-fixed {
+	background: #393939;
+	height: 70px;
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	position: fixed;
+}
+.footer-fixed p {
+	color: #ddd;
+}
+.wrapper-three h2 a {
+	text-decoration: none;
+	color: #CECECE;
+}
+.wrapper-three h2 a:hover {
+	color: #069;
+}
+.border-three {
+	border: 1px solid #777;
+	border-radius: 0px;
+}
+.form-inline-three {
+	background: #333;
+	display: block;
+	padding: 20px;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	padding: 20px;
+}
+.btn-three {
+	background: #55b7d5; /* Old browsers */
+	background: -moz-linear-gradient(top, #55b7d5 0%, #32a4c9 50%, #288aa9 51%, #257995 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #55b7d5), color-stop(50%, #32a4c9), color-stop(51%, #288aa9), color-stop(100%, #257995)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #55b7d5 0%, #32a4c9 50%, #288aa9 51%, #257995 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #55b7d5 0%, #32a4c9 50%, #288aa9 51%, #257995 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #55b7d5 0%, #32a4c9 50%, #288aa9 51%, #257995 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #55b7d5 0%, #32a4c9 50%, #288aa9 51%, #257995 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55b7d5', endColorstr='#257995', GradientType=0 ); /* IE6-9 */
+	color: #fff;
+	font-family: Verdana;
+	font-weight: bold;
+	text-shadow: 0 0 1px #333;
+	text-transform: uppercase;
+}
+.btn-three:hover {
+	background: #55b7d5;
+	color: #fff;
+}
+.wrapper-three h4 {
+	font-family: 'Kaushan Script', Helvetica, sans-serif;
+	line-height: 35px;
+	font-size: 30px;
+	color: #CC0000;
+	font-weight: normal;
+	text-align: center;
+}
+.wrapper-three iframe { 
+	width:100%; 
+	height:350px; 
+}
+/* ========================== SQ Page 4 css =====================*/
+
+.wrapper-four {
+	height: 100%;
+	width: 100%;
+	padding-bottom: 100px;
+}
+.wrapper-four-inner {
+	max-width: 850px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	margin-top: 40px;
+	background: #fff;
+	padding: 20px;
+}
+.sq-four-form {
+	max-width: 400px;
+	margin: 0 auto;
+}
+.btn-sq-four {
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(10deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #1e5799 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #1e5799), color-stop(50%, #2989d8), color-stop(51%, #207cca), color-stop(100%, #1e5799)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(10deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #1e5799 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(10deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #1e5799 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(10deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #1e5799 100%); /* IE10+ */
+	background: linear-gradient(10deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #1e5799 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#1e5799', GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	color: #fff;
+	font-weight: bold;
+	border: 2px solid #aaa;
+	font-family: Tahoma;
+	text-shadow: 0px 0px 1px #000;
+}
+.btn-sq-four:hover {
+	background: #207cca;
+	color: #fff;
+}
+.wrapper-four h3 {
+	font-weight: bold;
+	line-height: 35px;
+}
+.wrapper-four p {
+}
+.wrapper-four iframe { 
+	width:100%; 
+	height:350px; 
+}
+/* ========================== SQ Page 5 css =====================*/
+.wrapper-five {
+	height: 100%;
+	width: 100%;
+	padding-bottom: 100px;
+}
+.wrapper-five-inner {
+	/*background-size: cover;*/
+	/*border: 1px solid #F6F6F6;*/
+	border-radius: 5px;
+	display: block;
+	margin: 30px auto 0;
+	max-width: 880px;
+	padding: 20px;
+}
+.wrapper-five-inner h1 {
+	font-size: 35px;
+	font-family: monospace;
+}
+.wrapper-five .sidebar-s5 {
+	display: block;
+	overflow: hidden;
+	background: #fff;
+	padding: 30px 60px;
+	border-radius: 4px;
+	border:1px solid #CCC;
+	opacity:0.85;
+	filter:alpha(opacity=85); /* For IE8 and earlier */
+}
+.wrapper-five .sidebar-s5 p {
+	font-family: "Times New Roman", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+}
+.wrapper-five .sidebar-s5 .condition-wrap {
+	padding-top: 20px;
+	clear: both;
+	display: block;
+}
+.wrapper-five .sidebar-s5 .condition-wrap span {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper-five .sidebar-s5 .condition-wrap .no-thanks a {
+	color: #aaa;
+}
+.btn-five {
+	background: #bc365d; /* Old browsers */
+	background: -moz-linear-gradient(top, #bc365d 0%, #bc365d 50%, #bc365d 64%, #972734 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bc365d), color-stop(50%, #bc365d), color-stop(64%, #bc365d), color-stop(100%, #972734)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #bc365d 0%, #bc365d 50%, #bc365d 64%, #972734 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #bc365d 0%, #bc365d 50%, #bc365d 64%, #972734 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #bc365d 0%, #bc365d 50%, #bc365d 64%, #972734 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #bc365d 0%, #bc365d 50%, #bc365d 64%, #972734 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc365d', endColorstr='#972734', GradientType=0 ); /* IE6-9 */
+	font-family: cursive, Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	color: #fff;
+}
+.btn-five:hover {
+	background: #bc365d;
+	color: #fff;
+}
+.border-five {
+	border: 1px solid #999;
+}
+.about-five-wrap {
+	margin: 10px -6px 10px -6px;
+	background: #fff;
+}
+.about-five-man {
+	background: #222222;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+.five-copyright {
+	text-shadow: 0px 0px 2px #333;
+	color: #ddd;
+}
+/* ========================== SQ Page 6 css =====================*/
+	
+.wrapper-six {
+	height: 100%;
+	width: 100%;
+	padding-bottom: 100px;
+}
+.wrapper-six p {
+	line-height: 25px;
+	font-size: 16px;
+	/*letter-spacing: 1px;*/
+}
+.wrapper-six-inner {
+	background: #FFFFFF;
+	border: 1px solid #F6F6F6;
+	border-radius: 5px;
+	display: block;
+	margin: 30px auto 0;
+	max-width: 880px;
+	padding: 20px;
+}
+.wrapper-six .sidebar-s6 {
+	display: block;
+	background: #F9F9F9;
+	padding: 50px 10px 30px 10px;
+	border-radius: 4px;
+	position: relative;
+}
+.wrapper-six .sidebar-s6 p {
+	font-size: 18px;
+	font-weight: normal;
+}
+.wrapper-six .sidebar-s6 h3 {
+	font-family: Kaushan Script;
+	line-height: 40px;
+	font-weight: normal;
+	color:#007FCB;
+}
+.wrapper-six .sidebar-s6 .condition-wrap-six {
+	padding-top: 20px;
+	clear: both;
+	display: block;
+}
+.wrapper-six .sidebar-s6 .condition-wrap-six p {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper-six h2 {
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #444;
+	font-family: Passion One;
+	text-transform:capitalize;
+}
+.btn-six {
+	background: #333;
+	border: 2px solid #960;
+	color: #ccc;
+	transition: all 0.3s ease-in-out;
+}
+.btn-six:hover {
+	color: #ccc;
+	background: #000;
+}
+.wrapper-six .sidebar-s6 .red-arrow {
+	width: 101px;
+	height: 122px;
+	position: absolute;
+	left: 37%;
+	top: -50px;
+}
+.wrapper-six iframe { 
+	width:100%; 
+	height:350px; 
+}
+/* ========================== SQ Page 7 css =====================*/
+	
+.wrapper-seven {
+	padding-bottom: 100px;
+	display: block;
+	width: 100%;
+}
+.outer-wrap {
+	/*max-width: 550px;*/
+	margin: 0 auto;
+	text-align: center;
+}
+.outer-wrap .bottom-seven {
+	padding: 30px 20px;
+	color: #fff;
+	text-shadow: 0px 0px 1px #000;
+}
+.wrapper-seven-inner {
+	background: #FFFFFF;
+	/*border: 1px solid #ccc;*/
+	border-radius: 5px;
+	display: block;
+	margin: 30px auto 0;
+	max-width: 700px;
+	/*padding: 40px 10px 40px 10px;*/
+	box-shadow: inset 0px 0px 15px #aaa;
+}
+.btn-seven {
+	color: #fff;
+	background: #51c1f3; /* Old browsers */
+	background: -moz-linear-gradient(top, #51c1f3 0%, #35aadf 50%, #0e90cb 64%, #016fa3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #51c1f3), color-stop(50%, #35aadf), color-stop(64%, #0e90cb), color-stop(100%, #016fa3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #51c1f3 0%, #35aadf 50%, #0e90cb 64%, #016fa3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #51c1f3 0%, #35aadf 50%, #0e90cb 64%, #016fa3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #51c1f3 0%, #35aadf 50%, #0e90cb 64%, #016fa3 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #51c1f3 0%, #35aadf 50%, #0e90cb 64%, #016fa3 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51c1f3', endColorstr='#016fa3', GradientType=0 ); /* IE6-9 */
+	font-family: cursive, Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	transition: all 0.3s ease-in-out;
+}
+.btn-seven:hover {
+	color: #fff;
+	background-color: #0e90cb;
+}
+.wrapper-seven .free-access {
+	color: #888888;
+	font-family: 'Comic Sans MS';
+	font-size: 20px;
+}
+.border-seven {
+	border: 1px solid #eee;
+}
+.wrapper-seven iframe { 
+	width:100%; 
+	height:350px; 
+}
+/* ========================== SQ Page 8 css =====================*/
+	
+.wrapper-eight {
+	height: 100%;
+	width: 100%;
+	padding-bottom: 100px;
+}
+.wrapper-eight p {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 25px;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+.wrapper-eight-inner {
+	background: #FFFFFF;
+	/*border: 1px solid #F6F6F6;*/
+	/*border-radius: 5px;*/
+	display: block;
+	margin: 0px auto 0;
+	max-width: 880px;
+	padding: 20px;
+}
+.wrapper-eight .sidebar-s6 {
+	display: block;
+	overflow: hidden;
+	background: #F9F9F9;
+	padding: 30px 10px;
+	border-radius: 4px;
+}
+.wrapper-eight .sidebar-s6 p {
+	font-size: 18px;
+	font-weight: normal;
+}
+.wrapper-eight .sidebar-s6 h3 {
+	font-family: Pacifico;
+}
+.wrapper-eight h4 {
+	line-height: 40px;
+	margin: 10px 0;
+	color: #444;
+	font-family:Open Sans;
+	font-size:20px;
+	text-align:center;
+}
+.wrapper-eight .sidebar-s6 .condition-wrap-eight {
+	padding-top: 20px;
+	clear: both;
+	display: block;
+}
+.wrapper-eight .sidebar-s6 .condition-wrap-eight p {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper-eight h2 {
+	color: #EC0000;
+	font-weight: 600;
+	margin-top: 10px;
+	font-size: 35px;
+	text-align: center;
+	padding: 8px 0px;
+	line-height: 50px;
+	color: #444;
+	font-family: Open Sans;
+	text-transform:capitalize;
+}
+.btn-eight {
+	background-color: #21759B;
+	background-image: linear-gradient(to bottom, #2A95C5, #21759B);
+	border-color: #21759B #21759B #1E6A8D;
+	box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	text-transform: uppercase;
+}
+.btn-eight:hover {
+	background-color: #278AB7;
+	background-image: linear-gradient(to bottom, #2E9FD2, #21759B);
+	border-color: #1B607F;
+	box-shadow: 0 1px 0 rgba(120, 200, 230, 0.6) inset;
+	color: #FFFFFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3)
+}
+.wrapper-eight iframe { 
+	width:100%; 
+	height:350px; 
+}
+/* ========================== SQ Page 9 css =====================*/
+	
+.wrapper-nine {
+	height: 100%;
+	width: 100%;
+	padding-bottom: 100px;
+}
+.wrapper-nine p {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 25px;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+.wrapper-nine-inner {
+	display: block;
+	margin: 30px auto 0;
+	max-width: 880px;
+	padding: 20px;
+	color: #fff;
+}
+.wrapper-nine .sidebar-s9 {
+	color: #333;
+	background: #EEE8E8;
+	display: inline-block;
+block;
+	padding: 20px 20px;
+	border-radius: 5px;
+}
+.btn-nine {
+	background: #55b7d5; /* Old browsers */
+	background: -moz-linear-gradient(top, #55b7d5 0%, #32a4c9 50%, #288aa9 51%, #257995 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #55b7d5), color-stop(50%, #32a4c9), color-stop(51%, #288aa9), color-stop(100%, #257995)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #55b7d5 0%, #32a4c9 50%, #288aa9 51%, #257995 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #55b7d5 0%, #32a4c9 50%, #288aa9 51%, #257995 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #55b7d5 0%, #32a4c9 50%, #288aa9 51%, #257995 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #55b7d5 0%, #32a4c9 50%, #288aa9 51%, #257995 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55b7d5', endColorstr='#257995', GradientType=0 ); /* IE6-9 */
+	color: #fff;
+	font-family: Verdana;
+	font-family: cursive, Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+}
+.btn-nine:hover {
+	background: #55b7d5;
+	color: #fff;
+}
+.bg {
+	background-color: rgba(0, 19, 26, 0.6);
+}
+.arrow-9 {
+	width: 80px;
+	height: 125px;
+	position: absolute;
+	bottom: -140px;
+	left: 35%;
+}
+/* ========================== SQ Page 10 css =====================*/
+	
+.wrapper-ten {
+	height: 100%;
+	width: 100%;
+	padding-bottom: 100px;
+}
+.wrapper-ten p {
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	line-height: 25px;
+	font-size: 16px;
+}
+.wrapper-ten-inner {
+	display: block;
+	margin: 30px auto 0;
+	max-width: 880px;
+	border-radius: 5px;
+}
+.wrapper-ten-inner .left-article {
+	background: #fff;
+	border-radius: 5px;
+	text-align: center;
+	padding: 30px 10px 30px 10px;
+	margin-bottom: 30px;
+	height: auto;
+}
+.wrapper-ten-inner .left-article h2 {
+	font-family: menu;
+	font-size: 35px;
+	line-height: 45px;
+	margin-bottom: 20px;
+	font-family:Kaushan Script;
+	font-weight:700;
+	text-transform:capitalize;
+}
+.wrapper-ten-inner .left-article h4 {
+	font-size: 16px;
+	margin-bottom: 10px;
+	line-height: 25px;
+}
+.wrapper-ten .sidebar-sten {
+	color: #333;
+	display: inline-block;
+	padding: 20px 10px;
+	position: relative;
+}
+.wrapper-ten .sidebar-sten h3 {
+	font-family: Open Sans;
+	font-size:22px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-shadow: 2px 0px 15px #000;
+}
+.btn-ten {
+	background: #efee56; /* Old browsers */
+	background: -moz-linear-gradient(top, #efee56 0%, #fec907 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #efee56), color-stop(100%, #fec907)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #efee56 0%, #fec907 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #efee56 0%, #fec907 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #efee56 0%, #fec907 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #efee56 0%, #fec907 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efee56', endColorstr='#fec907', GradientType=0 ); /* IE6-9 */
+	color: #354180;
+	font-family: cursive, Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+}
+.btn-ten:hover {
+	background: #efee56;
+}
+.border-ten {
+	border: 1px solid #777;
+}
+.heighlight-ten {
+	color: #842728;
+}
+.bg-heighlight {
+	background: #F4FB00;
+	display: inline-block;
+	padding: 2px 5px;
+	margin-bottom: 20px;
+}
+.spoiler-alert {
+	background: #CC0001;
+	padding: 2px 5px;
+}
+ul.benefits {
+	text-align: left;
+	list-style: none;
+}
+ul.benefits li {
+	line-height: 30px;
+	background: url(bullet.png) no-repeat scroll 0px 8px;
+	padding:6px 25px 4px 35px;
+}
+.arrow-10 {
+	position: absolute;
+	bottom: -70px;
+	left: -50px;
+}
+/* ========================== SQ Page 11 css =====================*/
+	
+.wrapper-elev {
+	height: 100%;
+	width: 100%;
+	padding-bottom: 100px;
+}
+.wrapper-elev p {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 25px;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+.wrapper-elev-inner {
+	display: block;
+	margin: 30px auto 0;
+	max-width: 425px;
+	padding: 20px 20px 50px 20px;
+	color: #fff;
+	background: #262626;
+	border-radius: 5px;
+	position: relative;
+}
+.get-access-elev {
+	color: #a7b496;
+}
+.input-set-elev {
+	background: #e0dfff;
+	border-radius: 10px;
+}
+.elev-form {
+	width: 75%;
+	margin: 0 auto;
+}
+.btn-elev {
+	background: #f13b38; /* Old browsers */
+	background: -moz-linear-gradient(top, #f13b38 0%, #e12b2a 50%, #ce0101 55%, #b40001 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f13b38), color-stop(50%, #e12b2a), color-stop(55%, #ce0101), color-stop(100%, #b40001)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f13b38 0%, #e12b2a 50%, #ce0101 55%, #b40001 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f13b38 0%, #e12b2a 50%, #ce0101 55%, #b40001 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f13b38 0%, #e12b2a 50%, #ce0101 55%, #b40001 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #f13b38 0%, #e12b2a 50%, #ce0101 55%, #b40001 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f13b38', endColorstr='#b40001', GradientType=0 ); /* IE6-9 */
+	color: #fff;
+	font-family: cursive, Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+}
+.btn-elev:hover {
+	background: #f13b38;
+	color: #fff;
+}
+.wrapper-elev h4 {
+	font-size: 17px;
+	font-weight: bold;
+}
+.arrow-11 {
+	position: absolute;
+	left: -59px;
+	top: 30px;
+	z-index: 9;
+}
+ @media (max-width: 480px) {
+.elev-form {
+	width: 100%;
+}
+}
+ @media (max-width: 980px) {
+.red-arrow {
+	display: none;
+}
+.wrapper-six .sidebar-s6 {
+	padding: 10px 10px 20px 10px !important;
+}
+.arrow-9 {
+	display: none;
+}
+.arrow-10 {
+	display: none;
+}
+.arrow-11 {
+	display: none;
+}
+}

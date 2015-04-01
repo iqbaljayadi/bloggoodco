@@ -1,0 +1,409 @@
+/*--------------------------------*\
+               HEADER
+\*--------------------------------*/
+
+@include media-query(palm) {
+    .site-header{
+        @include rem(height, 3* $_u);
+        width:50%;
+    }
+
+
+    .header--type2 .site-header {
+         width:100%;
+
+         & > div {
+            display:table-row;
+        }
+
+        .site-header__branding {
+           
+        }
+            .site-logo {
+                width:75%;
+                margin:18px 0;
+                height:$_u2+$_u;
+                display:block;
+            }
+        .header-ad {
+            float:left;
+            width:100%;
+            margin-top:$_u4;
+            margin-bottom:$_u2;
+        }
+    }
+    
+}
+@include media-query(lap-and-up) {
+    .site-header{
+        @include rem(height, 6 * $_u);
+    }
+}
+
+// In Firefox / Opera, the logo was not shrinking 
+// on mobile devices because the .site-header has .flexbox class. 
+// This was added to fix that. 
+// http://stackoverflow.com/questions/2923710/why-do-firefox-and-opera-ignore-max-width-inside-of-display-table-cell
+.site-header{
+    table-layout: fixed;
+}
+
+.header-ad-link{
+    display: block;
+    text-align: center;
+
+    @include media-query(lap-and-up) {
+        text-align: right;
+    }
+}
+
+// @include media-query(palm) {
+//     .header-ad{
+//         // display: none;
+//     }
+// }
+
+//The header had position: absolute
+//and it is followerd by .container--main.
+//The padding prevents them from overlapping
+// @include media-query(palm) {
+//     .container--main{
+//         // @include rem(padding-top, 4*$_u);
+//     }
+// }
+
+
+
+
+
+/*----------------------------------------*\
+    $TITLE/LOGO
+\*----------------------------------------*/
+.site-home-title{
+    display: inline;
+}
+
+.site-logo {
+    width:100%;
+
+
+    img {
+        display:block;
+        max-height: 100%;
+    }    
+}
+
+.site-logo--text{
+    display: block;
+
+    .header--type3 &{
+        @include media-query(lap-and-up) {
+            text-align: center;
+        }
+    }
+}
+
+.site-logo--image{
+    // Fixed heigth because on retinas 
+    // the logo was getting huge
+    display: inline-block;
+
+    @include media-query(palm) {
+        height: 50px;
+    }
+}
+
+
+
+
+
+/*----------------------------------------*\
+    $HEADER BAR(SIDEBAR)
+\*----------------------------------------*/
+.header-bar{
+    > li{
+        vertical-align: top;
+    }
+
+    .form-search, .search-query, 
+    .search-submit, .pixcode--icon{
+        height: 50px;
+    }
+
+    .form-search{
+        @include rem(width, 9*$_u);   
+        background-color: $dark;
+    }
+
+    .search-query{
+        right: 50px;
+        @include rem(padding, 6px 0 6px $_u2);
+        border: 0;
+        color: white;
+        background: #1a1717;
+        text-transform: uppercase;
+        @include rem(letter-spacing, 2px);
+    }
+
+    .search-submit{
+        width: 50px;
+        vertical-align: top;
+        background: #1a1717;
+        @include font-size(0.75*$_u);
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .pixcode--icon{
+        width: 50px;
+        font-size: 22px;
+        line-height: 50px;
+    }
+}
+
+
+.social-icon-link{
+
+    .header--type2 &,
+    .header--type3 &{
+        @include font-size(16px);
+    }    
+}
+
+.header-bar--top{
+    margin: 0;
+
+    .form-search, .search-query, 
+    .search-submit, .pixcode--icon{
+        height: 36px;
+    }    
+
+    .search-query{
+        line-height: 1.2;
+        padding-right: 0 !important;
+    }
+
+    .search-submit{
+        padding-top: 0;
+        padding-bottom: 0;
+
+        i{
+            @include font-size(15px);
+        }
+    }
+    
+    .pixcode--icon {
+        width: 36px;
+        font-size: 16px;
+        line-height: 36px;        
+    }
+}
+
+
+
+//There's a grid in top navigation.
+//Each item in the grid has a padding-left of $_u.
+//So we need to pull the nav left with $_u
+.site-navigation--top{
+    @include rem(margin-left, -$_u);
+} 
+
+
+@include media-query(lap-and-up) {
+    .header--type3{
+        .site-logo img {
+            margin:0 auto;
+        }
+        // .site-home-title{
+        //     width: 100%;
+        //     text-align: center;
+        // }
+    }
+}
+
+//When the header hasn't got inverse color,
+//hide the striped separator
+.nav-top-separator{
+    margin: 0;
+    display: none;
+}
+
+
+
+//Only on bigger screens the inverse styles 
+//will be visible
+@include media-query(lap-and-up) {
+    /*----------------------------------------*\
+        $NAV TOP INVERSE
+    \*----------------------------------------*/
+    .nav-inverse-top{
+
+        // Invserse navigation bar and the social icons    
+        .navigation--top{
+            background: none;
+
+            a {
+                color: #888;
+            }
+
+            .social-icon-link{
+                background: none;
+            }
+
+            .pixcode--icon{
+                background: none;
+            }            
+        }
+
+        // Inverse top menus and their submenus
+        .nav--top {
+
+            li {
+                background-color: white;
+
+                a {
+                    border-top-color: #eee;
+                    color: #888;
+                }
+
+                &:hover {
+                    > a{
+                        color: black;
+                    }
+                }
+            }
+
+            .sub-menu {
+                background: #ddd;
+            }
+        }
+    }
+
+    
+    
+    
+    
+    /*----------------------------------------*\
+            $NAV MAIN INVERSE
+    \*----------------------------------------*/
+    .nav-inverse-main {
+
+        .navigation--main {
+            background: white;      
+
+            a {
+                color: #888;
+            }     
+        }
+
+        // Inverse navigation, menus, mega-menus
+        .nav--main {
+            @include rem(border-bottom, 5px solid $dark);
+
+            li {
+                background-color: white;
+
+                a {
+                    border-top-color: #eee;
+                    color: #888;
+                }
+
+                &:hover {
+                    > a{
+                        color: black;
+                    }
+                }
+
+                .article--billboard-small {
+                    background-color: white;
+                    border-bottom-color: #ccc;
+
+                    @include media-query(palm) {
+                        .hN {
+                            color: black;
+                        }
+                    }
+                }
+
+            } // li
+
+            > li {
+                background-color: transparent;
+                @include rem(padding-bottom, 5px);
+                @include rem(margin-bottom, -5px);
+
+                &:hover {
+                    background-color: transparent;
+
+                    > a {
+                        color: black;
+                    }
+                }
+            }
+
+            .sub-menu {
+                background-color: #ccc;
+                padding-top: 0;
+                margin-top: 0;
+
+                .sub-menu {
+                    @include rem(margin-top, -5px);
+                    @include rem(padding-top, 5px);
+                }
+            }
+
+            .nav--sub-menu {
+                @include rem(margin-top, 5px);
+                @include rem(padding-top, 5px);
+                border-bottom: 0;
+            }
+
+            .sub-menu--mega {
+                @include rem(margin-top, 5px);
+                @include rem(padding-top, 5px);
+                border-bottom-color: rgba(white, .4);
+            }
+        } // .nav--main
+
+        .sub-menu__grid__item {
+            background-color: white;
+        }
+
+        @include media-query(lap-and-up) {
+            .nav-top-separator{
+                display: block;
+            }
+        }
+
+        // Inverse search from(inputs) and social icons
+        .site-header{
+
+            .form-search, .social-icon-link{
+                border: 1px solid #dedede;
+                background: none;
+            }
+
+            .search-query, .search-submit{
+                background: none;
+            }
+
+            .search-query{
+                color: $dark;
+            }
+
+            .search-submit:hover{
+                color: $dark;
+            }
+
+            .pixcode--icon{
+                height: 48px;
+                width: 48px;
+                background: none;
+            }             
+        } // .site-header
+
+    } // .nav-inverse-main
+
+} // media-query(lap-and-up)
+
+

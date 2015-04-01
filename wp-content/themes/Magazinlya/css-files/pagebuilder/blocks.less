@@ -1,0 +1,187 @@
+/* block title + line */
+.block-title {
+  position: relative;
+  top:-9px;
+  text-align: center;
+  /* images\blocks\block_title_line.png via data uri */
+  background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAXCAYAAAAss+5LAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDkyOTUyNTRCOEE1MTFFMkEwOTRENjg5QjIxQTM5QkYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDkyOTUyNTVCOEE1MTFFMkEwOTRENjg5QjIxQTM5QkYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpEOTI5NTI1MkI4QTUxMUUyQTA5NEQ2ODlCMjFBMzlCRiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpEOTI5NTI1M0I4QTUxMUUyQTA5NEQ2ODlCMjFBMzlCRiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pqm1LyEAAAAzSURBVHjaYvz//z8DMmBiQAP0EWD5+vUr2CE/fvzAoQImw8HBgUMFTIZ4MxgHifcBAgwARywV9YOOYB0AAAAASUVORK5CYII=') repeat-x;
+  padding-bottom: 16px;
+
+
+  font-size:15px;
+  margin: 0px;
+  line-height: 22px;
+
+  font-family: Arimo, sans-serif;
+  font-weight: normal;
+
+
+  a, span, label { /* label is for jetpack */
+    background-color: white;
+    z-index: 1;
+
+    color:#918c8c !important;
+    font-family: @font2;
+    font-weight: bold;
+    padding: 0px 8px 0px 8px;
+  }
+
+
+}
+
+/* block title with subcategories */
+.block-title-subcats {
+  padding-bottom: 0px;
+}
+
+
+
+
+/* the block subcategories */
+.block-child-cats {
+  list-style: none;
+  text-align: center;
+  padding: 0px 0px;
+  position: relative;
+  top:-9px;
+  line-height: 15px;
+  margin: 0px;
+  opacity: 0.7;
+  .transition(all @td_transition_time);
+
+  li {
+    display: inline-block;
+    position: relative;
+    zoom: 1;
+    line-height: 15px;
+  }
+
+  a {
+    color:@td_black;
+    font-family:@font2;
+    padding: 0px 10px 0px 10px;
+    font-size:12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    &:hover {
+      color:@td_black;
+    }
+  }
+}
+
+.td_block_wrap:hover .block-child-cats {
+  opacity: 1;
+}
+
+.cur-sub-cat {
+  color:@td_theme_color !important;
+}
+
+.td_block_wrap {
+  position: relative;
+  padding-bottom: 15px;
+}
+
+
+/*  ----------------------------------------------------------------------------
+    loader
+*/
+.td-loader-gif {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 64px;
+  height: 64px;
+  margin-top: -32px; /* Half the height */
+  margin-left: -32px; /* Half the width */
+
+  /* responsive phone */
+  @media (max-width: 767px) {
+      top:200px;
+  }
+
+}
+
+
+/*  ----------------------------------------------------------------------------
+    pagination
+*/
+
+.ajax-page-disabled {
+  opacity: 0.5;
+}
+
+
+/*  ----------------------------------------------------------------------------
+    load more
+*/
+
+.td-load-more-wrap {
+  position: relative;
+  top:-15px;
+  text-align: center;
+  font-family: @font2;
+  text-transform: uppercase;
+
+  font-size:12px;
+
+  a, a:hover {
+    color:@td_black;
+  }
+}
+
+.td-load-more-img-wrap {
+  line-height: 4px;
+}
+
+.td-load-more-img {
+  //.td-sp();
+  .td-sp-load-more();
+
+  display: inline-block;
+  zoom:1;
+}
+
+
+/*  ----------------------------------------------------------------------------
+    next prev
+*/
+
+
+.td_ajax-prev-page {
+  position: absolute;
+  top:15px;
+  right: 20px;
+
+  //.td-sp();
+  .td-sp-block-prev();
+
+  /* responsive phone */
+  @media (max-width: 510px) {
+      display: none;
+  }
+}
+
+.td-ajax-next-page {
+  display: block;
+  position: absolute;
+  top:15px;
+  right: 0px;
+  //.td-sp();
+  .td-sp-block-next();
+
+  /* responsive phone */
+  @media (max-width: 510px) {
+      display: none;
+  }
+}
+
+.td_block_inner {
+  //min-height: 900px;
+  //overflow: hidden;
+}
+
+.td_block_inner_overflow {
+  overflow: hidden;
+}

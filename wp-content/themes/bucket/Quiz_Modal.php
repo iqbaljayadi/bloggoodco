@@ -1,0 +1,135 @@
+<?php
+
+/**
+   Template Name: Quiz Modal
+
+ * The template for displaying Quiz pages.
+
+ *
+ 
+
+ * This is the template that displays all Quiz pages by i3weblab.
+
+
+ *
+
+ */
+
+
+
+get_header(); ?>
+
+
+
+<div class="container container--main">
+
+
+
+    <div class="grid">
+
+
+
+        <?php 
+
+
+
+        // let's get to know this post a little better
+
+        $full_width_featured_image = get_post_meta(wpgrade::lang_post_id(get_the_ID()), '_bucket_full_width_featured_image', true);
+
+        $disable_sidebar = get_post_meta(wpgrade::lang_post_id(get_the_ID()), '_bucket_disable_sidebar', true);
+
+
+
+        // let's use what we know
+
+        $the_content_width = $disable_sidebar == 'on' ? 'one-whole' : 'lap-and-up-two-thirds';
+
+        $featured_image_width = ($full_width_featured_image == 'on' || $disable_sidebar == 'on') ? 'one-whole' : 'two-thirds  palm-and-up-one-whole';
+
+        ?>
+
+
+
+        <?php get_template_part('theme-partials/post-templates/header-single', get_post_format()); ?>
+
+
+
+        <div class="grid__item  main  float--left  <?php echo $the_content_width; ?>">
+
+
+
+            <?php while (have_posts()): the_post(); ?>
+
+
+
+                <h1 class="article__title  article__title--single modal-heading"><?php the_title(); ?></h1>
+				
+				<div class="modal_author_box"><span><?php the_author(); ?></span> on <?php the_date(); ?></div>
+				
+				<?php get_template_part('theme-partials/post-templates/share-box','top'); ?>
+				
+                <?php
+
+		        the_content();
+
+
+
+		        $args = array( 'before' => '<p>'.__('Pages:', wpgrade::textdomain()).' ', 'after' => '</p>', 'next_or_number' => 'next_and_number', 'previouspagelink' => __('Previous', wpgrade::textdomain()), 'nextpagelink' => __('Next', wpgrade::textdomain()) );
+
+		        wp_link_pages( $args ); ?>
+
+
+
+                <hr class="separator  separator--section">
+				<hr class="border_separator">
+				
+				<?php get_template_part('theme-partials/post-templates/share-box','bottom'); ?>
+
+				
+
+                <?php
+
+                // If comments are open or we have at least one comment, load up the comment template
+
+                    if ( comments_open() || '0' != get_comments_number() )
+
+                        comments_template();
+
+                ?>
+
+                
+
+            <?php endwhile; ?>
+
+
+
+        </div><!--
+
+        
+
+        <?php if ($disable_sidebar != 'on'): ?>
+
+         --><div class="grid__item  one-third  palm-one-whole  sidebar">
+
+                <?php get_sidebar(); ?>
+
+            </div>
+
+        <?php else: // ugly ?>
+
+         -->
+
+        <?php endif; ?>
+
+
+
+    </div>
+
+
+
+</div>
+
+    
+
+<?php get_footer(); ?>

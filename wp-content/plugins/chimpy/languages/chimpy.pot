@@ -1,0 +1,541 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Chimpy\n"
+"POT-Creation-Date: 2013-12-01 05:52+0300\n"
+"PO-Revision-Date: 2013-12-01 05:52+0300\n"
+"Last-Translator: \n"
+"Language-Team: RightPress <info@rightpress.net>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2;_n:1,2;_nc:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /var/www/wordpress/wp-content/plugins/chimpy\n"
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:297
+#, php-format
+msgid ""
+"Warning: PHP cURL extension is not enabled on this server. cURL is required "
+"for this plugin to function correctly. You can read more about cURL <a href="
+"\"%s\">here</a>."
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:467
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:516
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:780
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:786
+msgid "Connecting to MailChimp..."
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:504
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:878
+msgid "Still connecting to MailChimp..."
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:505
+msgid "Mailing list"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:506
+msgid "There are no lists named"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:507
+msgid "Select a mailing list"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:508
+msgid "Selected list does not have groups named"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:509
+msgid "Select some groups (optional)"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:510
+msgid "Groups"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:511
+msgid "Field Label"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:512
+msgid "MailChimp Tag"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:513
+msgid "Add Field"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:514
+msgid "Selected list does not have tags named"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:515
+msgid "Select a tag"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:517
+msgid "No pages named"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:518
+msgid "Select some pages"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:519
+msgid "No posts named"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:520
+msgid "Select some posts"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:521
+msgid "No post categories named"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:522
+msgid "Select some post categories"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:523
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:750
+msgid "Signup Form #"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:524
+msgid "Email"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:525
+msgid "Submit"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:553
+#, php-format
+msgid ""
+"You must <a href=\"%s\">enable</a> MailChimp integration to use this feature."
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:677
+msgid "Always display this form"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:678
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:805
+msgid "Specific pages"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:679
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:818
+msgid "Specific posts"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:680
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:831
+msgid "Specific post categories"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:681
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:844
+msgid "URL contains"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:688
+msgid "Cyan"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:689
+msgid "Red"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:690
+msgid "Orange"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:691
+msgid "Green"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:692
+msgid "Purple"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:693
+msgid "Pink"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:694
+msgid "Yellow"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:695
+msgid "Blue"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:696
+msgid "Black"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:750
+msgid "Remove"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:753
+msgid "Main Settings"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:756
+msgid "Form title"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:760
+msgid "Enabled"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:764
+msgid "Display field labels inline"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:768
+msgid "Double opt-in"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:772
+msgid "Send welcome email"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:792
+msgid "Display condition"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:849
+msgid "Styling"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:852
+msgid "Color Scheme"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:865
+msgid "Override CSS"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:878
+msgid "Add Form"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:889
+msgid ""
+"To display a signup form below main content of each post and page, simply "
+"change the setting below."
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:894
+msgid ""
+"You can display a popup with a signup form on every page.<br />Popup will be "
+"displayed every time a page is loaded until user subscribes or dismisses the "
+"popup."
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:899
+msgid "There are multiple ways to display signup forms on your website."
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:900
+#, php-format
+msgid ""
+"This plugin comes with a widget that can be placed on one of your sidebars."
+"<br />To do so, go to your <a href=\"%s\">widgets page</a> and use a widget "
+"called <strong>MailChimp Signup</strong>."
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:905
+msgid ""
+"You can insert a signup form to specific posts by placing the following "
+"shortcode:"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:907
+msgid ""
+"Alternatively, you can place the following function directly into your theme:"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1364
+msgid "Your settings have been saved."
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1370
+msgid "must be numeric"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1371
+msgid "must be either 0 or 1"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1372
+msgid "is not allowed"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1373
+msgid "is not a valid email address"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1374
+msgid "is not a valid URL"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1375
+msgid "is not a valid text string"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1381
+msgid "Reverted to a previous state."
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1387
+msgid "Value of"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1413
+msgid " is not valid or something went wrong. More details: "
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1540
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:182
+msgid "Settings"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1626
+msgid "Unable to load lists"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1632
+msgid "No lists found"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1672
+msgid "Unable to load merge vars"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1678
+msgid "No merge vars found"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1713
+msgid "Unable to load groups"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1721
+msgid "No groups found"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1802
+msgid "No API key provided"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1807
+msgid "PHP Curl extension not loaded on your server"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1814
+msgid "Unable to initialize MailChimp class"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1831
+msgid "Something went wrong..."
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1885
+msgid "Integration not enabled or API key not set"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1900
+msgid "Successfully connected to MailChimp"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1902
+msgid "Account name"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1904
+msgid "Industry"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1906
+msgid "Plan type"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1908
+msgid "Is trial"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1908
+msgid "Yes"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1908
+msgid "No"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1910
+msgid "Emails left"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1914
+msgid "Connection to MailChimp failed."
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/chimpy.php:1918
+msgid "Reason"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-widget.class.php:22
+msgid "MailChimp Signup"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-widget.class.php:24
+msgid "Widget displays a signup form, if enabled under MailChimp settings."
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-widget.class.php:101
+#, php-format
+msgid ""
+"This widget renders a MailChimp signup form. You can edit signup forms <a "
+"href=\"%s\">here</a>."
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:13
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:14
+msgid "MailChimp"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:19
+msgid "Forms"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:23
+msgid "Signup Form Settings"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:30
+msgid "Display"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:34
+msgid "Widget"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:39
+msgid "After Posts"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:42
+msgid "Display signup form after posts"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:49
+msgid "<p></p>"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:52
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:100
+msgid "Form block width limit (in pixels)"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:97
+msgid "Shortcode & Function"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:113
+msgid "Translation"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:117
+msgid "Frontend forms"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:120
+msgid "Email field label"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:122
+msgid "Email Address"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:129
+msgid "Submit button label"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:131
+msgid "Signup"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:138
+msgid "(Error) Required field empty"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:140
+msgid "Please enter a value"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:147
+msgid "(Error) Email not valid"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:149
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:156
+msgid "(Error) Unknown error"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:158
+msgid "Something went wrong... Please try again later."
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:165
+msgid "Subscribed successfully"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:167
+msgid "Thank you for signing up!"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:178
+msgid "Integration"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:185
+msgid "Enable Integration"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:192
+msgid ""
+"<p>Enable or disable integration. If disabled, none of the features will be "
+"active.</p>"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:195
+msgid "MailChimp API key"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:202
+#, php-format
+msgid ""
+"<p>API key is required for this plugin to communicate with MailChimp servers."
+"</p> <p>You can read more about it <a href='%s' target='_blank'>here</a>.</p>"
+msgstr ""
+
+#: /var/www/wordpress/wp-content/plugins/chimpy/includes/chimpy-plugin-structure.inc.php:207
+msgid "Status"
+msgstr ""

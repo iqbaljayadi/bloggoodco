@@ -1,0 +1,2 @@
+[17-Dec-2014 23:24:37 America/New_York] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, boolean given in /home/alphaton/public_html/bloggoodco/replace.php on line 455
+[17-Dec-2014 23:31:14 America/New_York] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, boolean given in /home/alphaton/public_html/bloggoodco/replace.php on line 455

@@ -1,0 +1,57 @@
+
+
+.wpb_button {
+
+  .border-radius(0px);
+  background-image: none;
+
+  background: @td_background_gray !important;
+  color:@td_text_color;
+  border: none;
+  text-shadow: none;
+
+  font-family: @font1;
+  font-weight: 600;
+  font-size:13px;
+  padding: 10px 15px 10px 15px;
+
+  .transition(opacity @td_transition_time);
+
+  &:hover {
+    text-shadow: none;
+    opacity: 0.8;
+    .transition(opacity @td_transition_time);
+  }
+
+}
+
+body .wpb_btn-primary {
+  color:white;
+  background: @td_background_blue !important;
+}
+
+body .wpb_btn-info {
+  color:white;
+  background: @td_background_turquoise !important;
+}
+
+body .wpb_btn-success {
+  color:white;
+  background: @td_background_green !important;
+}
+
+body .wpb_btn-warning {
+  color:white;
+  background: @td_background_yellow !important;
+}
+
+body .wpb_btn-danger {
+  color:white;
+  background: @td_background_red !important;
+}
+
+.wpb_btn-inverse {
+  color:white;
+  background: @td_background_black !important;
+}
+

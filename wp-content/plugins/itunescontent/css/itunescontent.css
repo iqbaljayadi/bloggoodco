@@ -1,0 +1,78 @@
+.iTunesContent .row { width: 100%; max-width: 100%; margin: 0 auto; }
+.iTunesContent .column, .iTunesContent .columns { margin-left: 2.127663%; box-sizing: border-box; float: left; min-height: 1px; position: relative; }
+.iTunesContent .column:first-child, .iTunesContent .columns:first-child { margin-left: 0px; }
+
+.iTunesContent .row:before, .iTunesContent .row:after { content:""; display:table; }
+.iTunesContent .row:after { clear: both; }
+
+.iTunesContent .row .one.column 	{ width: 6.382989%; }
+.iTunesContent .row .two.columns 	{ width: 14.893641%; }
+.iTunesContent .row .three.columns 	{ width: 23.404293%; }
+.iTunesContent .row .four.columns 	{ width: 31.914945%; }
+.iTunesContent .row .five.columns 	{ width: 40.425597%; }
+.iTunesContent .row .six.columns 	{ width: 48.936249%; }
+.iTunesContent .row .seven.columns 	{ width: 57.446901%; }
+.iTunesContent .row .eight.columns 	{ width: 65.957553%; }
+.iTunesContent .row .nine.columns 	{ width: 74.468205%; }
+.iTunesContent .row .ten.columns 	{ width: 82.978857%; }
+.iTunesContent .row .eleven.columns	{ width: 91.489509%; }
+.iTunesContent .row .twelve.columns	{ width: 100%; }
+
+.iTunesContent img,
+.iTunesContent object,
+.iTunesContent embed { max-width: 100%; width: auto; height: auto; }
+.iTunesContent img { -ms-interpolation-mode: bicubic; }
+
+.iTunesContent {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+}
+
+.iTunesContent .title {
+	margin-bottom: 0px;
+}
+
+.iTunesContent .artist {
+	font-size: smaller;
+	margin-bottom: 10px;
+}
+
+.iTunesContent .summary {
+	margin-bottom: 10px;
+}
+
+.iTunesContent .icons {
+	margin-top: 10px;
+}
+
+.iTunesContent .icons a {
+	margin-right: 10px;
+}
+
+.iTunesContent .buy,
+.iTunesContent .rent {
+	font-size: smaller;
+	margin-right: 10px;
+}
+.iTunesContent .rent {
+	margin-top: 5px;
+}
+
+.widget .iTunesContent .title {
+	margin-bottom: 10px;
+}
+
+.widget .iTunesContent .artist {
+	margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 767px) {
+	.iTunesContent .row { text-align: center; }
+	.iTunesContent .column,
+	.iTunesContent .columns { width: auto !important; float: none; margin-left: 0 !important; margin-right: 0 !important; }
+	.iTunesContent .thumb { margin-bottom: 10px; }
+	.iTunesContent .icons a { margin: 0 5px; }
+	.iTunesContent .buy,
+	.iTunesContent .rent { margin: 0 5px; }
+}

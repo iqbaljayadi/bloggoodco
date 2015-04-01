@@ -1,0 +1,155 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Gudea|Capriola|Alegreya+Sans+SC);
+#listfusion-insidecmtbox-one body,#listfusion-insidecmtbox-one dl,#listfusion-insidecmtbox-one dt,#listfusion-insidecmtbox-one dd,#listfusion-insidecmtbox-one h1,#listfusion-insidecmtbox-one h2,#listfusion-insidecmtbox-one h3,#listfusion-insidecmtbox-one h4,#listfusion-insidecmtbox-one h5,#listfusion-insidecmtbox-one h6,#listfusion-insidecmtbox-one pre,#listfusion-insidecmtbox-one code,#listfusion-insidecmtbox-one fieldset,#listfusion-insidecmtbox-one legend,#listfusion-insidecmtbox-one blockquote,#listfusion-insidecmtbox-one th,#listfusion-insidecmtbox-one td {
+    float: none;
+    color: inherit;
+    position: static;
+    margin: 0;
+    padding: 0;
+}
+#listfusion-insidecmtbox-one .af-body .af-textWrap {
+    width: 98%;
+    display: block;
+    float: none;
+}
+#listfusion-insidecmtbox-one .af-body .privacyPolicy {
+    color: #CCCCCC;
+    font-size: 10px;
+    font-family: Helvetica, sans-serif;
+}
+#listfusion-insidecmtbox-one .af-body a {
+    color: #CCCCCC;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+}
+#listfusion-insidecmtbox-one .af-body input[type="text"] {
+	background-color: #FFFFFF!important;
+	margin-bottom: 10px;
+	border: 0px;
+	line-height: 20px;
+	height: 16px;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin: 5px 0px 5px 0px;
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+	width: 81%;
+	font-family: "Open Sans",Arial,Sans-Serif;
+	font-size: 14px;
+	padding-left: 10px;
+	background-color: transparent;
+	background-position: left top;
+	outline: none;
+	color: #000000;
+	border: 1px solid #CCC;
+	border-radius:2px;
+}
+#listfusion-insidecmtbox-one .af-body input[type="submit"] {
+    background-repeat: no-repeat;
+    height: 36px;
+    margin: 4px 0px 0px 0px;
+	padding:0px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Open Sans",Arial,Sans-Serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 0px;
+    text-align: center;
+	text-shadow: 0px 0px 1px #C9B7B7;
+	cursor:pointer;
+	width:87%;
+}
+#listfusion-insidecmtbox-one .af-body {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-image: none;
+    color: #CCCCCC;
+    font-size: 10px;
+    font-family: Helvetica, sans-serif;
+	background: ThreeDFace;
+}
+#listfusion-insidecmtbox-one .af-header {
+    padding-bottom: 9px;
+    padding-top: 9px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #3F5197;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-image: none;
+    border-width: 1px;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    color: #FFF;
+    font-size: 10px;
+    font-family: Helvetica, sans-serif;
+}
+#listfusion-insidecmtbox-one .af-quirksMode .bodyText {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#listfusion-insidecmtbox-one .af-quirksMode {
+    padding-right: 61px;
+    padding-left: 61px;
+}
+#listfusion-insidecmtbox-one .af-standards .af-element {
+    padding-right: 61px;
+    padding-left: 61px;
+}
+#listfusion-insidecmtbox-one .bodyText p {
+    margin: 1em 0;
+}
+
+#listfusion-insidecmtbox-one div {
+    margin: 0;
+}
+#listfusion-insidecmtbox-one form,#listfusion-insidecmtbox-one textarea,.af-form-wrapper,.af-form-close-button,#listfusion-insidecmtbox-one img {
+    float: none;
+    color: inherit;
+    position: static;
+    background-color: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+#listfusion-insidecmtbox-one input,#listfusion-insidecmtbox-one button,#listfusion-insidecmtbox-one textarea,#listfusion-insidecmtbox-one select {
+    font-size: 100%;
+}
+#listfusion-insidecmtbox-one p {
+    color: inherit;
+}
+#listfusion-insidecmtbox-one select,#listfusion-insidecmtbox-one label,#listfusion-insidecmtbox-one optgroup,#listfusion-insidecmtbox-one option {
+    padding: 0;
+}
+#listfusion-insidecmtbox-one table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#listfusion-insidecmtbox-one ul,#listfusion-insidecmtbox-one ol {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: disc;
+    padding-left: 40px;
+}
+#listfusion-insidecmtbox-one,#listfusion-insidecmtbox-one .quirksMode {
+    width: 100%;
+    max-width: 350px;
+}
+#listfusion-insidecmtbox-one.af-quirksMode {
+    overflow-x: hidden;
+}
+#listfusion-insidecmtbox-one {
+    background-color: #FFFFFF;
+    border-color: #CFCFCF;
+    border-width: 1px;
+    border-style: none;
+	display: block;
+	overflow: hidden;
+}
