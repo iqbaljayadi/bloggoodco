@@ -11,7 +11,7 @@
 
 <head>
 
-<script src="//cdn.optimizely.com/js/307710382.js"></script>
+	<script src="//cdn.optimizely.com/js/307710382.js"></script>
 
 	<meta charset="<?php bloginfo('charset'); ?>">
 
@@ -27,70 +27,70 @@
 
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 
-	<![endif]-->
+		<![endif]-->
 
-	<?php wp_head(); ?>
- <?php if(is_home() || is_front_page() ) { ?>
- <style>
- 	.wrapper_adding_plane{display:none !important;}
-	.wrapper_adding{display:block !important;}
- </style>
- <?php }else{ ?>
- <style>
- 	.wrapper_adding_plane{display:block !important;}
-	.wrapper_adding{display:none !important;}
- </style>
- <?php } ?>
+		<?php wp_head(); ?>
+		<?php if(is_home() || is_front_page() ) { ?>
+		<style>
+			.wrapper_adding_plane{display:none !important;}
+			.wrapper_adding{display:block !important;}
+		</style>
+		<?php }else{ ?>
+		<style>
+			.wrapper_adding_plane{display:block !important;}
+			.wrapper_adding{display:none !important;}
+		</style>
+		<?php } ?>
 
-	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+		<!-- Go to www.addthis.com/dashboard to customize your tools -->
 
-	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53caa39f4ef31fe0"></script>
-    <script async='async' type='text/javascript' src='https://sensortower.com/widget/ios/US/good-dot-co/app/good-dot-co-find-your-culture-fit/892559034/298/rating/current/date/install/js'></script>
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53caa39f4ef31fe0"></script>
+		<script async='async' type='text/javascript' src='https://sensortower.com/widget/ios/US/good-dot-co/app/good-dot-co-find-your-culture-fit/892559034/298/rating/current/date/install/js'></script>
    <!-- <script>
 		var images = ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg'];
 		jQuery('.shuffle').css({'background-image': 'url(http://204.197.244.110/~dex/goodcoblog/wp-content/themes/entrance-child/images/' + images[Math.floor(Math.random() * images.length)] + ')'});
 
 	</script>-->
-    
-<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> -->
-<script>
+
+	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> -->
+	<script>
 // Fix $ to Jquery
 function randomFromTo(from, to) {
-    return Math.floor(Math.random() * (to - from + 1) + from);
+	return Math.floor(Math.random() * (to - from + 1) + from);
 }
 
 function displayRandomJob() {
-    var r = randomFromTo(1, jQuery('div.wraper_item').length);
-    jQuery('div.wraper_item').hide().eq(r - 1).show();
+	var r = randomFromTo(1, jQuery('div.wraper_item').length);
+	jQuery('div.wraper_item').hide().eq(r - 1).show();
 }
 
 jQuery(document).ready(function() {
-    displayRandomJob();
-    jQuery('#jobchanger').click(function() {
-        displayRandomJob();
-    });
+	displayRandomJob();
+	jQuery('#jobchanger').click(function() {
+		displayRandomJob();
+	});
 });
 
 
 
 function randomFromTo(from, to) {
-    return Math.floor(Math.random() * (to - from + 1) + from);
+	return Math.floor(Math.random() * (to - from + 1) + from);
 }
 
 function displayRandomJob1() {
-    var r = randomFromTo(1, jQuery('div.wraper_item2').length);
-    jQuery('div.wraper_item2').hide().eq(r - 1).show();
+	var r = randomFromTo(1, jQuery('div.wraper_item2').length);
+	jQuery('div.wraper_item2').hide().eq(r - 1).show();
 }
 
 jQuery(document).ready(function() {
-    displayRandomJob1();
-    jQuery('#jobchanger').click(function() {
-        displayRandomJob1();
-    });
+	displayRandomJob1();
+	jQuery('#jobchanger').click(function() {
+		displayRandomJob1();
+	});
 });
 
 </script>
-    
+
 </head>
 
 
@@ -112,63 +112,64 @@ jQuery(document).ready(function() {
 					</div>
 					
 					<div class="col-lg-6 col-md-7 col-sm-7 hidden-xs" style="padding-left:0px;padding-right:0px;">
-					<?php
+						<?php
 					// download button			
-					class wp_link_only_navwalker extends Walker
-					{
-						public function walk( $elements, $max_depth )
+						class wp_link_only_navwalker extends Walker
 						{
-							$download_btn_class = array('download-button-iOS', 'download-button-Android');
-							$list = array ();
-							$i = 0;
+							public function walk( $elements, $max_depth )
+							{
+								$download_btn_class = array('download-button-iOS', 'download-button-Android');
+								$list = array ();
+								$i = 0;
 
-							foreach ( $elements as $item ) {
-								$list[] = "<a href='$item->url' class='".$download_btn_class[$i]." download-button'>$item->title</a>";
-								$i++;
+								foreach ( $elements as $item ) {
+									$list[] = "<a href='$item->url' class='".$download_btn_class[$i]." download-button'>$item->title</a>";
+									$i++;
+								}
+
+								return join( "\n", $list );
 							}
-
-							return join( "\n", $list );
 						}
-					}
 
-					wp_nav_menu(
-						array (
-							'theme_location' => 'header_download',
-							'walker'         => new wp_link_only_navwalker(),
-							'items_wrap'     => '<p class="nav-centered">%3$s</p>'
-							)
-						);
-						?>		
-					</div>
-					<div class="col-lg-3 hidden-md hidden-sm hidden-xs socmed-container">
-					<?php
+						wp_nav_menu(
+							array (
+								'theme_location' => 'header_download',
+								'walker'         => new wp_link_only_navwalker(),
+								'items_wrap'     => '<p class="nav-centered">%3$s</p>'
+								)
+							);
+							?>		
+						</div>
+						<div class="col-lg-3 hidden-md hidden-sm hidden-xs socmed-container">
+							<?php
 					// sosmed
-					require_once(get_stylesheet_directory().'/lib/wp_bootstrap_navwalker.php');
+							require_once(get_stylesheet_directory().'/lib/wp_bootstrap_navwalker.php');
 
-					wp_nav_menu(
-						array( 
-							'menu' => 'header_socmed', /* menu name */
-							'theme_location' => 'header_socmed',
-							'menu_class' => 'nav navbar-nav navbar-right',
-							)
-						)
-						?>		
+							wp_nav_menu(
+								array( 
+									'menu' => 'header_socmed', /* menu name */
+									'theme_location' => 'header_socmed',
+									'menu_class' => 'nav navbar-nav navbar-right',
+									)
+								)
+								?>		
+							</div>
+						</div>
 					</div>
+				</nav>
+
+
+				<div class="container">
+
+					<nav id="mainnav">
+
+						<?php echo g7_menu('mainmenu'); ?>
+
+					</nav>
 				</div>
-			</div>
-		</nav>
 
+				<?php get_template_part('featured'); ?>
+				<div class="container" style="padding-top:0">
+					<main>
 
-		<div class="container">
-
-			<nav id="mainnav">
-
-				<?php echo g7_menu('mainmenu'); ?>
-
-			</nav>
-
-			<?php get_template_part('featured'); ?>
-
-			<main>
-
-			<?php g7_breadcrumb(); ?>
+						<?php g7_breadcrumb(); ?>

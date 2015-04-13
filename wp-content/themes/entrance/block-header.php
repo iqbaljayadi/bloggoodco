@@ -11,8 +11,8 @@ if (!empty($g7_cat)) {
 ?>
 <h2 class="block-title">
 	<?php echo $link1; ?>
-		<?php echo $g7_block_title; ?>
-		<i class="fa fa-angle-right"></i>
+	<?php echo $g7_block_title; ?>
+	<i class="fa fa-angle-right"></i>
 	<?php echo $link2; ?>
 </h2>
 <?php if (!empty($g7_cat)) : ?>

@@ -323,7 +323,7 @@ class G7_Meta_Box {
 	function style_select($name, $value = 1) {
 		$styles = '<span class="g7-imageselect">';
 		$styles .= sprintf('<input type="hidden" name="%s" value="%s">', $name, $value);
-		for ($i = 1; $i <= 6; $i++) {
+		for ($i = 1; $i <= 13; $i++) {
 			$selected = $value == $i ? 'selected' : '';
 			$styles .= sprintf(
 				'<img class="%s" src="%s/includes/metabox/style%s.png" data-val="%s" alt="Style %s">',

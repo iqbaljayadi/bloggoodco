@@ -53,9 +53,17 @@ get_header();
 				<div class="row block block-4">
 			<?php endif; ?>
 
+			<?php if ($style == 8 && $style_prev != 8) : ?>
+				<div class="row custom-row block block-8">
+			<?php endif; ?>
+
 			<?php get_template_part('block', $style); ?>
 
 			<?php if (($style == 4 && $i == $count - 2) || ($style == 4 && $style_next != 4)) : ?>
+				</div>
+			<?php endif; ?>
+
+			<?php if (($style == 8) && ($style_next != 8)) : ?>
 				</div>
 			<?php endif; ?>
 
