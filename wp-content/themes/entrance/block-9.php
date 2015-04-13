@@ -40,15 +40,180 @@ $counter = 1;
 						<?php echo g7_image($image_w_alt, 200); ?>
 					</div>
 					<?php } ?>
-					<div class="block-content">
+
+					<?php if($counter == 1) { ?>
+					<div class="block-content block-content-1">
 						<h3 class="block-heading">
-							<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+							<a href="<?php the_permalink(); ?>">
+								<?php the_title(); ?>
+							</a>
 						</h3>
 						<div class="block-meta">
 							<?php echo g7_date_meta(); ?>
 							<?php echo g7_comments_meta(); ?>
 						</div>
 					</div>
+					<div class="block-content block-content-alt block-content-2">
+						<h3 class="block-heading">
+							<a href="<?php the_permalink(); ?>">
+								<?php
+								$some_string = get_the_title();
+								if(strlen($some_string) > 60) {
+									$some_string = substr($some_string,0,60)."...";
+								}
+
+								echo $some_string;
+								?>
+							</a>
+						</h3>
+						<div class="block-meta">
+							<?php echo g7_date_meta(); ?>
+							<?php echo g7_comments_meta(); ?>
+						</div>
+					</div>
+					<div class="block-content block-content-alt block-content-3">
+						<h3 class="block-heading">
+							<a href="<?php the_permalink(); ?>">
+								<?php
+								$some_string = get_the_title();
+								if(strlen($some_string) > 45) {
+									$some_string = substr($some_string,0,45)."...";
+								}
+
+								echo $some_string;
+								?>
+							</a>
+						</h3>
+						<div class="block-meta">
+							<?php echo g7_date_meta(); ?>
+							<?php echo g7_comments_meta(); ?>
+						</div>
+					</div>
+					<div class="block-content block-content-alt block-content-4">
+						<h3 class="block-heading">
+							<a href="<?php the_permalink(); ?>">
+								<?php
+								$some_string = get_the_title();
+								if(strlen($some_string) > 27) {
+									$some_string = substr($some_string,0,27)."...";
+								}
+
+								echo $some_string;
+								?>
+							</a>
+						</h3>
+						<div class="block-meta">
+							<?php echo g7_date_meta(); ?>
+							<?php echo g7_comments_meta(); ?>
+						</div>
+					</div>
+					<div class="block-content block-content-alt block-content-5">
+						<h3 class="block-heading">
+							<a href="<?php the_permalink(); ?>">
+								<?php
+								$some_string = get_the_title();
+								if(strlen($some_string) > 70) {
+									$some_string = substr($some_string,0,70)."...";
+								}
+
+								echo $some_string;
+								?>
+							</a>
+						</h3>
+						<div class="block-meta">
+							<?php echo g7_date_meta(); ?>
+							<?php echo g7_comments_meta(); ?>
+						</div>
+					</div>
+					<?php }
+					else { ?>
+					<div class="block-content block-content-1">
+						<h3 class="block-heading">
+							<a href="<?php the_permalink(); ?>">
+								<?php the_title(); ?>
+							</a>
+						</h3>
+						<div class="block-meta">
+							<?php echo g7_date_meta(); ?>
+							<?php echo g7_comments_meta(); ?>
+						</div>
+					</div>
+					<div class="block-content block-content-alt block-content-2">
+						<h3 class="block-heading">
+							<a href="<?php the_permalink(); ?>">
+								<?php
+								$some_string = get_the_title();
+								if(strlen($some_string) > 60) {
+									$some_string = substr($some_string,0,60)."...";
+								}
+
+								echo $some_string;
+								?>
+							</a>
+						</h3>
+						<div class="block-meta">
+							<?php echo g7_date_meta(); ?>
+							<?php echo g7_comments_meta(); ?>
+						</div>
+					</div>
+					<div class="block-content block-content-alt block-content-3">
+						<h3 class="block-heading">
+							<a href="<?php the_permalink(); ?>">
+								<?php
+								$some_string = get_the_title();
+								if(strlen($some_string) > 45) {
+									$some_string = substr($some_string,0,45)."...";
+								}
+
+								echo $some_string;
+								?>
+							</a>
+						</h3>
+						<div class="block-meta">
+							<?php echo g7_date_meta(); ?>
+							<?php echo g7_comments_meta(); ?>
+						</div>
+					</div>
+					<div class="block-content block-content-alt block-content-4">
+						<h3 class="block-heading">
+							<a href="<?php the_permalink(); ?>">
+								<?php
+								$some_string = get_the_title();
+								if(strlen($some_string) > 27) {
+									$some_string = substr($some_string,0,27)."...";
+								}
+
+								echo $some_string;
+								?>
+							</a>
+						</h3>
+						<div class="block-meta">
+							<?php echo g7_date_meta(); ?>
+							<?php echo g7_comments_meta(); ?>
+						</div>
+					</div>
+					<div class="block-content block-content-alt block-content-5">
+						<h3 class="block-heading">
+							<a href="<?php the_permalink(); ?>">
+								<?php
+								$some_string = get_the_title();
+								if(strlen($some_string) > 70) {
+									$some_string = substr($some_string,0,70)."...";
+								}
+
+								echo $some_string;
+								?>
+							</a>
+						</h3>
+						<div class="block-meta">
+							<?php echo g7_date_meta(); ?>
+							<?php echo g7_comments_meta(); ?>
+						</div>
+					</div>
+					<?php }
+					?>
+
+
 				</div>
 			<?php endif; ?>
 		</li>

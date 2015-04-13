@@ -1141,6 +1141,14 @@ td.visible-lg {
     padding:20px;
 }
 
+.block.block-custom .imgwide {
+    height:204px;
+}
+
+.block.block-custom .imgwide img {
+    height:100%;
+}
+
 #home_cta_1 {
     background:#56C0F0;
     background-image:url('images/send_link_banner_bg.png');
@@ -1358,6 +1366,53 @@ td.visible-lg {
     display:none;
 }
 
+.module {
+  width: 100%;
+  overflow: hidden;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -oz-line-clamp: 1;
+  line-clamp: 1;
+  -oz-box-orient: vertical;  
+  -webkit-box-orient: vertical;  
+  box-orient: vertical;  
+}
+
+.block.block-custom .block-top .block-content.block-content-1,
+.block.block-custom .block-top .block-content.block-content-alt {
+    height:auto;
+    padding-bottom:10px;
+}
+
+
+.block.block-custom .block-top .block-content.block-content-1 {
+    transition:0s all ease;
+    opacity:0;
+}
+
+.block.block-custom .block-top .block-content.block-content-alt {
+    transition:1s all ease;
+    opacity:0;
+}
+
+.block.block-custom .post:hover .block-top .block-content.block-content-1 {
+    transition:1s all ease;
+    opacity:1;
+}
+
+.block.block-custom .block-top .block-content h3 a {
+    color:#ffffff !important;
+}
+.block.block-custom .block-top .block-content.block-content-alt {
+    transition:1s all ease;
+    opacity:0;
+}
+
+
+
 /** Block 7 **/
 
 .custom-row .popular_posts_bars .popular_posts_bars_li {
@@ -1374,7 +1429,7 @@ td.visible-lg {
 
 .block.block-custom.block-9 .block-top .block-content,
 .block.block-custom.block-11 .block-top .block-content {
-    padding:0 20px;
+    padding:0 20px 10px;
 }
 
 /** Block 10 **/
@@ -1416,7 +1471,35 @@ td.visible-lg {
     border: none;
 }
 
+@media (min-width:1200px) {
+
+    .block.block-custom .block-top .block-content.block-content-2 {
+        transition:1s all ease;
+        opacity:1;
+    }
+    .block.block-custom .post:hover .block-top .block-content.block-content-2 {
+        transition:0s all ease;
+        opacity:0;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .block.block-custom .block-top .block-content.block-content-3 {
+        opacity:1;
+    }
+    .block.block-custom .post:hover .block-top .block-content.block-content-3 {
+        opacity:0;
+    }
+}
 @media (min-width:768px) and (max-width:991px) {
+    .block.block-custom .block-top .block-content.block-content-4 {
+        transition:1s all ease;
+        opacity:1;
+    }
+    .block.block-custom .post:hover .block-top .block-content.block-content-4 {
+        transition:0s all ease;
+        opacity:0;
+    }
     .block-7 .custom-list {
         height:105px;
     }
@@ -1472,6 +1555,31 @@ td.visible-lg {
     .block.block-custom.block-11 .block-top .block-content,
     .block.block-custom.block-9 .col-sm-6 .block-top .block-content {
         padding:0 10px !important;
+    }
+
+    .block.block-custom .imgwide {
+        height:137px;
+    }
+}
+
+@media (min-width:640px) and (max-width:767px) {
+    .block.block-custom .block-top .block-content.block-content-5 {
+        transition:1s all ease;
+        opacity:1;
+    }
+    .block.block-custom .post:hover .block-top .block-content.block-content-5 {
+        transition:0s all ease;
+        opacity:0;
+    }
+}
+@media (min-width:480px) and (max-width:639px) {
+    .block.block-custom .block-top .block-content.block-content-3 {
+        transition:1s all ease;
+        opacity:1;
+    }
+    .block.block-custom .post:hover .block-top .block-content.block-content-3 {
+        transition:0s all ease;
+        opacity:0;
     }
 }
 
@@ -1558,21 +1666,30 @@ td.visible-lg {
     #home_cta_1 .linktexting_input_wrapper {
         width:100%;
     }
-    
+
     .page-template-page-builder-2-php .row.featured .post h2 {
         font-size: 20px;
         font-weight: 600;
     }
-    
+
     #home_cta_2 a.cta_2_btn {
         margin-right:10px;
     } 
-    
+
     #home_cta_2 a.cta_2_btn:last-child {
         margin-right:0px;
     }
 
     #home_cta_2 {
         padding: 25px 10px 30px;
+    }
+
+    .block.block-custom .block-top .block-content.block-content-5 {
+        transition:1s all ease;
+        opacity:1;
+    }
+    .block.block-custom .post:hover .block-top .block-content.block-content-5 {
+        transition:0s all ease;
+        opacity:0;
     }
 }
